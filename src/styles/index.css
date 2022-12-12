@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Tormenta20';
+  src: local('Tormenta20'), url(../fonts/Tormenta20.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IowanOldStyleRegular';
+  src: local('IowanOldStyleRegular'), url(../fonts/IowanOldStyleRegular.ttc) format('truetype');
+}
+
+@font-face {
+  font-family: 'IowanOldStyleItalic';
+  src: local('IowanOldStyleItalic'), url(../fonts/IowanOldStyleItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IowanOldStyleBold';
+  src: local('IowanOldStyleBold'), url(../fonts/IowanOldStyleBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SourceSansPro';
+  src: local('SourceSansPro'), url(../fonts/SourceSansPro-Regular.otf) format('truetype');
+}

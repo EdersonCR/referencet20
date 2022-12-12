@@ -1,0 +1,3968 @@
+[
+  {
+    "id": 1,
+    "title": "Atributos e Perícias",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Atributo",
+        "description": "Todo personagem tem seis atributos, que definem suas competências básicas. Eles afetam quase tudo que você faz durante o jogo.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Força",
+            "description": "Seu poder muscular",
+            "img": "weight-lifting-up.svg",
+            "details": {
+              "description": "Seu poder muscular. A Força é aplicada em teste de Atletismo e Luta; rolagens de dano corpo a corpo ou com armas de arremesso, e teste de Força para levantar pesos e atos similares.",
+              "reference": {
+                "source": "T20",
+                "page": "17"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Destreza",
+            "description": "Sua agilidade e reflexos",
+            "img": "body-balance.svg",
+            "details": {
+              "description": "Sua agilidade, reflexos, equilíbrio e coordenação. A Destreza é aplicada na Defesa e em testes de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladinagem, Pilotagem, Pontaria e Reflexos.",
+              "reference": {
+                "source": "T20",
+                "page": "17"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Constituição",
+            "description": "Sua saúde e vigor",
+            "img": "heart-organ.svg",
+            "details": {
+              "description": "Sua saúde e vigor. A Constituição é aplicada aos pontos de vida iniciais e por nível e em testes de Fortitude. Se a Constituição muda, seus pontos de vida aumentam e diminuem retroativamente de acordo.",
+              "reference": {
+                "source": "T20",
+                "page": "17"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Inteligência",
+            "description": "Seu raciocínio e memória",
+            "img": "open-book.svg",
+            "details": {
+              "description": "Sua capacidade de raciocínio, memória e educação em geral. A inteligência é aplicada em testes de Conhecimento, Guerra, Investigação, Misticismo, Nobreza e Ofício. Além disso, se sua Inteligência for positiva, você recebe um número de perícias treinadas adicionais igual ao valor dela. Essas perícias não precisam ser da sua classe.",
+              "reference": {
+                "source": "T20",
+                "page": "17"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Sabedoria",
+            "description": "Sua observação e ponderação",
+            "img": "wisdom.svg",
+            "details": {
+              "description": "Sua observação, ponderação e determinação. A Sabedoria é aplicada em testes de Cura, Intuição, Percepção, Religião, Sobrevivência e Vontade.",
+              "reference": {
+                "source": "T20",
+                "page": "17"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Carisma",
+            "description": "Sua simpatia, beleza e persuasão",
+            "img": "charm.svg",
+            "details": {
+              "description": "Sua força de personalidade e capacidade de persuasão, além de uma mistura de simpatia e beleza. O Carisma é aplicado em testes de Adestramento, Atuação, Diplomacia, Enganação, Intimidação e Jogatina.",
+              "reference": {
+                "source": "T20",
+                "page": "17"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Perícia", 
+        "description": "Perícias medem suas capacidades mundanas. São usadas para realizar todo tipo de façanha.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Acrobacia",
+            "description": "Teste de Destreza",
+            "img": "acrobatic.svg",
+            "icons": [
+              "armorPenalty"
+            ],
+            "details": {
+              "description": "Teste de Destreza. Você consegue fazer proezas acrobáticas.",
+              "uses": [
+                {
+                  "title": "Amortecer Queda (CD 15, apenas treinado)",
+                  "description": "Quando cai, você pode gastar uma reação e fazer um teste de Acrobacia para reduzir o dano. Se passar, reduz o dano da queda em 1d6, mais 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD. Se reduzir o dano a zero, você cai de pé."
+                },
+                {
+                  "title": "Equilíbrio",
+                  "description": "Se estiver andando por superfícies precárias, você precisa fazer testes de Acrobacia para não cair. Cada ação de movimento exige um teste. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, cai. A CD é 10 para piso escorregadio, 15 para uma superfície estreita (como o topo de um muro) e 20 para uma superfície muito estreita (como uma corda esticada). Você pode sofrer -5 no teste para avançar seu deslocamento total. Quando está se equilibrando você fica desprevenido e, se sofrer dano, deve fazer um novo teste de Acrobacia; se falhar, cai."
+                },
+                {
+                  "title": "Escapar",
+                  "description": "Você pode escapar de amarras. A dificuldade varia: cordas (CD igual ao resultado do teste de Destreza de quem o amarrou +10), redes (CD 20), algemas (CD 30). Este uso gasta uma ação completa."
+                },
+                {
+                  "title": "Levantar-se Rapidamente (CD 20, apenas treinado)",
+                  "description": "Se estiver caído, você pode fazer um teste de Acrobacia para ficar de pé. Você precisa ter uma ação de movimento disponível. Se passar no teste, se levanta como uma ação livre. Se falhar, gasta sua ação de movimento, mas continua caído."
+                },
+                {
+                  "title": "Passar por Espaço Apertado (CD 25, apenas treinado)",
+                  "description": "Você pode se espremer por espaços estreitos, suficientes para criaturas uma categoria de tamanho menor. Você gasta uma ação completa e avança metade do deslocamento."
+                },
+                {
+                  "title": "Passar por Inimigo",
+                  "description": "Você pode atravessar um espaço ocupado por um inimigo como parte de seu movimento. Faça um teste de Acrobacia oposto ao teste de Acrobacia, Iniciativa ou Luta do oponente (o que for melhor). Se você passar, atravessa o espaço; se falhar, não atravessa e sua ação de movimento termina. Um espaço ocupado por um inimigo conta como terreno difícil."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "115"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Adestramento",
+            "description": "Teste de Carisma",
+            "img": "donkey.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você sabe lidar com animais. Teste de Carisma.",
+              "uses": [
+                {
+                  "title": "Acalmar Animal (CD 25)",
+                  "description": "Você acalma um animal nervoso ou agressivo. Isso permite a você controlar um cavalo assustado ou convencer um lobo a não devorá-lo. Este uso gasta uma ação completa."
+                },
+                {
+                  "title": "Manejar Animal (CD 15)",
+                  "description": "Você faz um animal realizar uma tarefa para a qual foi treinado (como “atacar”, “sentar”, “vigiar”...). Isso permite usar Adestramento como Pilotagem para veículos de tração animal. Este uso gasta uma ação de movimento."
+                }
+              ],
+              "moreInfo": "Mais informações",
+              "reference": {
+                "source": "T20",
+                "page": "115"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Atletismo",
+            "description": "Teste de Força",
+            "img": "sprint.svg",
+            "details": {
+              "description": "Você pode realizar façanhas atléticas. Teste de Força.",
+              "uses": [
+                {
+                  "title": "Corrida",
+                  "description": "Gaste uma ação completa e faça um teste de Atletismo. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Assim, se somar 20 no teste, avança 20 quadrados de 1,5m. Você recebe um modificador de +/-2 para cada 1,5m de deslocamento acima ou abaixo de 9m que possua. Assim, um elfo (deslocamento 12m) recebe +4 em testes de Atletismo para correr, enquanto um anão (deslocamento 6m) sofre uma penalidade de –4. Você só pode correr em linha reta e não pode correr através de terreno difícil. Você pode correr por um número de rodadas igual a 1 + sua Constituição. Após isso, deve fazer um teste de Fortitude por rodada (CD 15 +1 por teste anterior). Se falhar, fica fatigado."
+                },
+                {
+                  "title": "Escalar",
+                  "description": "Você pode subir superfícies inclinadas ou verticais. Gaste uma ação de movimento e faça um teste de Atletismo. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, você cai. A CD é 10 para superfícies com apoios para os pés e mãos (como o cordame de um navio), 15 para uma árvore, 20 para um muro com reentrâncias (como o de uma ruína) e 25 para um muro liso (como o de um castelo). Você pode sofrer –5 em seu teste para avançar seu deslocamento total. Quando está escalando você fica desprevenido e, se sofrer dano, deve fazer um novo teste de Atletismo; se falhar, você cai. Se um personagem adjacente a você estiver escalando e cair, você pode tentar pegá-lo. Faça um teste de Atletismo contra a CD da superfície +10. Se passar, segura o personagem. Se falhar por 5 ou mais, você também cai!"
+                },
+                {
+                  "title": "Natação",
+                  "description": "Se estiver na água, você precisa gastar uma ação de movimento e fazer um teste de Atletismo por rodada. A CD é 10 para água calma, 15 para agitada e 20 ou mais para tempestuosa. Se passar, você pode avançar metade de seu deslocamento. Se falhar, consegue boiar, mas não avançar. Se falhar por 5 ou mais, você afunda. Se quiser avançar mais, pode gastar uma segunda ação de movimento na mesma rodada para outro teste de Atletismo. Se você estiver submerso (seja por ter falhado no teste de Atletismo, seja por ter mergulhado de propósito), deve prender a respiração. Você pode prender a respiração por um número de rodadas igual a 1 + sua Constituição. Após isso, deve fazer um teste de Fortitude por rodada (CD 15 +1 por teste anterior). Se falhar, se afoga (é reduzido a 0 pontos de vida). Se continuar submerso, sofre 3d6 pontos de dano por rodada até ser tirado da água ou morrer. Você sofre penalidade de armadura em testes de Atletismo para nadar."
+                },
+                {
+                  "title": "Saltar",
+                  "description": "Você pode pular sobre buracos ou obstáculos ou alcançar algo elevado. Para um salto longo, a CD é 5 por quadrado de 1,5m (CD 10 para 3m, 15 para 4,5m, 20 para 6m e assim por diante). Para um salto em altura, a CD 15 é por quadrado de 1,5m (30 para 3m, 45 para 4,5m e assim por diante). Você deve ter pelo menos 6m para correr e pegar impulso (sem esse espaço, a CD aumenta em +10). Saltar é parte de seu movimento e não exige uma ação."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "116"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Atuação",
+            "description": "Teste de Carisma",
+            "img": "banjo.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você sabe fazer apresentações artísticas, incluindo música, dança e dramaturgia. Teste de Carisma.",
+              "uses": [
+                {
+                  "title": "Apresentação (CD 20)",
+                  "description": "Você pode se apresentar para ganhar dinheiro. Faça um teste. Se passar, você recebe T$ 1d6, mais T$ 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD. Este uso leva um dia (ou noite...). Os valores recebidos pressupõem que você está se apresentando em um lugar propício, como o palco de uma taverna. De acordo com o mestre, você pode receber metade do valor, se estiver em um lugar inadequado (as ruas de uma cidade, um acampamento militar), ou o dobro, se estiver em um lugar especialmente propício (um festival, os salões de um palácio)."
+                },
+                {
+                  "title": "Impressionar",
+                  "description": "Faça um teste de Atuação oposto pelo teste de Vontade de quem você quer impressionar. Se você passar, recebe +2 em testes de perícias baseadas em Carisma contra essa pessoa no mesmo dia. Se falhar, sofre -2 nesses testes e não pode tentar de novo no mesmo dia. Se estiver tentando impressionar mais de uma pessoa, o mestre faz apenas um teste pela plateia, usando o melhor bônus. Este uso leva de alguns minutos (canto ou dança) até algumas horas (apresentação teatral)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "116"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Cavalgar",
+            "description": "Teste de Destreza",
+            "img": "cavalry.svg",
+            "details": {
+              "description": "Você sabe conduzir animais de montaria, como cavalos, trobos e grifos. Ações simples não exigem testes — você pode encilhar, montar, cavalgar em terreno plano e desmontar automaticamente. Ações perigosas, entretanto, exigem testes da perícia. Teste de Destreza.",
+              "uses": [
+                {
+                  "title": "Conduzir",
+                  "description": "Cavalgar através de obstáculos exige testes de Cavalgar. A CD é 15 para terreno ruim e obstáculos pequenos (planície pedregosa, vala estreita) e 25 para terreno perigoso ou obstáculos grandes (encosta nevada, pântano traiçoeiro). Se você falhar, cai da montaria e sofre 1d6 pontos de dano. Conduzir é parte de seu movimento e não exige uma ação."
+                },
+                {
+                  "title": "Galopar",
+                  "description": "Gaste uma ação completa e faça um teste de Cavalgar. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Seu teste sofre um modificador de +/-2 para cada 1,5m de deslocamento acima ou abaixo de 9m que você possua."
+                },
+                {
+                  "title": "Montar Rapidamente (CD 20)",
+                  "description": "Você pode montar ou desmontar como uma ação livre (o normal é gastar uma ação de movimento). Se falhar por 5 ou mais, você cai no chão. Esta perícia exige uma sela. Sem ela, você sofre –5 no teste."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "116"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Conhecimento",
+            "description": "Teste de Inteligência",
+            "img": "classical-knowledge.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você estudou diversos campos do saber, como aritmética, astronomia, dialética, geografia, história... Teste de Inteligência.",
+              "uses": [
+                {
+                  "title": "Idiomas (CD 20)",
+                  "description": "Você pode entender idiomas desconhecidos. Se falhar por 5 ou mais, você tira uma conclusão falsa. Idiomas exóticos ou muito antigos têm CD 30."
+                },
+                {
+                  "title": "Informação",
+                  "description": "Você responde dúvidas gerais. Questões simples, como o ano de fundação de um reino, não exigem testes. Questões complexas, como saber o antídoto de um veneno, tem CD 20. Por fim, mistérios e enigmas, como a origem de uma antiga maldição, tem CD 30."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "117"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Cura",
+            "description": "Teste de Sabedoria",
+            "img": "first-aid-kit.svg",
+            "details": {
+              "description": "Você sabe tratar ferimentos, doenças e venenos. Teste de Sabedoria.",
+              "uses": [
+                {
+                  "title": "Cuidados Prolongados (CD 15, apenas treinado)",
+                  "description": "Você trata uma pessoa para que ela se recupere mais rapidamente. Se passar, ela aumenta sua recuperação de PV em +1 por nível nesse dia. Este uso leva uma hora e o número máximo de pessoas que você pode cuidar é igual ao seu nível."
+                },
+                {
+                  "title": "Necropsia (CD 20, apenas treinado)",
+                  "description": "Você examina um cadáver para determinar a causa e o momento aproximado da morte. Causas raras ou extraordinárias, como um veneno ou maldição, possuem CD 30. Este uso leva dez minutos."
+                },
+                {
+                  "title": "Primeiros Socorros (CD 15)",
+                  "description": "Você estabiliza um personagem adjacente que esteja sangrando. Este uso gasta uma ação padrão."
+                },
+                {
+                  "title": "Tratamento (apenas treinado)",
+                  "description": "Você ajuda a vítima de uma doença ou veneno com efeito contínuo. Gaste uma ação completa e faça um teste de Cura contra a CD da doença ou veneno. Se você passar, o paciente recebe +5 em seu próximo teste de Fortitude contra esse efeito. Esta perícia exige uma maleta de medicamentos. Sem ela, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "117"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Diplomacia",
+            "description": "Teste de Carisma",
+            "img": "shaking-hands.svg",
+            "details": {
+              "description": "Você convence pessoas com lábia e argumentação. Teste de Carisma.",
+              "uses": [
+                {
+                  "title": "Barganha",
+                  "description": "Comprando ou vendendo algo, você pode barganhar. Seu teste de Diplomacia é oposto pelo teste de Vontade do negociante. Se passar, você muda o preço em 10% a seu favor. Se passar por 10 ou mais, muda em 20%. Se falhar por 5 ou mais, você ofende o negociante — ele não voltará a tratar com você durante pelo menos uma semana. Alguns comerciantes ou estabelecimentos podem não ter permissão de baixar seus preços."
+                },
+                {
+                  "title": "Mudar Atitude",
+                  "description": "Você muda a categoria de atitude de um NPC em relação a você ou a outra pessoa. Faça um teste de Diplomacia oposto pelo teste de Vontade do alvo. Se você passar, muda a atitude dele em uma categoria para cima ou para baixo, à sua escolha. Se passar por 10 ou mais, muda a atitude em até duas categorias. Se falhar por 5 ou mais, a atitude do alvo muda uma categoria na direção oposta. Este uso gasta um minuto. Você pode sofrer –10 no teste para fazê-lo como uma ação completa (para evitar uma briga, por exemplo). Você só pode mudar a atitude de uma mesma pessoa uma vez por dia."
+                },
+                {
+                  "title": "Persuasão (CD 20)",
+                  "description": "Você convence uma pessoa a fazer alguma coisa, como responder a uma pergunta ou prestar um favor. Se essa coisa for custosa (como fornecer uma carona de navio) você sofre –5 em seu teste. Se for perigosa (como ajudar numa luta) você sofre –10 ou falha automaticamente. De acordo com o mestre, seu teste pode ser oposto ao teste de Vontade da pessoa. Este uso gasta um minuto ou mais, de acordo com o mestre."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "118"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Enganação",
+            "description": "Teste de Carisma",
+            "img": "domino-mask.svg",
+            "details": {
+              "description": "Você manipula pessoas com blefes e trapaças. Teste de Carisma.",
+              "uses": [
+                {
+                  "title": "Disfarce",
+                  "description": "Você muda sua aparência ou a de outra pessoa. Faça um teste de Enganação oposto pelo teste de Percepção de quem prestar atenção no disfarçado. Se você passar, a pessoa acredita no disfarce; caso contrário, percebe que há algo errado. Disfarces muito complexos (como uma raça diferente) impõem –5 no seu teste. Se o disfarce é de uma pessoa específica, quem conhecer essa pessoa recebe +10 no teste de Percepção. Um disfarce exige dez minutos e um estojo de disfarces. Sem ele, você sofre –5 no teste."
+                },
+                {
+                  "title": "Falsificação",
+                  "description": "Você falsifica um documento. Faça um teste de Enganação oposto pelo teste de Percepção de quem examinar o documento. Se você passar, a pessoa acredita na falsificação; caso contrário, percebe que é falso. Se o documento é muito complexo, ou inclui uma assinatura ou carimbo específico, você sofre –10 no teste. Usada em conjunto com Ofício, você pode falsificar outros objetos (como joias e armas). Use Ofício para fabricar a peça e então um teste de Enganação para que ela pareça genuína."
+                },
+                {
+                  "title": "Fintar",
+                  "description": "Você pode gastar uma ação padrão e fazer um teste de Enganação oposto a um teste de Reflexos de um ser em alcance curto. Se você passar, ele fica desprevenido contra seu próximo ataque, se realizado até o fim de seu próximo turno."
+                },
+                {
+                  "title": "Insinuação (CD 20)",
+                  "description": "Você fala algo para alguém sem que outras pessoas entendam do que você está falando. Se você passar, o receptor entende sua mensagem. Se você falhar por 5 ou mais, ele entende algo diferente do que você queria. Outras pessoas podem fazer um teste de Intuição oposto ao seu teste de Enganação. Se passarem, entendem o que você está dizendo."
+                },
+                {
+                  "title": "Intriga (CD 20)",
+                  "description": "Você espalha uma fofoca. Por exemplo, pode dizer que o dono da taverna está aguando a cerveja, para enfurecer o povo contra ele. Intrigas muito improváveis, como convencer o povo de que o clérigo de Khalmyr é um cultista de Sszzaas, têm CD 30. Este uso exige um dia ou mais, de acordo com o mestre. Se você falhar por 5 ou mais, o alvo da intriga descobre que você está fofocando a respeito dele. Mesmo que você passe, uma pessoa pode investigar a fonte da intriga e chegar até você. Isso exige um teste de Investigação por parte dela, com CD igual ao resultado do seu teste para a intriga."
+                },
+                {
+                  "title": "Mentir",
+                  "description": "Você faz uma pessoa acreditar em algo que não é verdade. Seu teste é oposto pelo teste de Intuição da vítima. Mentiras muito implausíveis impõem uma penalidade de –10 em seu teste."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "118"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Fortitude",
+            "description": "Teste de Constituição",
+            "img": "heart-organ.svg",
+            "details": {
+              "description": "Você usa esta perícia para resistir a efeitos que exigem vitalidade, como doenças e venenos. A CD é determinada pelo efeito. Você também usa Fortitude para manter seu fôlego quando está correndo ou sem respirar. A CD é 15 +1 por teste anterior. Teste de Constituição. Teste de Constituição.",
+              "moreInfo": "Efeitos que afetam seus “testes de resistência” afetam os testes desta perícia.",
+              "reference": {
+                "source": "T20",
+                "page": "119"
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": "Furtividade",
+            "description": "Teste de Destreza",
+            "img": "ninja-mask.svg",
+            "icons": ["armorPenalty"],
+            "details": {
+              "description": "Você sabe ser discreto e sorrateiro. Teste de Destreza.",
+              "uses": [
+                {
+                  "title": "Esconder-se",
+                  "description": "Faça um teste de Furtividade oposto pelos testes de Percepção de qualquer um que possa notá-lo. Todos que falharem não conseguem percebê-lo (você tem camuflagem total contra eles). Esconder-se é uma ação livre que você só pode fazer no final do seu turno e apenas se terminar seu turno em um lugar onde seja possível se esconder (atrás de uma porta, num quarto escuro, numa mata densa, no meio de uma multidão...). Se tiver se movido durante o turno, você sofre –5 no teste (você pode se mover à metade do deslocamento normal para não sofrer essa penalidade). Se tiver atacado ou feito outra ação muito chamativa, sofre –20."
+                },
+                {
+                  "title": "Seguir",
+                  "description": "Faça um teste de Furtividade oposto ao teste de Percepção da pessoa sendo seguida. Você sofre –5 se estiver em um lugar sem esconderijos ou sem movimento, como um descampado ou rua deserta. A vítima recebe +5 em seu teste de Percepção se estiver tomando precauções para não ser seguida (como olhar para trás de vez em quando). Se você passar, segue a pessoa até ela chegar ao seu destino. Se falhar, a pessoa o percebe na metade do caminho."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "119"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "title": "Guerra",
+            "description": "Teste de Inteligência",
+            "img": "annexation.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você foi educado em tática, estratégia e logística. Teste de Inteligência.",
+              "uses": [
+                {
+                  "title": "Analisar Terreno (CD 20)",
+                  "description": "Como uma ação de movimento, você pode observar o campo de batalha. Se passar, descobre uma vantagem, como cobertura, camuflagem ou terreno elevado, se houver."
+                },
+                {
+                  "title": "Plano de Ação (CD 20)",
+                  "description": "Como uma ação padrão, você orienta um aliado em alcance médio. Se passar, fornece +5 na Iniciativa dele. Se ele ficar com uma Iniciativa maior do que a sua e ainda não tiver agido nesta rodada, age imediatamente após seu turno. Nas próximas rodadas, ele age de acordo com a nova ordem."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "119"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "title": "Iniciativa",
+            "description": "Teste de Destreza",
+            "img": "swordman.svg",
+            "details": {
+              "description": "Esta perícia determina sua velocidade de reação em situações de perigo. Quando uma cena de ação começa, cada personagem envolvido faz um teste de Iniciativa. Eles então agem em ordem decrescente dos resultados. Teste de Destreza.",
+              "reference": {
+                "source": "T20",
+                "page": "119"
+              }
+            }
+          },
+          {
+            "id": 14,
+            "title": "Intimidação",
+            "description": "Teste de Carisma",
+            "img": "sonic-shout.svg",
+            "details": {
+              "description": "Você pode assustar ou coagir outras pessoas. Usos de Intimidação são efeitos de medo. Teste de Carisma.",
+              "uses": [
+                {
+                  "title": "Assustar",
+                  "description": "Gaste uma ação padrão e faça um teste de Intimidação oposto pelo teste de Vontade de uma pessoa em alcance curto. Se você passar, ela fica abalada pelo resto da cena (não cumulativo). Se você passar por 10 ou mais, ela fica apavorado por uma rodada e então abalada pelo resto da cena."
+                },
+                {
+                  "title": "Coagir",
+                  "description": "Faça um teste de Intimidação oposto pelo teste de Vontade de uma pessoa adjacente. Se você passar, ela obedece uma ordem sua (como fazer uma pequena tarefa, deixar que você passe por um lugar que ela estava protegendo...). Se você mandar a pessoa fazer algo perigoso ou que vá contra a natureza dela, ela recebe +5 no teste ou passa automaticamente. Este uso gasta um minuto ou mais, de acordo com o mestre, e deixa a pessoa hostil contra você."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "120"
+              }
+            }
+          },
+          {
+            "id": 15,
+            "title": "Intuição",
+            "description": "Teste de Sabedoria",
+            "img": "suspicious.svg",
+            "details": {
+              "description": "Esta perícia mede sua empatia e “sexto sentido”. Teste de Sabedoria.",
+              "uses": [
+                {
+                  "title": "Perceber Mentira",
+                  "description": "Você descobre se alguém está mentindo."
+                },
+                {
+                  "title": "Pressentimento (CD 20, Apenas Treinado)",
+                  "description": "Você analisa uma pessoa, para ter uma noção de sua índole ou caráter, ou uma situação, para saber se há algo anormal (por exemplo, se os habitantes de uma vila estão agindo de forma estranha). Este uso apenas indica se há algo anormal, mas não revela a causa."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "120"
+              }
+            }
+          },
+          {
+            "id": 16,
+            "title": "Investigação",
+            "description": "Teste de Inteligência",
+            "img": "magnifying-glass.svg",
+            "details": {
+              "description": "Você sabe encontrar pistas e informações. Teste de Inteligência.",
+              "uses": [
+                {
+                  "title": "Interrogar",
+                  "description": "Você descobre informações perguntando ou indo para um lugar movimentado e mantendo os ouvidos atentos. Informações gerais (“Quem é o guerreiro mais forte da aldeia?”) não exigem teste. Informações restritas, que poucas pessoas conhecem (“Quem é o ancião que está sempre ao lado do rei?”), têm CD 20. Informações confidenciais ou que podem colocar em risco quem falar sobre elas (“Quem é o líder da guilda dos ladrões?”), têm CD 30. Este uso gasta uma hora e T$ 3d6 (para comprar bebidas, subornar oficiais etc.), mas esses valores podem variar de acordo com o mestre."
+                },
+                {
+                  "title": "Procurar",
+                  "description": "Você examina um local em busca de algo. A CD varia: 15 para um item ou no meio de uma bagunça, mas não necessariamente escondido; 20 para um item escondido (cofre atrás de um quadro, documento no fundo falso de uma gaveta); 30 para um item muito bem escondido (passagem secreta ativada por um botão, documento escrito com tinta invisível). Este uso gasta desde uma ação completa (examinar uma escrivaninha) até um dia (pesquisar uma biblioteca). Você também pode encontrar armadilhas (CD de acordo com a armadilha) e rastros (mas para segui-los deve usar Sobrevivência)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "120"
+              }
+            }
+          },
+          {
+            "id": 17,
+            "title": "Jogatina",
+            "description": "Teste de Carisma",
+            "img": "poker-hand.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você sabe jogar jogos de azar. Teste de Carisma.",
+              "uses": [
+                {
+                  "title": "Apostar",
+                  "description": "Para resolver uma noite de jogatina, pague T$ 1d10 e faça um teste de perícia. Seu ganho dependerá do resultado: 9 ou menos, nenhum; \n10 a 14, metade da aposta; 15 a 19, valor da aposta; 20 a 29, dobro da aposta; 30 a 39, triplo da aposta; 40 ou mais, quíntuplo da aposta. O mestre pode variar o valor da aposta básica. De T$ 1d3, para uma taverna no porto frequentada por marujos e estivadores, a 1d10 x T$ 1.000, para um cassino de luxo em Valkaria."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "120"
+              }
+            }
+          },
+          {
+            "id": 18,
+            "title": "Ladinagem",
+            "description": "Teste de Destreza",
+            "img": "snatch.svg",
+            "icons": ["treined", "armorPenalty"],
+            "details": {
+              "description": "Você sabe exercer atividades ilícitas. Teste de Destreza.",
+              "uses": [
+                {
+                  "title": "Abrir Fechadura",
+                  "description": "Você abre uma fechadura trancada. A CD é 20 para fechaduras simples (porta de loja), 25 para fechaduras médias (prisão, baú) e 30 para fechaduras superiores (cofre, câmara do tesouro). Este uso exige uma ação completa e uma gazua. Sem ela, você sofre –5 em seu teste."
+                },
+                {
+                  "title": "Ocultar",
+                  "description": "Você esconde um objeto em você mesmo. Gaste uma ação padrão e faça um teste de Ladinagem oposto pelo teste de Percepção de qual- quer um que possa vê-lo. Objetos discretos ou pequenos fornecem +5 no teste; objetos desajeitados ou grandes impõem –5. Se uma pessoa revistar você, recebe +10 no teste de Percepção."
+                },
+                {
+                  "title": "Punga (CD 20)",
+                  "description": "Você pega um objeto de outra pessoa (ou planta um objeto nas posses dela). Gaste uma ação padrão e faça um teste de Ladinagem. Se passar, você pega (ou coloca) o que queria. A vítima tem direito a um teste de Percepção (CD igual ao resultado de seu teste de Ladinagem). Se passar, ela percebe sua tentativa, tenha você conseguido ou não."
+                },
+                {
+                  "title": "Sabotar",
+                  "description": "Você desabilita um dispositivo mecânico. Uma ação simples (emperra uma fechadura, desativar uma armadilha básica, sabotar uma roda de carroça para que quebre 1d4 rodadas após o uso) tem CD 20. Uma ação complexa (desativar uma armadilha avançada, sabotar um canhão para explodir quando utilizado) tem CD 30. Se você falhar por 5 ou mais, alguma coisa sai errada — a armadilha se ativa, você acha que o mecanismo está desabilitado, mas na verdade ele ainda funciona... Usar esta perícia leva 1d4 rodadas. Você pode sofrer –5 em seu teste para fazê-lo como uma ação completa."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "120"
+              }
+            }
+          },
+          {
+            "id": 19,
+            "title": "Luta",
+            "description": "Teste de Força",
+            "img": "high-punch.svg",
+            "details": {
+              "description": "Você usa Luta para fazer ataques corpo a corpo. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada.  Teste de Força.",
+              "reference": {
+                "source": "T20",
+                "page": "121"
+              }
+            }
+          },
+          {
+            "id": 20,
+            "title": "Misticismo",
+            "description": "Teste de Inteligência",
+            "img": "heptagram.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Esta perícia envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais. Teste de Inteligência.",
+              "uses": [
+                {
+                  "title": "Detectar Magia (CD 15)",
+                  "description": "Como uma ação completa, você detecta a presença e intensidade de auras mágicas em alcance curto (mas não suas localizações exatas). A intensidade de uma aura depende do círculo da magia ou categoria do item mágico que a gerou. Magias de 1º e 2º círculos e itens mágicos menores geram uma aura tênue, magias de 3º e 4º círculos e itens mágicos médios geram uma aura moderada e magias de 5º círculo e itens mágicos maiores geram uma aura poderosa. Magias lançadas por um deus maior e artefatos geram uma aura avassaladora. Caso a aura esteja atrás de uma barreira, você sofre uma penalidade em seu teste (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
+                },
+                {
+                  "title": "Identificar Criatura (CD 15 + ND da criatura)",
+                  "description": "Você analisa uma criatura mágica (construto, dragão, fada, morto-vivo etc.) que possa ver. Se passar, lembra uma característica da criatura, como um poder ou vulnerabilidade. Para cada 5 pontos pelos quais o resultado do teste superar a CD, você lembra outra característica. Se falhar por 5 ou mais, tira uma conclusão errada (por exemplo, acredita que a criatura é vulnerável a fogo, quando na verdade é vulnerável a frio). Este uso gasta uma ação completa."
+                },
+                {
+                  "title": "Identificar Item Mágico",
+                  "description": "Você estuda um item mágico para identificar seus poderes. A CD é 20 para itens mágicos menores, 25 para médios e 30 para itens mágicos maiores. Este uso gasta uma hora. Você pode sofrer uma penalidade de –10 no teste para diminuir o tempo para uma ação completa."
+                },
+                {
+                  "title": "Identificar Magia (CD 15 + custo em PM da magia)",
+                  "description": "Quando alguém lança uma magia, você pode adivinhar qual é através de seus gestos e palavras. Este uso é uma reação."
+                },
+                {
+                  "title": "Informação",
+                  "description": "Você responde dúvidas relativas a magias, itens mágicos, fenômenos sobrenaturais, runas, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+                },
+                {
+                  "title": "Lançar Magia de Armadura (CD 20 + custo em PM da magia)",
+                  "description": "Lançar uma magia arcana usando armadura exige um teste. Esse teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta pontos de mana mesmo assim."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "121"
+              }
+            }
+          },
+          {
+            "id": 21,
+            "title": "Nobreza",
+            "description": "Teste de Inteligência",
+            "img": "crown.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você recebeu a educação de um nobre. Teste de Inteligência.",
+              "uses": [
+                {
+                  "title": "Etiqueta (CD 15)",
+                  "description": "Você sabe se portar em ambientes aristocráticos, como bailes e audiências."
+                },
+                {
+                  "title": "Informação",
+                  "description": "Você responde dúvidas relativas a leis, tradições, linhagens e heráldica. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "121"
+              }
+            }
+          },
+          {
+            "id": 22,
+            "title": "Ofício",
+            "description": "Teste de Inteligência",
+            "img": "anvil-impact.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Ofício na verdade são várias perícias diferentes. Cada uma permite fabricar itens de certas categorias: Armeiro (armas, armaduras e escudos); Artesão (equipamento de aventura, ferramentas, esotéricos e veículos; Alquimista (alquímicos); Cozinheiro (alimentação) e Alfaiate (vestuário). Você pode inventar outros tipos de Ofício: carpinteiro, pedreiro, ourives, fazendeiro, pescador, estalajadeiro, escriba, escultor, pintor... Nesses casos, converse com o mestre para determinar que usos a perícia terá. Teste de Inteligência.",
+              "uses": [
+                {
+                  "title": "Consertar",
+                  "description": "Reparar um item destruído tem a mesma CD para fabricá-lo. Cada tentativa consome uma hora de trabalho e um décimo do preço original do item. Em caso de falha, o tempo e o dinheiro são perdidos (mas você pode tentar novamente)."
+                },
+                {
+                  "title": "Fabricar",
+                  "description": "Você produz um item gastando matéria-prima e tempo de trabalho. A matéria-prima custa um terço do preço do item. O tempo de trabalho depende do tipo de item: 1 dia para consumíveis (itens alquímicos, pergaminhos, poções, munições...); 1 semana para não consumíveis (armas, ferramentas...) e 1 mês para itens superiores e/ou mágicos. Para consumíveis, você pode sofrer –5 no teste para fabricar duas unidades do item em um dia (pagando o custo de ambas). A critério do mestre, itens muito simples e sem efeito mecânico podem levar menos tempo. Da mesma forma, itens muito grandes ou complexos, como uma casa ou ponte, podem demorar vários meses. A CD do teste é 15 para itens simples (equipamentos de aventura, armas simples, munições, armaduras leves, escudos, preparados, catalisadores e outros a critério do mestre) e 20 para itens complexos (armas marciais, exóticas ou de fogo, armaduras pesadas, ferramentas, vestuários, esotéricos, venenos...)."
+                },
+                {
+                  "title": "Identificar (CD 20)",
+                  "description": "Você pode identificar itens raros e exóticos ligados ao seu Ofício. Se passar, descobre as propriedades do item e seu preço. Este uso gasta uma ação completa."
+                },
+                {
+                  "title": "Sustento (CD 15)",
+                  "description": "Com uma semana de trabalho e um teste de Ofício, você ganha T$ 1, mais T$ 1 por ponto que seu teste exceder a CD. Por exemplo, com um resultado 20, ganha T$ 6 pela semana de trabalho. Trabalhadores sem treinamento usam testes de atributo para sustento. De acordo com o mestre, outras perícias podem ser usadas para sustento, como Adestramento, Cura ou Sobrevivência. Cada Ofício exige um instrumento de ofício específico. Sem ele, você sofre –5 no teste."
+                }
+              ],
+              "moreInfo": "Cada Ofício exige um instrumento de ofício específico. Sem ele, você sofre –5 no teste.",
+              "reference": {
+                "source": "T20",
+                "page": "121"
+              }
+            }
+          },
+          {
+            "id": 23,
+            "title": "Percepção",
+            "description": "Teste de Sabedoria",
+            "img": "awareness.svg",
+            "details": {
+              "description": "Você nota coisas usando seus sentidos. Teste de Sabedoria.",
+              "uses": [
+                {
+                  "title": "Observar",
+                  "description": "Você vê coisas discretas ou escondidas. A CD varia de 15, para algo difícil de ser visto (um livro específico em uma estante) a 30, para algo quase invisível (uma gota de sangue em uma folha no meio de uma floresta à noite). Para pessoas ou itens escondidos, a CD é o resultado do teste de Furtividade ou Ladinagem feito para esconder a pessoa ou o item. Você também pode ler lábios (CD 20)."
+                },
+                {
+                  "title": "Ouvir",
+                  "description": "Você escuta barulhos sutis. Uma conversa casual próxima tem CD 0 — ou seja, a menos que exista alguma penalidade, você passa automaticamente. Ouvir pessoas sussurrando tem CD 15. Ouvir do outro lado de uma porta aumenta a CD em +10. Você pode fazer testes de Percepção para ouvir mesmo que esteja dormindo, mas sofre –10 no teste; um sucesso faz você acordar. Perceber criaturas que não possam ser vistas tem CD 20, ou +10 no teste de Furtividade da criatura, o que for maior. Mesmo que você passe no teste, ainda sofre penalidades normais por lutar sem ver o inimigo."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "122"
+              }
+            }
+          },
+          {
+            "id": 24,
+            "title": "Pilotagem",
+            "description": "Teste de Destreza",
+            "img": "old-wagon.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você sabe operar veículos como carroças, barcos e balões. Teste de Destreza.",
+              "uses": [
+                {
+                  "description": "Ações simples não exigem testes — você pode atrelar seus trobos a sua carroça e conduzi-la pela estrada, ou levantar âncora e velejar seu navio em águas tranquilas, automaticamente."
+                },
+                {
+                  "description": "Conduzir um veículo em situações ruins (terreno acidentado para veículos terrestres, chuva ou ventania para veículos aquáticos ou aéreos), exige uma ação de movimento e um teste de Pilotagem contra CD 15 por turno ou cena, de acordo com o mestre. Se falhar, você avança metade do deslocamento. Se falhar por 5 ou mais, se acidenta de alguma forma. Situações extremas (terreno com obstáculos, tempestade...) aumentam a CD para 25."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "122"
+              }
+            }
+          },
+          {
+            "id": 25,
+            "title": "Pontaria",
+            "description": "Teste de Destreza",
+            "img": "bullseye.svg", 
+            "details": {
+              "description": "Você usa Pontaria para fazer ataques à distância. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Teste de Destreza.",
+              "reference": {
+                "source": "T20",
+                "page": "122"
+              }
+            }
+          },
+          {
+            "id": 26,
+            "title": "Reflexos",
+            "description": "Teste de Destreza",
+            "img": "body-balance.svg",
+            "details": {
+              "description": "Você usa esta perícia para resistir a efeitos que exigem reação rápida, como armadilhas e explosões. A CD é determina pelo efeito. Você também usa Reflexos para evitar fintas. Teste de Destreza.",
+              "moreInfo": "Efeitos que afetam seus “testes de resistência” afetam os testes desta perícia.",
+              "reference": {
+                "source": "T20",
+                "page": "122"
+              }
+            }
+          },
+          {
+            "id": 27,
+            "title": "Religião",
+            "description": "Teste de Sabedoria",
+            "img": "sun-priest.svg",
+            "icons": ["treined"],
+            "details": {
+              "description": "Você possui conhecimento sobre os deuses e as religiões de Arton. Teste de Sabedoria.",
+              "uses": [
+                {
+                  "title": "Identificar Criatura (CD 15 + ND da criatura)",
+                  "description": "Você pode identificar uma criatura com origem divina (anjos, demônios, alguns mortos-vivos e construtos etc.). Consulte a perícia Misticismo."
+                },
+                {
+                  "title": "Identificar Item Mágico",
+                  "description": "Você pode identificar um item mágico de origem divina. Consulte a perícia Misticismo."
+                },
+                {
+                  "title": "Informação",
+                  "description": "Você responde dúvidas relativas a deuses, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+                },
+                {
+                  "title": "Rito (CD 20)",
+                  "description": "Você realiza uma cerimônia religiosa, como um batizado, casamento ou funeral. Isso inclui a cerimônia de penitência para redimir um devoto que tenha descumprido as Obrigações & Restrições de sua divindade. Uma cerimônia de penitência exige um sacrifício de T$ 100 por nível de personagem do devoto ou a realização de uma missão sagrada, de acordo com o mestre."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "122"
+              }
+            }
+          },
+          {
+            "id": 28,
+            "title": "Sobrevivência",
+            "description": "Teste de Sabedoria",
+            "img": "camping-tent.svg",
+            "details": {
+              "description": "Você está em casa nos ermos. Teste de Sabedoria.",
+              "uses": [
+                {
+                  "title": "Acampamento",
+                  "description": "Você consegue abrigo e alimento para você e seu grupo por um dia. A CD depende do terreno: 15 para planícies e colinas, 20 para florestas e pântanos, 25 para desertos ou montanhas e 30 para regiões planares perigosas ou áreas de Tormenta. Regiões muito áridas ou estéreis e clima ruim impõem penalidade cumulativa de –5. Dormir ao relento sem um acampamento e um saco de dormir diminui sua recuperação de PV e PM. Este uso exige equipamento de viagem. Sem ele, você sofre –5 em seu teste."
+                },
+                {
+                  "title": "Identificar Criatura (CD 15 + ND da criatura)",
+                  "description": "Você pode identificar um animal ou monstro. Consulte a perícia Misticismo."
+                },
+                {
+                  "title": "Orientar-se",
+                  "description": "Um personagem viajando pelos ermos precisa fazer um teste de Sobrevivência por dia para avançar. A CD depende do tipo de terreno (veja em “Acampamento”). Se passar, você avança seu deslocamento normal. Se falhar, avança apenas metade. Se falhar por 5 ou mais, se perde e não avança pelo dia. Num grupo, um personagem deve ser escolhido como guia. Personagens treinados em Sobrevivência podem ajudá-lo. Entretanto, se mais de um personagem quiser fazer o teste por si só, todos deverão rolar em segredo. Os jogadores devem decidir qual guia seguir antes de verem o resultado! Este teste é exigido apenas em jornadas perigosas (de acordo com o mestre)."
+                },
+                {
+                  "title": "Rastrear (apenas treinado)",
+                  "description": "Você pode identificar e seguir rastros. A CD é 15 para solo macio (neve, lama), 20 para solo comum (grama, terra) e 25 para solo duro (rocha ou piso de interiores). A CD diminui em –5 se você estiver rastreando um grupo grande (dez ou mais indivíduos) ou criaturas Enormes ou Colossais, mas aumenta em +5 em visibilidade precária (noite, chuva, neblina...). Enquanto rastreia, seu deslocamento é reduzido à metade. Se falhar, pode tentar novamente gastando mais um dia. Porém, a cada dia desde a criação dos rastros, a CD aumenta em +1."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "123"
+              }
+            }
+          },
+          {
+            "id": 29,
+            "title": "Vontade",
+            "description": "Teste de Sabedoria",
+            "img": "wisdom.svg",
+            "details": {
+              "description": "Você usa esta perícia para resistir a efeitos que exigem determinação, como intimidação e encantamentos. A CD é determina pelo efeito. Testes de Vontade são testes de resistência. Teste de Sabedoria.",
+              "moreInfo": "Efeitos que afetam seus “testes de resistência” afetam os testes desta perícia.",
+              "reference": {
+                "source": "T20",
+                "page": "123"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Testes",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Teste",
+        "description": "Sempre que um personagem tenta fazer uma ação cujo resultado é incerto, o jogador faz um teste.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Teste de Atributo",
+            "description": "Tarefas básicas",
+            "img": "perspective-dice-six-faces-three.svg",
+            "details": {
+              "description": "Você usa testes de atributo para tarefas básicas, para as quais nenhuma perícia se aplica. Para fazer um teste de atributo, role 1d20 e some o valor do atributo apropriado.",
+              "emphasis": "Teste de Atributo = 1d20 + Atributo",
+              "uses": [
+                {
+                  "description": "Erguer um objeto pesado (Força)."
+                },
+                {
+                  "description": "Amarrar cordas (Destreza)."
+                },
+                {
+                  "description": "Estabilizar sangramento (Constituição)."
+                },
+                {
+                  "description": "Resolver um enigma (Inteligência)."
+                },
+                {
+                  "description": "Decidir se algo é prudente (Sabedoria)."
+                },
+                {
+                  "description": "Causar boa impressão (Carisma)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "220"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Teste de Perícia",
+            "description": "Tarefas específicas",
+            "img": "dice-fire.svg",
+            "details": {
+              "description": "Um teste de perícia funciona como um teste de atributo. Porém, você soma o bônus da perícia. Esse número é uma medida de sua competência com a perícia em questão. Ele é igual à metade do seu nível (arredondado para baixo) + o atributo-chave da perícia. Nas perícias treinas você recebe um bônus.",
+              "emphasis": "Teste de Perícia = 1d20 + Metade do Nível + Atributo-Chave + Bônus de Treinamento (se for treinado)",
+              "uses": [
+                {
+                  "title": "Bônus de Treinamento",
+                  "description": "Nas perícias treinadas você recebe um bônus de +2 do 1º ao 6º níveis, +4 do 7º ao 14º níveis e +6 do 15º nível em diante."
+                },
+                {
+                  "title": "Treinamento e Testes (★)",
+                  "description": "Algumas perícias só podem ser usadas quando você é treinado nelas. Por exemplo, se você não é treinado em Ladinagem, não tem o conhecimento necessário para desarmar uma armadilha, independentemente de seu nível ou Destreza. Quando o símbolo ★ aparece após o nome da perícia, você só poderá usá-la se for treinado nela. Além disso, algumas perícias possuem usos específicos que exigem treinamento."
+                },
+                {
+                  "title": "Penalidade de Armadura (✠)",
+                  "description": "Algumas perícias exigem liberdade de movimento. Quando o símbolo ✠ aparece após o nome da perícia, você sofrerá uma penalidade nos testes dela se estiver usando armadura ou escudo."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "114"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Teste de Resistência",
+            "description": "Evitam efeitos",
+            "img": "dice-shield.svg",
+            "details": {
+              "description": "Habilidades e magias prejudiciais normalmente permitem que seus alvos façam um teste de resistência para evitar ou reduzir seus efeitos. Se esse for o caso, o tipo de teste (Fortitude, Reflexos ou Vontade) e a maneira como ele altera o efeito serão descritos na habilidade ou magia. A CD do teste de resistência para qualquer efeito gerado por um personagem é 10 + metade do nível do personagem + seu valor num atributo. O atributo aparecerá entre parênteses na descrição da fonte do efeito (habilidade ou item; para magias, será sempre o atributo-chave da magia).",
+              "emphasis": "CD do Teste = 10 + Metade do Nível + Atributo",
+              "uses": [
+                {
+                  "title": "Anula",
+                  "description": "A habilidade não tem efeito sobre um alvo que passe em seu teste de resistência."
+                },
+                {
+                  "title": "Parcial",
+                  "description": "O efeito é menor em um alvo que passe no teste de resistência."
+                },
+                {
+                  "title": "Reduz à Metade",
+                  "description": "O efeito é reduzido à metade em um alvo que passe no teste de resistência."
+                },
+                {
+                  "title": "Desacredita",
+                  "description": "Um termo específico para efeitos de ilusão. Se uma criatura interagir com a ilusão (examinando-a de perto ou tocando-a; apenas observá-la de longe não é suficiente) tem direito a um teste para perceber que ela não é real. A ilusão continua funcionando mesmo que uma criatura perceba que ela não é real; essa criatura pode avisar seus aliados como uma ação livre, permitindo que eles façam testes para desacreditar."
+                },
+                {
+                  "title": "Sucesso contra Magias",
+                  "description": "Uma criatura que passe em seu teste contra uma magia sem efeitos óbvios sente um tipo de formigamento ou força hostil, mas não pode deduzir a natureza exata do ataque. O conjurador também sente que a magia falhou — não é possível fingir ter sido enfeitiçado por Enfeitiçar, pois o conjurador saberá. No entanto, você não sabe se um alvo passou em um teste de resistência contra magias de área ou efeito."
+                },
+                {
+                  "title": "Objetos e Dano",
+                  "description": "A menos que a descrição do efeito diga o contrário, itens carregados não sofrem dano por habilidades (mesmo de área). Objetos soltos sofrem dano (mas somente de habilidades que possam ter objetos como alvo ou afetem uma área)."
+                },
+                {
+                  "title": "Objetos e Testes de Resistência",
+                  "description": "Para habilidades capazes de afetar objetos e que permitem testes de resistência, itens mundanos soltos falham automaticamente e itens mundanos carregados podem fazer testes com o bônus de seu portador. Itens mágicos sempre podem fazer teste de resistência, usando se próprio bônus ou de seu portador, se houver (o que for maior)."
+                },
+                {
+                  "title": "Testes de Perícia",
+                  "description": "Algumas habilidades incluem testes de perícia para resistir a efeitos. A menos que a descrição indique o contrário, a dificuldade dos testes é igual à CD para resistir à habilidade."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "173 e 227"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Dificuldades",
+            "description": "Exemplo de dificuldades",
+            "img": "perspective-dice-six-faces-random.svg",
+            "details": {
+              "description": "Testes normais, que não possuem CD definida, são usados quando um personagem está competindo contra o ambiente. Nesse caso, a CD é determinada pelo mestre, de acordo com a tarefa sendo realizada.",
+              "uses": [
+                {
+                  "title": "Fácil* (CD 5)",
+                  "description": "Subir uma encosta íngreme (Atletismo)."
+                },
+                {
+                  "title": "Média (CD 10)",
+                  "description": "Ouvir um guarda se aproximando (Percepção)."
+                },
+                {
+                  "title": "Difícil (CD 15)",
+                  "description": "Estancar um sangramento (Cura)."
+                },
+                {
+                  "title": "Desafiadora (CD 20)",
+                  "description": "Nadar contra uma correnteza (Atletismo)."
+                },
+                {
+                  "title": "Formidável (CD 25)",
+                  "description": "Sabotar uma armadilha complexa (Ladinagem)."
+                },
+                {
+                  "title": "Heroica (CD 30)",
+                  "description": "Decifrar um pergaminho antigo em um idioma morto (Conhecimento)."
+                },
+                {
+                  "title": "Quase Impossível (CD 40)",
+                "description": "Fabricar uma “obra-prima”, ou seja, um item com quatro melhorias (Ofício)."
+                }
+              ],
+              "moreInfo": "*Caso um personagem tente uma tarefa fácil, o mestre pode considerar que ele passa automaticamente.",
+              "reference": {
+                "source": "T20",
+                "page": "220"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Testes Opostos",
+            "description": "Compara dois testes",
+            "img": "rolling-dices.svg",
+            "details": {
+              "description": "Testes opostos são usados quando dois ou mais personagens estão competindo entre si. Cada personagem envolvido faz seu teste. Aquele com maior valor é o vencedor. Em caso de empate, aquele com o maior bônus vence. Se os bônus forem iguais, outra rolagem deve ser feita.",
+              "reference": {
+                "source": "T20",
+                "page": "220"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Ajuda",
+            "description": "Concede bônus",
+            "img": "rolling-dice-cup.svg",
+            "details": {
+              "description": "Às vezes, os personagens trabalham juntos e se ajudam. Um personagem (normalmente aquele com o maior bônus) é considerado o líder, e faz o teste normal, enquanto cada ajudante faz um teste contra CD 10 (usando a mesma perícia ou outra que faça sentido). Um teste de ajuda concede ao líder um bônus de +1, e +1 adicional para cada 10 pontos acima da CD (+2 para um resultado 20, +3 para 30 e assim por diante).",
+              "uses": [
+                {
+                    "description": "Em muitos casos, ajuda externa não traz benefícios — você não pode ajudar um colega a ser mais silencioso em seu teste de Furtividade."
+                },
+                {
+                  "description": "Ou então apenas um número limitado de ajudantes pode auxiliar alguém ao mesmo tempo (não há espaço para muitas pessoas à volta de uma mesma fechadura)."
+                },
+                {
+                  "description": "O mestre limita a ajuda como achar melhor, de acordo com a tarefa e as condições."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "221"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Teste Sem Rolagem",
+            "description": "Escolher 0, 10 ou 20",
+            "img": "dice-target.svg",
+            "details": {
+              "description": "Um teste representa a realização de uma tarefa desafiadora — com alta dificuldade ou feita em situação de perigo. Quando este não é o caso, você pode escolher o resultado do teste, sendo 0, 10 ou 20, conforme a situação.",
+              "uses": [
+                {
+                  "title": "Escolher 0",
+                  "description": "Quando seu bônus total em um teste é igual ou maior que a CD, você não precisa fazer o este — você automaticamente passa. A tarefa é trivial para alguém com suas habilidades. Caso o teste tenha variados graus de sucesso, você obtém o mínimo possível. Você ainda pode fazer uma rolagem para alcançar um grau maior de sucesso, se quiser, mas arrisca falhar se rolar um 1 natural."
+                },
+                {
+                  "title": "Escolher 10",
+                  "description": "Quando não há pressão para realizar uma tarefa, você pode escolher 10. Isso significa realizar a tarefa com calma, sem chance para erros. Em vez de rolar 1d20, considere um resultado 10 automático. Isso costuma bastar para muitas tarefas."
+                },
+                {
+                  "title": "Escolher 20",
+                  "description": "Quando não há pressão e a tarefa não oferece nenhuma consequência ou penalidade em caso de falha, você pode escolher 20. Isso significa gastar todo o tempo do mundo e tentar todas as possibilidades, até passar. Em vez de rolar 1d20, considere um resultado 20 automático. Escolher 20 exige vinte vezes mais tempo que o normal para executar a perícia (ou, para simplificar, a cena inteira, de acordo com o mestre)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "221"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Testes Estendidos",
+            "description": "Tarefas complexas",
+            "img": "cubes.svg",
+            "details": {
+              "description": "Em um teste estendido, o grupo deve acumular uma quantidade de sucessos antes de três falhas, o que indica uma falha total. Quanto mais complexa a tarefa, mais sucessos são exigidos. Testes estendidos podem envolver mais de uma perícia. ",
+              "uses": [
+                {
+                  "description": "O mestre pode permitir que os jogadores decidam quais perícias vão usar em um teste estendido. Porém, cada teste avulso dentro do teste estendido precisa ser feito com uma perícia diferente."
+                },
+                {
+                  "description": "Personagens podem ajudar em testes estendidos, usando a regra de ajuda padrão. Porém, uma perícia usada para ajudar não poderá ser usada novamente no teste estendido, seja para ajudar, seja para realizar o teste principal."
+                },
+                {
+                  "description": "Para testes estendidos especialmente desafiadores, o mestre pode usar dificuldades cumulativas e penalidades por falhas. No primeiro caso, a CD aumenta em +2 a cada teste (independentemente do sucesso ou falha). No segundo caso, cada vez que falha, aplica uma penalidade cumulativa de –2 nos testes seguintes."
+                },
+                {
+                  "description": "A maioria dos testes estendidos pode ser interrompida sem problemas. Entretanto, o mestre pode determinar que uma interrupção conte como uma falha ou até mesmo como uma falha completa no teste estendido."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "222"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Combate",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Combate",
+        "description": "No seu turno, você pode fazer uma ação padrão e uma ação de movimento, em qualquer ordem; ou duas ações de movimento; ou uma ação completa. Você também pode fazer qualquer quantidade de ações livres e reações.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Ação Padrão",
+            "description": "1/turno",
+            "img": "crossed-swords.svg",
+            "details": {
+              "description": "Sua ação padrão normalmente representa a coisa mais importante que você vai fazer em seu turno.",
+              "uses": [
+                {
+                  "description": "Agredir (ataque corpo a corpo ou à distância), Atropelar, Fintar, Lançar uma Magia, Manobra de Combate, Preparar, Usar Habilidade ou Item Mágico."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "233"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Ação de Movimento",
+            "description": "1/turno",
+            "img": "walk.svg",
+            "details": {
+              "description": "Uma ação de movimento serve para mudar algo de posição — seja você, seja um item.",
+              "uses": [
+                {
+                  "description": "Levantar-se, Mirar, Movimentar-se, Sacar ou Guardar Item, Vestir ou Despir Item."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Ação Completa",
+            "description": "Padrão + Movimento",
+            "img": "running-ninja.svg",
+            "details": {
+              "description": "Este tipo de ação exige todo o tempo e esforço normal de uma rodada. Para uma ação completa, você deve abrir mão de sua ação padrão e de sua ação de movimento — mas, normalmente, você ainda pode realizar ações extras, ações livres e reações.",
+              "uses": [
+                {
+                  "description": "Corrida, Golpe de Misericórdia, Investida, Lançar uma Magia."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Ação Livre",
+            "description": "Ilimitada",
+            "img": "drop-weapon.svg",
+            "details": {
+              "description": "Uma ação livre demanda pouco ou nenhum tempo, esforço ou atenção, mas ainda só pode ser feita em seu turno. Normalmente você pode executar quantas ações livres quiser por turno, mas o mestre pode limitar ou proibir ações complexas.",
+              "uses": [
+                {
+                  "description": "Atrasar, Falar, Jogar-se no Chão, Largar Item."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Reação",
+            "description": "Resposta automática",
+            "img": "shield-bash.svg",
+            "details": {
+              "description": "Uma reação acontece em resposta a outra coisa. Como ações livres, reações tomam tão pouco tempo que você pode realizar qualquer quantidade delas. A diferença é que uma ação livre é uma escolha consciente, executada no turno do personagem. Já uma reação é um reflexo ou uma resposta automática, que pode ocorrer mesmo fora do seu turno.",
+              "uses": [
+                {
+                  "description": "Você pode reagir mesmo se não puder realizar ações normais, como quando estiver atordoado."
+                },
+                {
+                  "title": "Habilidades Engatilhadas",
+                  "description": "Habilidades ativadas por decorrência de outro evento (como fazer um ataque), são ativadas como uma reação e somente uma vez por instância do evento."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "233"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Terreno Elevado",
+            "description": "Posição elevada",
+            "img": "watchtower.svg",
+            "details": {
+              "description": "Um personagem que está em posição elevada em relação a seu inimigo recebe bônus no ataque.",
+              "uses": [
+                {                  
+                  "description": "Personagem no lado superior recebe +2 no ataque contra personagem no lado inferior."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "238 e 268"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Camuflagem",
+            "description": "Leve ou total",
+            "img": "paranoia.svg",
+            "details": {
+              "description": "Um personagem recebe camuflagem leve quando um efeito dificulta a visão dos inimigos. E recebe camuflagem total quando um efeito impede a visão dos inimigos.",
+              "uses": [
+                {                  
+                  "title": "Camuflagem Leve",
+                  "description": "Ataques contra um personagem com camuflagem leve têm 20% de chance de falha."
+                },
+                {
+                  "title": "Camuflagem Total",
+                  "description": "Ataques contra um personagem com camuflagem total têm 50% de chance de falha."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "238"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Cobertura",
+            "description": "Leve ou total",
+            "img": "guarded-tower.svg",
+            "details": {
+              "description": "Um personagem recebe cobertura leve quando está atrás de algo que bloqueia o ataque dos inimigos. E recebe cobertura total quando seus inimigos não podem alcançá-lo.",
+              "uses": [
+                {                  
+                  "title": "Cobertura Leve",
+                  "description": "Fornece +5 na Defesa."
+                },
+                {
+                  "title": "Cobertura Total",
+                  "description": "Impede que o personagem seja atacado."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "239"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Flanquear",
+            "description": "Cercar o inimigo",
+            "img": "guards.svg",
+            "details": {
+              "description": "Quando um personagem luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre os personagens — eles estão flanqueando o alvo.",
+              "uses": [
+                {                  
+                  "description": "Personagens flanqueando recebem +2 em seus testes de ataque contra o alvo flanqueado."
+                },
+                {
+                  "description": "Não se pode flanquear à distância ou com ataques desarmados."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "239"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Acumulando Efeitos",
+            "description": "Depende da fonte",
+            "img": "stack.svg",
+            "details": {
+              "description": "A interação entre diferentes efeitos depende de sua origem. As fontes de efeitos são habilidades, perícias, itens, magias, parceiros e o ambiente.",
+              "uses": [
+                {
+                  "description": "Efeitos de habilidades e perícias acumulam entre si, exceto quando vierem da mesma habilidade ou perícia. Isso não inclui magias."
+                },
+                {
+                  "description": "Efeitos de itens, magias, parceiros e o ambiente acumulam com os de outras fontes, mas não entre si."
+                },
+                {
+                  "description": "Bônus na Defesa e penalidade de armadura de escudos se acumulam com os de armaduras e um outro item adicional a sua escolha."
+                },
+                {
+                  "description": "O valor de um mesmo atributo não se acumula em características do personagem. A exceção são perícias: é possível somar um atributo a uma perícia que use este mesmo atributo-chave, mas apenas uma vez."
+                },
+                {
+                  "description": "Chance de falha nunca acumula acima de 75%. Sempre há no mínimo uma chance de 1 em 4 de acertar o alvo."
+                },
+                {
+                  "description": "Reduções no custo de PM não são cumulativas. Uma habilidade nunca pode ter seu custo reduzido para menos de 1 PM."
+                },
+                {
+                  "description": "Se mais de um efeito afetar um valor, siga a ordem de operações padrão. Ou seja, aplique primeiro multiplicações e divisões, depois somas e subtrações. O resultado de um teste de resistência é sempre o primeiro a ser aplicado."
+                },
+                {
+                  "description": "Se mais de um efeito fizer você multiplicar um valor, combine-os em um único multiplicador, com cada efeito além do primeiro adicionando seu multiplicador –1."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "226"
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": "Dano não Letal",
+            "description": "Derruba, mas não mata",
+            "img": "boxing-glove.svg",
+            "details": {
+              "description": "Dano não letal conta para determinar quando você cai inconsciente, mas não para determinar quando você começa a sangrar ou morre.",
+              "uses": [
+                {
+                  "description": "Quase todo dano causado em condições normais (armas, armadilhas, magias...) é letal."
+                },
+                {
+                  "description": "Você pode usar uma arma para causar dano não letal, mas sofre uma penalidade de –5 no teste de ataque."
+                },
+                {
+                  "description": "Ataques desarmados e certas armas específicas causam dano não letal. Você pode usar esses ataques e armas para causar dano letal, mas sofre a mesma penalidade de –5 no teste de ataque."
+                },
+                {
+                  "description": "Efeitos de cura recuperam primeiro pontos de vida perdidos por dano não letal."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "236"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Ações Padrão",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Ação Padrão",
+        "description": "Sua ação padrão normalmente representa a coisa mais importante que você vai fazer em seu turno.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Ataque à Distância",
+            "description": "Ação Agredir",
+            "img": "high-shot.svg",
+            "details": {
+              "description": "Para atacar com uma arma de combate à distância, faça um teste de Pontaria.",
+              "uses": [
+                {
+                  "description": "Com uma arma de ataque à distância, você pode atacar qualquer inimigo que consiga ver e que esteja no alcance da arma (ou até o dobro do alcance, sofrendo uma penalidade de –5)."
+                },
+                {
+                  "title": "Arremesso",
+                  "description": "A própria arma é atirada, como uma adaga ou azagaia. Sacar uma arma de arremesso é uma ação de movimento. Quando você ataca com uma arma de arremesso, soma sua Força às rolagens de dano."
+                },
+                {
+                  "title": "Disparo",
+                  "description": "A arma dispara um projétil, como um arco atira flechas. Sacar a munição de uma arma de disparo é uma ação livre. Recarregar uma arma de disparo exige as duas mãos. Quando ataca com uma arma de disparo, não soma nenhum valor de atributo às rolagens de dano."
+                },
+                {
+                  "description": "Quando faz um ataque à distância contra uma criatura em combate corpo a corpo, você sofre –5 no teste de ataque. Uma criatura está em combate corpo a corpo se estiver dentro do alcance natural de qualquer inimigo (incluindo você)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "142 e 233"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Ataque Corpo a Corpo",
+            "description": "Ação Agredir",
+            "img": "crossed-swords.svg",
+            "details": {
+              "description": "Para atacar com uma arma de combate corpo a corpo, faça um teste de Luta.",
+              "uses": [
+                {
+                  "description": "Você pode atacar qualquer inimigo dentro de seu alcance natural (1,5m para criaturas Pequenas e Médias ou um inimigo adjacente no mapa). Personagens maiores, ou usando certas armas, podem atacar mais longe."
+                },
+                {
+                  "description": "Quando você ataca com uma arma corpo a corpo, soma sua Força às rolagens de dano."
+                },
+                {
+                  "description": "Você pode substituir um ataque corpo a corpo por uma Manobra de Combate."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "142 e 233"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Atropelar",
+            "description": "Passar por espaço ocupado",
+            "img": "charging-bull.svg",
+            "details": {
+              "description": "Você usa uma ação padrão durante um movimento para avançar pelo espaço ocupado por uma criatura (normalmente, você não pode fazer uma ação padrão durante um movimento; isto é uma exceção).",
+              "uses": [
+                {
+                  "description": "Se a criatura lhe der passagem, você avança pelo espaço dela; nenhum teste é necessário."
+                },
+                {
+                  "description": "Se resistir, faça um teste de manobra oposto; se você vencer, deixa a criatura caída e continua seu avanço. Se o alvo vencer, continua de pé e detém seu avanço."
+                },
+                {
+                  "description": "Atropelar é uma ação livre se tentada durante uma investida."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "233"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Fintar",
+            "description": "Confundir uma criatura",
+            "img": "hooded-assassin.svg",
+            "details": {
+              "description": "Você tenta confundir e enganar uma criatura.",
+              "uses": [
+                {
+                  "description": "Faça um teste de Enganação oposto ao teste de Reflexos de uma criatura em alcance curto."
+                },
+                {
+                  "description": "Se você passar, ela fica desprevenida contra seu próximo ataque, mas apenas até o fim de seu próximo turno."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Lançar Magia",
+            "description": "Execução de ação padrão",
+            "img": "glowing-hands.svg",
+            "details": {
+              "description": "A descrição da magia determina a ação necessária para lançá-la. A maioria das magias exige uma ação padrão para ser executada.",
+              "uses": [
+                {
+                  "title": "Custo em PM", 
+                  "description": "Lançar uma magia exige gastar pontos de mana (1º círculo: 1 PM; 2º círculo: 3 PM; 3º círculo: 6 PM; 4º círculo: 10 PM; e 5º círculo: 15 PM)."
+                },
+                {
+                  "title": "Gestos e Palavras",
+                  "description": "Lançar uma magia é um ato chamativo, perceptível por aqueles ao redor. Um conjurador amordaçado ou incapaz de usar as mãos não pode lançar magias."
+                },
+                {
+                  "title": "Custos Especiais",
+                  "description": "Algumas magias possuem custos além de PM. Componentes materiais são consumidos mesmo que a habilidade falhe."
+                },
+                {
+                  "title": "Execução", 
+                  "description": "Você só pode lançar uma magia com execução de ação livre por rodada. Magias com execução de reação só podem ser lançadas em reação àquilo contra o qual se aplicam. No caso de magias com execução maior do que uma ação completa, você fica desprevenido enquanto estiver lançando a magia."
+                },
+                {
+                  "title": "Concentração",
+                  "description": "Lançar uma magia também exige calma e concentração. Por isso, um conjurador em situação difícil deve passar em um teste de Vontade (Ferido durante a execução da magia: CD igual ao dano; Condição ruim: CD 15 + custo em PM da magia; Condição terrível: CD 20 + custo em PM da magia). Se falhar no teste a magia é perdida, mas os PM são gastos mesmo assim."
+                },
+                {
+                  "title": "Aprimoramentos e Limite de PM",
+                  "description": "Algumas magias permitem gastar mais PM ao serem lançadas para aumentar seu efeito. O máximo de PM que você pode gastar por magia é igual ao seu nível na classe que fornece a magia (mas você sempre pode usar a magia em seu custo mínimo). Para magias de raça, origem ou outras fontes e podres gerais, o limite é o seu nível de personagem."
+                },
+                {
+                  "title": "Sustentada",
+                  "description": "A magia precisa de um fluxo constante de mana. O personagem deve gastar 1 PM como uma ação livre no início de cada turno seu para manter o efeito ativo. Se não o fizer, a magia termina. Você pode manter apenas uma magia sustentada por vez."
+                },
+                {
+                  "title": "Armadura e Magias Arcana",
+                  "description": "Lançar uma magia arcana usando armadura exige um teste de Misticismo (CD 20 + o custo em PM da magia). O teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta PM. Magias lançadas por habilidades de raça, poderes ou itens mágicos não sofrem esta limitação."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "170 e 224"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Manobra de Combate",
+            "description": "Ataque corpo a corpo",
+            "img": "sword-break.svg",
+            "details": {
+              "description": "Uma manobra é um ataque corpo a corpo para fazer algo diferente de causar dano — como arrancar a arma do oponente ou empurrá-lo para um abismo.",
+              "uses": [
+                {
+                  "description": "Não é possível fazer manobras de combate com ataques à distância."
+                },
+                {
+                  "description": "Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura. Mesmo que ela esteja usando uma arma de ataque à distância, deve fazer o teste usando seu valor de Luta."
+                },
+                {
+                  "description": "Em caso de empate, o personagem com o maior bônus vence. Se os bônus forem iguais, outro teste deve ser feito."
+                },
+                {
+                  "description": "Em geral, você pode usar qualquer arma corpo a corpo para fazer manobras de combate."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Preparar",
+            "description": "Prepara ação como reação",
+            "img": "alarm-clock.svg",
+            "details": {
+              "description": "Você prepara uma ação (padrão, de movimento ou livre) para realizar mais tarde, após seu turno, mas antes de seu turno na próxima rodada.",
+              "uses": [
+                {
+                  "description": "Diga a ação que vai fazer e em quais circunstâncias (por exemplo, “disparar minha besta na primeira criatura que passar pela porta”)."
+                },
+                {
+                  "description": "A qualquer momento antes de seu próximo turno, você pode fazer a ação preparada como uma reação a essas circunstâncias."
+                },
+                {
+                  "description": "Se, no seu próximo turno, você ainda não tiver realizado sua ação preparada, não pode mais realizá-la (embora possa preparar a mesma ação de novo)."
+                },
+                {
+                  "description": "Pelo resto do combate, sua Iniciativa fica imediatamente acima da qual você fez a ação preparada."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Usar Habilidade",
+            "description": "Execução de ação padrão",
+            "img": "embrassed-energy.svg",
+            "details": {
+              "description": "Habilidades fornecidas por sua raça, origem, classe, itens e outras fontes. A descrição da habilidade determina a ação necessária para usá-la. Caso nada esteja descrito, usar a habilidade é uma ação livre.",
+              "uses": [
+                {
+                  "title": "Custo em PM", 
+                  "description": "A descrição da habilidade determina se são necessários PM para usá-la. Nesse caso, você gasta os PM mesmo em caso de falha. Para habilidades com custo variável, o máximo de PM que você pode gastar por uso é igual ao seu nível na classe que fornece a habilidade (mas você sempre pode usar a habilidade em seu custo mínimo). Para habilidades de raça, origem ou outras fontes e poderes gerais, o limite é o seu nível de personagem."
+                },
+                {
+                  "title": "Custos Especiais",
+                  "description": "Algumas habilidades possuem custos além de PM. Componentes materiais são consumidos mesmo que a habilidade falhe."
+                },
+                {
+                  "title": "Alcance",
+                  "description": "Pessoal (somente o personagem e/ou objetos que ele esteja carregando), Toque (precisa tocar o alvo em seu alcance natural — tocar o alvo faz parte da ação da habilidade), Curto (até 9m), Médio (até 30m), Longo (até 90m), Ilimitado (alcança qualquer lugar no mesmo mundo)."
+                },
+                {
+                  "title": "Sustentada",
+                  "description": "A habilidade precisa de um fluxo constante de mana. O personagem deve gastar 1 PM como uma ação livre no início de cada turno seu para manter o efeito ativo. Se não o fizer, a habilidade termina. Você pode manter diversas habilidades sustentadas, pagando o custo de cada uma."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "224"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Usar Item Mágico",
+            "description": "Execução de ação padrão",
+            "img": "heart-bottle.svg",
+            "details": {
+              "description": "Itens mágicos são divididos em uso único (poções e pergaminhos) e permanentes (armas, armaduras/escudos e acessórios).",
+              "uses": [
+                {
+                  "description": "A menos que sua descrição diga o contrário, ativar um item mágico é uma ação padrão."
+                },
+                {
+                  "description": "Para itens mágicos com habilidades ativadas, você precisa primeiro identificá-los antes de usar."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "333"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Manobra de Combate",
+        "description": "Você pode substituir um ataque corpo a corpo por uma Manobra de Combate.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Agarrar",
+            "description": "Segurar uma criatura",
+            "img": "grab.svg",
+            "details": {
+              "description": "Você segura uma criatura (por seu braço, sua roupa etc.). Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura.",
+              "uses": [
+                {
+                  "description": "Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves."
+                },
+                {
+                  "description": "A criatura pode se soltar com uma ação padrão, vencendo um teste de manobra oposto."
+                },
+                {
+                  "description": "Você só pode agarrar com um ataque desarmado ou arma natural e, enquanto agarra, fica com essa mão ou arma natural ocupada."
+                },
+                {
+                  "description": "Você se move metade do deslocamento normal, mas arrasta a criatura que estiver agarrando."
+                },
+                {
+                  "description": "Você pode soltar a criatura com uma ação livre."
+                },
+                {
+                  "description": "Você pode atacar uma criatura agarrada com sua mão livre. Se preferir, pode substituir um ataque por um teste de agarrar contra a criatura. Se vencer, causa dano de impacto igual a um ataque desarmado ou arma natural. Isso significa que você está esmagando ou sufocando o inimigo."
+                },
+                {
+                  "description": "Um personagem fazendo um ataque à distância contra um alvo envolvido na manobra agarrar tem 50% de chance de mirar no alvo errado!"
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Derrubar",
+            "description": "Derrubar uma criatura",
+            "img": "falling.svg",
+            "details": {
+              "description": "Você derruba uma criatura. Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura.",
+              "uses": [
+                {
+                  "description": "Uma criatura derrubada fica caída."
+                },
+                {
+                  "description": "Se você vencer o teste oposto por 5 pontos ou mais, derruba o oponente com tanta força que também o empurra um quadrado em uma direção a sua escolha. Se isso o jogar além de um parapeito ou precipício, ele pode fazer um teste de Reflexos (CD 20) para se agarrar numa beirada."
+                },
+                {
+                  "description": "Uma criatura voando que sofra uma manobra derrubar bem-sucedida cai 1d6 x 1,5m antes de recuperar o voo."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "229 e 234"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Desarmar",
+            "description": "Derrubar um item",
+            "img": "drop-weapon.svg",
+            "details": {
+              "description": "Você derruba um item que a criatura esteja segurando. Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura.",
+              "uses": [
+                {
+                  "description": "Normalmente o item cai no mesmo lugar em que o alvo está (a menos que o alvo esteja voando, sobre uma ponte etc.)."
+                },
+                {
+                  "description": "Se você vencer o teste oposto por 5 pontos ou mais, derruba o item com tanta força que também o empurra um quadrado em uma direção a sua escolha."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Empurrar",
+            "description": "Empurrar uma criatura",
+            "img": "push.svg",
+            "details": {
+              "description": "Você empurra uma criatura. Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura.",
+              "uses": [
+                {
+                  "description": "Você empurra a criatura 1,5m."
+                },
+                {
+                  "description": "Para cada 5 pontos de diferença entre os testes, você empurra o alvo mais 1,5m."
+                },
+                {
+                  "description": "Você pode gastar uma ação de movimento para avançar junto com a criatura (até o limite do seu deslocamento)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Quebrar",
+            "description": "Quebrar um objeto",
+            "img": "sword-break.svg",
+            "details": {
+              "description": "Você atinge um item que a criatura esteja segurando. Faça um teste de manobra (um teste de ataque corpo a corpo) oposto com a criatura.",
+              "uses": [
+                {
+                  "description": "Se vencer, você acerta o ataque e causa dano normal ao objeto."
+                },
+                {
+                  "description": "Objetos normalmente têm redução de dano, dependendo de seu material."
+                },
+                {
+                  "description": "Um objeto reduzido a 0 ou menos PV é destruído."
+                }
+              ],
+              "moreInfo": "Para objetos soltos, faça um ataque contra a Defesa do objeto, definida por sua categoria de tamanho. Se o objeto estiver em movimento, recebe +5 na Defesa.",
+              "reference": {
+                "source": "T20",
+                "page": "234 e 239"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ações de Movimento",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Ação de Movimento",
+        "description": "Uma ação de movimento serve para mudar algo de posição — seja você, seja um item.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Levantar-se",
+            "description": "Do chão, de uma cadeira...",
+            "img": "crawl.svg",
+            "details": {
+              "description": "Levantar do chão (ou de uma cama, cadeira...) exige uma ação de movimento.",
+              "uses": [
+                {
+                  "description": "Você pode tentar se levantar do chão com uma ação livre. Consulte a perícia Acrobacia."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Manipular Item",
+            "description": "Pegar, abrir, entregar...",
+            "img": "rope-coil.svg",
+            "details": {
+              "description": "Muitas vezes, manipular um item exige uma ação de movimento.",
+              "uses": [
+                {
+                  "description": "Pegar um objeto em uma mochila."
+                },
+                {
+                  "description": "Abrir ou fechar uma porta."
+                },
+                {
+                  "description": "Entregar um objeto a um aliado."
+                },
+                {
+                  "description": "Atirar uma corda para alguém."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Mirar",
+            "description": "Ataque à distância",
+            "img": "eye-target.svg",
+            "details": {
+              "description": "Você mira em um alvo que possa ver, dentro do alcance de sua arma.",
+              "uses": [
+                {
+                  "description": "Anula a penalidade de –5 em testes de Pontaria realizados neste turno contra aquele alvo caso ele esteja engajado em combate corpo a corpo."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Movimentar-se",
+            "description": "Andar, nadar, voar, escalar...",
+            "img": "walk.svg",
+            "details": {
+              "description": "Você pode percorrer uma distância igual a seu deslocamento (tipicamente 9m para raças de tamanho Médio).",
+              "uses": [
+                {
+                  "description": "Além de andar, você pode gastar uma ação de movimento para se mover de outras maneiras (nadar, voar, escalar, cavalgar...). Consulte as perícias Acrobacia e Atletismo."
+                },
+                {
+                  "title": "Terreno Difícil",
+                  "description": "Lugares onde é difícil andar, como uma floresta cheia de raízes, neve profunda, ruínas com destroços ou mesmo uma rua lotada de pessoas, são terreno difícil. Mover-se em terreno difícil custa o dobro."
+                },
+                {
+                  "title": "Diagonais",
+                  "description": "Em um mapa, mover-se na diagonal custa o dobro. Ou seja, andar 1,5m (1 quadrado) na diagonal conta como 3m (2 quadrados)."
+                },
+                {
+                  "title": "Carga",
+                  "description": "Se você estiver sobrecarregado, seu deslocamento diminui em 3m."
+                },
+                {
+                  "title": "Espaço ocupado",
+                  "description": "Um espaço ocupado por um inimigo conta como terreno difícil. Você não pode atravessar um espaço ocupado por um inimigo, a menos que ele esteja caído ou indefeso, ou seja pelo menos três categorias de tamanho maior ou menor que você. Você também pode atravessar um espaço ocupado por um inimigo com Acrobacia ou a ação Atropelar."
+                },
+                {
+                  "title": "Subir ou Mergulhar",
+                  "description": "Voando ou nadando, movimentar-se na vertical custa o dobro na subida (ou o triplo em diagonais) e metade na descida (ou o normal em diagonais)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "234 e 238"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Sacar ou Guardar Item",
+            "description": "Ação de movimento",
+            "img": "backpack.svg",
+            "details": {
+              "description": "Você pode sacar e empunhar um item, ou guardar um item empunhado com uma ação de movimento.",
+              "uses": [
+                {
+                  "description": "Você pode empunhar apenas um item em cada mão, ou seja, pode empunhar no máximo dois itens ao mesmo tempo (supondo que você tenha duas mãos)."
+                },
+                {
+                  "description": "Sacar a munição de uma arma de disparo é uma ação livre."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "141, 142 e 234"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Vestir ou Despir Item",
+            "description": "Ação de movimento",
+            "img": "breastplate.svg",
+            "details": {
+              "description": "Vestir ou despir um item é uma ação de movimento (você ainda precisa gastar outra ação de movimento para guardá-lo ou uma ação livre para largá-lo no chão).",
+              "uses": [
+                {
+                  "description": "Você pode receber os benefícios de no máximo quatro itens vestidos simultaneamente (esse limite se aplica apenas a itens com benefícios mecânicos)."
+                },
+                {
+                  "description": "Vestir ou remover uma armadura leve é uma ação completa. Vestir ou despir uma armadura pesada demora cinco minutos. Colocar ou tirar um escudo de qualquer tipo é uma ação de movimento."
+                },
+                {
+                  "description": "Não se pode vestir uma armadura sobre outra. Pode-se usar armadura e escudo ao mesmo tempo (os bônus se acumulam), mas não dois escudos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "141 e 152"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Ações Completas",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Ação Completa",
+        "description": "Este tipo de ação exige todo o tempo e esforço normal de uma rodada. Para uma ação completa, você deve abrir mão de sua ação padrão e de sua ação de movimento.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Corrida",
+            "description": "Perícia Atletismo",
+            "img": "sprint.svg",
+            "details": {
+              "description": "Você corre mais rapidamente que seu deslocamento normal. Consulte a perícia Atletismo.",
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Golpe de Misericórdia",
+            "description": "Em oponente indefeso",
+            "img": "backstab.svg",
+            "details": {
+              "description": "Você desfere um golpe letal em um oponente adjacente e indefeso. Um golpe de misericórdia é um acerto crítico automático. Além de sofrer dano, a vítima tem uma chance de morrer instantaneamente. Esta chance é de 25% (1 em 1d4) para personagens e NPCs importantes e de 75% (1 a 3 em 1d4) para NPCs secundários.",
+              "uses": [
+                {
+                  "description": "Um golpe de misericórdia é um acerto crítico automático."
+                },
+                {
+                  "description": "Além de sofrer dano, a vítima tem uma chance de morrer instantaneamente. Esta chance é de 25% (1 em 1d4) para personagens e NPCs importantes e de 75% (1 a 3 em 1d4) para NPCs secundários."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Investida",
+            "description": "Corrida e ataque",
+            "img": "running-ninja.svg",
+            "details": {
+              "description": "Você avança até o dobro de seu deslocamento (e no mínimo 3m) em linha reta e, no fim do movimento, faz um ataque corpo a corpo.",
+              "uses": [
+                {
+                  "description": "Você recebe +2 no teste de ataque, mas sofre –2 na Defesa até o seu próximo turno, porque sua guarda fica aberta."
+                },
+                {
+                  "description": "Você não pode fazer uma investida em terreno difícil."
+                },
+                {
+                  "description": "Durante uma investida, você pode fazer a manobra atropelar como uma ação livre (mas não pode atropelar e atacar o mesmo alvo)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Lançar Magia",
+            "description": "Execução de ação completa",
+            "img": "glowing-hands.svg",
+            "details": {
+              "description": "Ao lançar magias com execução maior do que uma ação completa, você gasta uma ação completa a cada rodada.",
+              "moreInfo": "Consulte a ação padrão Lançar Magia.",
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Ações Livres",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Ação Livre",
+        "description": "Uma ação livre demanda pouco ou nenhum tempo, esforço ou atenção, mas ainda só pode ser feita em seu turno.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Atrasar",
+            "description": "Mudar a Iniciativa",
+            "img": "backward-time.svg",
+            "details": {
+              "description": "Escolhendo atrasar sua ação, você age mais tarde na ordem de Iniciativa, em relação à Iniciativa que rolou. Isto é o mesmo que reduzir sua Iniciativa voluntariamente pelo resto do combate.",
+              "uses": [
+                {
+                  "description": "Você pode especificar um novo valor de Iniciativa (quando sua nova Iniciativa chegar, você age normalmente) ou apenas esperar até algum momento e então agir, fixando sua nova Iniciativa neste ponto."
+                },
+                {
+                  "title": "Limites para Atrasar",
+                  "description": "Você pode atrasar sua Iniciativa até –10 menos seu bônus de Iniciativa. Quando a contagem de Iniciativa chega a esse ponto, você deve agir ou abrir mão de qualquer ação na rodada."
+                },
+                {
+                  "title": "Vários Atrasos",
+                  "description": "Se vários personagens estão atrasando suas ações, aquele com o maior bônus de Iniciativa (ou a maior Destreza, em caso de empate) tem a vantagem. Se dois ou mais personagens que estejam atrasando quiserem agir na mesma contagem de Iniciativa, aquele com o maior bônus age primeiro. Se dois ou mais personagens estão tentando agir um depois do outro, aquele com o maior bônus de Iniciativa tem o direito de agir depois."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "235"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Falar",
+            "description": "Ação Livre",
+            "img": "chat-bubble.svg",
+            "details": {
+              "description": "Em geral, falar é uma ação livre. Lançar magias ou usar habilidades de classe que dependem da voz não são ações livres. O mestre também pode limitar aquilo que você consegue falar durante uma rodada (vinte palavras são o limite padrão).",
+              "reference": {
+                "source": "T20",
+                "page": "236"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Jogar-se no Chão",
+            "description": "Ficar caído",
+            "img": "crawl.svg",
+            "details": {
+              "description": "Jogar-se no chão é uma ação livre. Você recebe os benefícios e penalidades normais por estar caído, mas normalmente não sofre dano ao se jogar no chão.",
+              "reference": {
+                "source": "T20",
+                "page": "236"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Largar Item",
+            "description": "Deixar cair",
+            "img": "drop-weapon.svg",
+            "details": {
+              "description": "Soltar e deixar cair um item que esteja segurando é uma ação livre.",
+              "uses": [
+                {
+                  "description": "Deixar cair (ou jogar) um item com a intenção de acertar algo é uma ação padrão."
+                },
+                {
+                  "description": "Deixar cair (ou jogar) um item para que outra pessoa agarre é uma ação de movimento."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "236"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Condições",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Condição",
+        "description": "Condições alteram suas capacidades em uma variedade de formas. Condições com os mesmos efeitos não se acumulam; aplique apenas os mais severos.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Abalado",
+            "description": "Você está abalado",
+            "img": "dread.svg",
+            "details": {
+              "description": "Você está abalado. Efeito de medo",
+              "uses": [
+                {
+                  "description": "O personagem sofre –2 em testes de perícia."
+                },
+                {
+                  "description": "Se ficar abalado novamente, em vez disso, o personagem fica apavorado."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Agarrado",
+            "description": "Você está agarrado",
+            "img": "grab.svg",
+            "details": {
+              "description": "Você está agarrado. Efeito de movimento.",
+              "uses": [
+                {
+                  "description": "O personagem fica desprevenido e imóvel."
+                },
+                {
+                  "description": "O personagem sofre –2 em testes de ataque."
+                },
+                {
+                  "description": "O personagem só pode atacar com armas leves"
+                },
+                {
+                  "description": "Ataques à distância contra um alvo envolvido em uma manobra agarrar têm 50% de chance de acertar o alvo errado."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Alquebrado",
+            "description": "Você está alquebrado",
+            "img": "internal-injury.svg",
+            "details": {
+              "description": "Você está alquebrado. Efeito mental",
+              "uses": [
+                {
+                  "description": "O custo em pontos de mana das habilidades e magias do personagem aumentam em +1."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Apavorado",
+            "description": "Você está apavorado",
+            "img": "screaming.svg",
+            "details": {
+              "description": "Você está apavorado. Efeito de medo.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –5 em testes de perícia."
+                },
+                {
+                  "description": "O personagem e não pode se aproximar voluntariamente da fonte do medo."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Atordoado",
+            "description": "Você está atordoado",
+            "img": "helmet-head-shot.svg",
+            "details": {
+              "description": "Você está atordoado. Efeito mental.",
+              "uses": [
+                {
+                  "description": "O personagem fica desprevenido."
+                },
+                {
+                  "description": "O personagem não pode fazer ações."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Caído",
+            "description": "Você está caído",
+            "img": "falling.svg",
+            "details": {
+              "description": "Você está caído.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –5 em ataques corpo a corpo."
+                },
+                {
+                  "description": "O deslocamento do personagem é reduzido a 1,5m."
+                },
+                {
+                  "description": "O personagem sofre –5 na Defesa contra ataques corpo a corpo (cumulativo com outras condições)."
+                },
+                {
+                  "description": "O personagem sofre +5 na Defesa contra ataques à distância (cumulativo com outras condições)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Cego",
+            "description": "Você está cego",
+            "img": "blindfold.svg",
+            "details": {
+              "description": "Você está cego. Efeito nos sentidos.",
+              "uses": [
+                {
+                  "description": "O personagem fica desprevenido e lento."
+                },
+                {
+                  "description": "O personagem não pode fazer testes de Percepção para observar."
+                },
+                {
+                  "description": "O personagem sofre –5 em testes de perícias baseadas em Força ou Destreza."
+                },
+                {
+                  "description": "Todos os alvos dos ataques do personagem recebem camuflagem total."
+                },
+                {
+                  "description": "Um personagem é considerado cego enquanto estiver em uma área de escuridão total, a menos que algo lhe permita perceber no escuro."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Confuso",
+            "description": "Você está confuso",
+            "img": "knocked-out-stars.svg",
+            "details": {
+              "description": "Você está confuso. Efeito mental.",
+              "uses": [
+                {
+                  "description": "O personagem comporta-se de modo aleatório. Role 1d6 no início de seus turnos:"
+                },
+                {
+                  "title": "1",
+                  "description": "Movimenta-se em uma direção escolhida por uma rolagem de 1d8;"
+                },
+                {
+                  "title": "2-3",
+                  "description": "Não pode fazer ações, e fica balbuciando incoerentemente;"
+                },
+                {
+                  "title": "4-5",
+                  "description": "Usa a arma que estiver empunhando para atacar a criatura mais próxima, ou a si mesmo se estiver sozinho (nesse caso, apenas role o dano);"
+                },
+                {
+                  "title": "6",
+                  "description": "A condição termina e pode agir normalmente."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Debilitado",
+            "description": "Você está debilitado",
+            "img": "pummeled.svg",
+            "details": {
+              "description": "Você está debilitado.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –5 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos."
+                },
+                {
+                  "description": "Se o personagem ficar debilitado novamente, em vez disso fica inconsciente."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Desprevenido",
+            "description": "Você está desprevenido",
+            "img": "arrest.svg",
+            "details": {
+              "description": "Você está desprevenido.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –5 na Defesa e em Reflexos."
+                },
+                {
+                  "description": "Um personagem fica desprevenido contra inimigos que não possa perceber."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": "Doente",
+            "description": "Você está doente",
+            "img": "medicine-pills.svg",
+            "details": {
+              "description": "Você está sob efeito de uma doença. Efeito de metabolismo.",
+              "uses": [
+                {
+                  "description": "Um personagem contaminado deve repetir o teste de Fortitude no início de cada dia. Se falhar, sofre o efeito da doença naquele dia. Se passar, não sofre o efeito. Se passar por dois dias seguidos, estará curado."
+                },
+                {
+                  "description": "Algumas doenças possuem efeitos progressivos. Se o personagem falhar no teste de Fortitude, sofre o primeiro efeito. Se falhar em dois testes seguidos, sofre o segundo efeito, e assim por diante."
+                },
+                {
+                  "description": "Um personagem que tenha sofrido um efeito progressivo e passe no teste sofre o efeito anterior naquele dia."
+                },
+                {
+                  "description": "Contaminação não é cumulativa; uma vez que contraia uma doença, o personagem não sofre efeitos adicionais por contrair novamente."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "318 e 394"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "title": "Em Chamas",
+            "description": "Você está pegando fogo",
+            "img": "small-fire.svg",
+            "details": {
+              "description": "Você está pegando fogo.",
+              "uses": [
+                {
+                  "description": "No início de seus turnos, o personagem sofre 1d6 pontos de dano de fogo."
+                },
+                {
+                  "description": "O personagem pode gastar uma ação padrão para apagar o fogo com as mãos."
+                },
+                {
+                  "description": "Imersão em água também apaga as chamas."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "title": "Enfeitiçado",
+            "description": "Você está enfeitiçado",
+            "img": "smitten.svg",
+            "details": {
+              "description": "Você está enfeitiçado. Efeito mental.",
+              "uses": [
+                {
+                  "description": "O personagem se torna prestativo em relação à fonte da condição."
+                },
+                {
+                  "description": "O personagem não fica sob controle da fonte, mas percebe suas palavras e ações da maneira mais favorável possível."
+                },
+                {
+                  "description": "A fonte da condição recebe +10 em testes de Diplomacia com o personagem."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 14,
+            "title": "Enjoado",
+            "description": "Você está enjoado",
+            "img": "vomiting.svg",
+            "details": {
+              "description": "Você está enjoado. Efeito de metabolismo.",
+              "uses": [
+                {
+                  "description": "O personagem só pode realizar uma ação padrão ou de movimento (não ambas) por rodada."
+                },
+                {
+                  "description": "O personagem pode gastar uma ação padrão para fazer uma investida, mas pode avançar no máximo seu deslocamento (e não o dobro)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 15,
+            "title": "Enredado",
+            "description": "Você está enredado",
+            "img": "fishing-net.svg",
+            "details": {
+              "description": "Você está enredado. Efeito de movimento.",
+              "uses": [
+                {
+                  "description": "O personagem fica lento e vulnerável."
+                },
+                {
+                  "description": "O personagem sofre –2 em testes de ataque."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 16,
+            "title": "Envenenado",
+            "description": "Você está envenenado",
+            "img": "poison-bottle.svg",
+            "details": {
+              "description": "Você está sob efeito de um veneno. Efeito de veneno.",
+              "uses": [
+                {
+                  "description": "O efeito desta condição varia de acordo com o veneno."
+                },
+                {
+                  "description": "Perda de vida recorrente por venenos é cumulativa."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 17,
+            "title": "Esmorecido",
+            "description": "Você está esmorecido",
+            "img": "tired-eye.svg",
+            "details": {
+              "description": "Você está esmorecido. Efeito mental.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –5 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 18,
+            "title": "Exausto",
+            "description": "Você está exausto",
+            "img": "oppression.svg",
+            "details": {
+              "description": "Você está exausto. Efeito de cansaço.",
+              "uses": [
+                {
+                  "description": "O personagem fica debilitado, lento e vulnerável."
+                },
+                {
+                  "description": "Se ficar exausto novamente, em vez disso, o personagem fica inconsciente."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 19,
+            "title": "Fascinado",
+            "description": "Você está fascinado",
+            "img": "star-struck.svg",
+            "details": {
+              "description": "Você está com a atenção presa em alguma coisa. Efeito mental.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –5 em Percepção."
+                },
+                {
+                  "description": "O personagem não pode fazer ações, exceto observar aquilo que o fascinou."
+                },
+                {
+                  "description": "Esta condição é anulada por ações hostis contra o personagem ou se o que o fascinou não estiver mais visível."
+                },
+                {
+                  "description": "Balançar uma criatura fascinada para tirá-la desse estado gasta uma ação padrão."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "394"
+              }
+            }
+          },
+          {
+            "id": 20,
+            "title": "Fatigado",
+            "description": "Você está fatigado",
+            "img": "despair.svg",
+            "details": {
+              "description": "Você está fatigado. Efeito de cansaço.",
+              "uses": [
+                {
+                  "description": "O personagem fica fraco e vulnerável."
+                },
+                {
+                  "description": "Se ficar fatigado novamente, em vez disso fica exausto."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 21,
+            "title": "Fraco",
+            "description": "Você está fraco",
+            "img": "weight-lifting-down.svg",
+            "details": {
+              "description": "Você está fraco.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –2 em testes de Força, Destreza e Constituição e de perícias baseadas nesses atributos."
+                },
+                {
+                  "description": "Se ficar fraco novamente, em vez disso fica debilitado."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 22,
+            "title": "Frustrado",
+            "description": "Você está frustrado",
+            "img": "sleepy.svg",
+            "details": {
+              "description": "Você está frustrado. Efeito mental.",
+              "uses": [
+                {
+                  "description": " O personagem sofre –2 em testes de Inteligência, Sabedoria e Carisma e de perícias baseadas nesses atributos."
+                },
+                {
+                  "description": "Se ficar frustrado novamente, em vez disso fica esmorecido."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 23,
+            "title": "Imóvel",
+            "description": "Você está imóvel",
+            "img": "imprisoned.svg",
+            "details": {
+              "description": "Você está imóvel. Efeito de movimento.",
+              "uses": [
+                {
+                  "description": "Todas as formas de deslocamento do personagem são reduzidas a 0m."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 24,
+            "title": "Inconsciente",
+            "description": "Você está inconsciente",
+            "img": "dead-head.svg",
+            "details": {
+              "description": "Você está inconsciente.",
+              "uses": [
+                {
+                  "description": "O personagem fica indefeso."
+                },
+                {
+                  "description": "O personagem não pode fazer ações, incluindo reações, mas ainda pode fazer testes que sejam naturalmente feitos quando se está inconsciente, como testes de Constituição para estabilizar sangramento."
+                },
+                {
+                  "description": "Balançar uma criatura para acordá-la gasta uma ação padrão."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 25,
+            "title": "Indefeso",
+            "description": "Você está indefeso",
+            "img": "giant.svg",
+            "details": {
+              "description": "Você está indefeso.",
+              "uses": [
+                {
+                  "description": "O personagem fica desprevenido, mas sofre –10 na Defesa."
+                },
+                {
+                  "description": "O personagem falha automaticamente em testes de Reflexo."
+                },
+                {
+                  "description": "O personagem pode sofrer golpes de misericórdia."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 26,
+            "title": "Lento",
+            "description": "Você está lento",
+            "img": "sticky-boot.svg",
+            "details": {
+              "description": "Você está lento. Efeito de movimento.",
+              "uses": [
+                {
+                  "description": "Todas as formas de deslocamento do personagem são reduzidas à metade (arredonde para baixo para o primeiro incremento de 1,5m)."
+                },
+                {
+                  "description": "O personagem não pode correr ou fazer investidas."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 27,
+            "title": "Ofuscado",
+            "description": "Você está ofuscado",
+            "img": "bleeding-eye.svg",
+            "details": {
+              "description": "Você está ofuscado. Efeito nos sentidos.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –2 em testes de ataque e de Percepção."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 28,
+            "title": "Paralisado",
+            "description": "Você está paralisado",
+            "img": "frozen-body.svg",
+            "details": {
+              "description": "Você está paralisado. Efeito de movimento.",
+              "uses": [
+                {
+                  "description": "O personagem fica imóvel e indefeso."
+                },
+                {
+                  "description": "O personagem só pode realizar ações puramente mentais."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 29,
+            "title": "Pasmo",
+            "description": "Você está pasmo",
+            "img": "terror.svg",
+            "details": {
+              "description": "Você está pasmo. Efeito mental.",
+              "uses": [
+                {
+                  "description": "O personagem não pode fazer ações."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 30,
+            "title": "Petrificado",
+            "description": "Você está petrificado",
+            "img": "gargoyle.svg",
+            "details": {
+              "description": "Você está petrificado. Efeito de metamorfose.",
+              "uses": [
+                {
+                  "description": "O personagem fica inconsciente."
+                },
+                {
+                  "description": "O personagem recebe redução de dano 8."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 31,
+            "title": "Sangrando",
+            "description": "Você está sangrando",
+            "img": "cut-palm.svg",
+            "details": {
+              "description": "Você está sangrando. Efeito de metabolismo.",
+              "uses": [
+                {
+                  "description": "No início de seu turno, o personagem deve fazer um teste de Constituição (CD 15). Se falhar, perde 1d6 pontos de vida e continua sangrando. Se passar, remove essa condição."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 32,
+            "title": "Sobrecarregado",
+            "description": "Você está sobrecarregado",
+            "img": "robber.svg",
+            "details": {
+              "description": "Você está sobrecarregado. Efeito de movimento.",
+              "uses": [
+                {
+                  "description": "O personagem sofre penalidade de armadura –5."
+                },
+                {
+                  "description": "O deslocamento do personagem é reduzido –3m."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 33,
+            "title": "Surdo",
+            "description": "Você está surdo",
+            "img": "human-ear.svg",
+            "details": {
+              "description": "Você está surdo. Efeito nos sentidos.",
+              "uses": [
+                {
+                  "description": "O personagem não pode fazer testes de Percepção para ouvir."
+                },
+                {
+                  "description": "O personagem sofre –5 em testes de Iniciativa."
+                },
+                {
+                  "description": "O personagem é considerado em condição ruim para lançar magias."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 34,
+            "title": "Surpreendido",
+            "description": "Você está surpreendido",
+            "img": "surprised.svg",
+            "details": {
+              "description": "Você está surpreendido.",
+              "uses": [
+                {
+                  "description": "O personagem fica desprevenido."
+                },
+                {
+                  "description": "O personagem não pode fazer ações."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          },
+          {
+            "id": 35,
+            "title": "Vulnerável",
+            "description": "Você está vulnerável",
+            "img": "cracked-shield.svg",
+            "details": {
+              "description": "Você está vulnerável.",
+              "uses": [
+                {
+                  "description": "O personagem sofre –2 na Defesa."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "395"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Perigos",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Perigo",
+        "description": "Aventureiros não precisam se preocupar apenas com monstros e inimigos — Arton é um mundo de problemas e a vida dos heróis é sempre arriscada!",
+        "items": [
+          {
+            "id": 1,
+            "title": "Ácido",
+            "description": "Exposição a ácido",
+            "img": "acid.svg",
+            "details": {
+              "description": "Exposição a ácido.",
+              "uses": [
+                {
+                  "description": "Ácidos corrosivos causam 1d6 pontos de dano por rodada de exposição."
+                },
+                {
+                  "title": "Imersão Total",
+                  "description": "Causa 10d6 pontos de dano por rodada e o dano persiste por uma rodada adicional."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "317"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Aria Movediça",
+            "description": "Engole objetos e criaturas",
+            "img": "quicksand.svg",
+            "details": {
+              "description": "Presente em pântanos e desertos, pode engolir criaturas ou objetos para dentro de si. Em geral, areia movediça ocupa um quadrado com 6m de lado.",
+              "uses": [
+                {
+                  "description": "Um personagem deve passar em um teste de Sobrevivência (CD 25) para notar areia movediça à frente."
+                },
+                {
+                  "description": "Se entrar na área da areia, fica o personagem fica agarrado."
+                },
+                {
+                  "description": "Se passar uma rodada inteira agarrado, o personagem submerge e precisa prender a respiração. Consulte o perigo Sufocamento."
+                },
+                {
+                  "description": "Uma criatura na areia movediça pode gastar uma ação completa e fazer um teste de Atletismo (CD 25) para escapar. Se estava submersa, fica agarrada. Se estava agarrada, fica livre na margem da areia."
+                },
+                {
+                  "description": "Se falhar por 5 ou mais no teste de Atletismo, o personagem fica fatigado (se já estava fatigado, fica exausto e, se já estava exausto, fica inconsciente, provavelmente morrendo...)."
+                },
+                {
+                  "description": "Personagens fora da área de areia movediça podem ajudar no teste de Atletismo (alcançando um galho, vara ou corda para a vítima, por exemplo)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "317"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Armadilhas",
+            "description": "Afastar intrometidos",
+            "img": "wolf-trap.svg",
+            "details": {
+              "description": "Vilões adoram forrar seus covis de armadilhas para afastar aventureiros intrometidos. Mesmo antigos templos e masmorras abandonadas podem conter dispositivos diabólicos protegendo seus tesouros.",
+              "uses": [
+                {
+                  "description": "Um personagem deve fazer um teste de Ladinagem para desarmar uma armadilha (a CD varia conforme a armadilha)."
+                },
+                {
+                  "description": "Se estiver escondida, um personagem deve fazer um teste de Investigação para encontrar a armadilha (a CD varia conforme a armadilha)."
+                },
+                {
+                  "description": "Armadilhas mágicas podem ser anuladas com Dissipar Magia."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "317"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Doenças",
+            "description": "Exposição à doença",
+            "img": "medicine-pills.svg",
+            "details": {
+              "description": "Uma doença pode ser transmitida por contato, inalação ou ingestão. Consulte o perigo Veneno.",
+              "uses": [
+                {
+                  "description": "Um personagem exposto a uma doença deve fazer um teste de Fortitude (CD conforme a doença). Se falhar, é contaminado (mas ainda não sofre nenhum efeito)."
+                },
+                {
+                  "description": "Contaminação não é cumulativa; uma vez que contraia uma doença, o personagem não sofre efeitos adicionais por contrair novamente."
+                },
+                {
+                  "description": "Um personagem contaminado deve repetir o teste de Fortitude no início de cada dia. Se falhar, sofre o efeito da doença naquele dia. Se passar, não sofre o efeito. Se passar por dois dias seguidos, estará curado."
+                },
+                {
+                  "description": "Algumas doenças possuem efeitos progressivos. Se o personagem falhar no teste de Fortitude, sofre o primeiro efeito. Se falhar em dois testes seguidos, sofre o segundo efeito, e assim por diante."
+                },
+                {
+                  "description": "Um personagem que tenha sofrido um efeito progressivo e passe no teste sofre o efeito anterior naquele dia."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "318"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Escuridão",
+            "description": "Leve ou total",
+            "img": "worried-eyes.svg",
+            "details": {
+              "description": "Escuridão é dividida em leve e total.",
+              "uses": [
+                {
+                  "title": "Escuridão Leve",
+                  "description": "Qualquer situação de penumbra, como uma noite enluarada ou os cantos da cidade ao longe dos postes com seus lampiões. Fornece camuflagem leve."
+                },
+                {
+                  "title": "Escuridão Total",
+                  "description": "O breu da noite sem estrelas ou luar, longe de qualquer fonte de luz, ou uma câmara totalmente fechada ou nos subterrâneos, longe da entrada. Fornece camuflagem total."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "318"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Fogo",
+            "description": "Exposição a fogo",
+            "img": "small-fire.svg",
+            "details": {
+              "description": "Exposição a fogo.",
+              "uses": [
+                {
+                  "description": "Um personagem exposto a fogo deve fazer um teste de Reflexos (CD 15). Se falhar, fica em chamas, sofrendo 1d6 pontos de dano de fogo no início de seus turnos."
+                },
+                {
+                  "description": "O personagem pode gastar uma ação padrão para apagar o fogo com as mãos."
+                },
+                {
+                  "description": "Imersão em água também apaga as chamas."
+                },
+                {
+                  "description": "Fogo provocado por efeitos instantâneos, como nas magias Explosão de Chamas e Bola de Fogo, não dura o suficiente para incendiar alguém."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Fome e Sede",
+            "description": "Sem água ou comida",
+            "img": "hot-dog.svg",
+            "details": {
+              "description": "Sem água ou comida por mais de um dia. Efeito de metabolismo.",
+              "uses": [
+                {
+                  "description": "Um personagem pode resistir um dia inteiro sem água ou comida sem maiores problemas."
+                },
+                {
+                  "description": "Depois disso, deve fazer um teste de Fortitude por dia (CD 15 +1 por teste anterior). Se falhar, fica fatigado. Se falhar novamente, fica exausto. Se falhar pela terceira vez, fica inconsciente. A quarta falha é letal."
+                },
+                {
+                  "description": "Condições causadas por fome e sede só podem ser curadas por comida e bebida."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Fumaça",
+            "description": "Imerso em fumaça",
+            "img": "chimney.svg",
+            "details": {
+              "description": "Imerso em fumaça. Efeito de metabolismo.",
+              "uses": [
+                {
+                  "description": "Um personagem imerso em fumaça densa deve fazer um teste de Fortitude no início de cada um de seus turnos (CD 10 +1 por teste anterior)."
+                },
+                {
+                  "description": "Se falhar o personagem perde o turno engasgando-se e tossindo, sem conseguir realizar nenhuma outra ação."
+                },
+                {
+                  "description": "Falhar em dois testes seguidos causa a perda de 1d6 pontos de vida."
+                },
+                {
+                  "description": "Fumaça também obscurece a visão, fornecendo camuflagem leve às criaturas em seu interior."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Lava",
+            "description": "Exposição a lava",
+            "img": "caldera.svg",
+            "details": {
+              "description": "Exposição a lava, magma e outros materiais incandescentes.",
+              "uses": [
+                {
+                  "description": "Lava, magma e outros materiais incandescentes causam 2d6 pontos de dano de fogo por rodada de exposição direta."
+                },
+                {
+                  "title": "Imersão Total",
+                  "description": "Causa 20d6 pontos de dano de fogo por rodada e o dano persiste por uma rodada adicional."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Queda",
+            "description": "Em queda livre",
+            "img": "falling.svg",
+            "details": {
+              "description": "Em queda livre.",
+              "uses": [
+                {
+                  "description": "Uma queda causa 1d6 pontos de dano de impacto para cada 1,5m, até um máximo de 40d6 para uma queda de 60m."
+                },
+                {
+                  "description": "Em caso de queda na água, reduza o dano em 6m (ou seja, –4d6)."
+                },
+                {
+                  "description": "Um objeto pesado (pedra, baú, barril...) que caia sobre uma criatura também causa 1d6 pontos de dano para cada 1,5m da queda. Dobre o dano para um objeto muito pesado (rocha, altar, carroça...)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": "Sono",
+            "description": "Sem dormir",
+            "img": "sleeping-bag.svg",
+            "details": {
+              "description": "Sem dormir por mais de um dia.",
+              "uses": [
+                {
+                  "description": "Um personagem pode ficar uma noite sem dormir sem problemas — embora não recupere PV e PM."
+                },
+                {
+                  "description": "Depois disso, deve fazer um teste de Fortitude por dia sem dormir (CD 15 +1 por teste anterior). Se falhar, fica fatigado. Se já estiver fatigado, fica exausto. Se já estiver exausto, cai inconsciente e não pode ser acordado até dormir pelo menos oito horas."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "title": "Sufocamento",
+            "description": "Prender a respiração",
+            "img": "drowning.svg",
+            "details": {
+              "description": "Prender a respiração. Efeito de metabolismo.",
+              "uses": [
+                {
+                  "description": "Um personagem pode prender a respiração por um número de rodadas igual a 1 + sua Constituição."
+                },
+                {
+                  "description": "Depois disso, deve fazer um teste de Fortitude por rodada (CD 15 +1 por teste anterior). Se falhar, cai inconsciente e perde 1d6 PV por rodada até respirar novamente ou morrer."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "title": "Tormenta",
+            "description": "Área de Tormenta",
+            "img": "lightning-tree.svg",
+            "details": {
+              "description": "Como uma infecção que ataca Arton, a Tormenta corrompe tudo e todos: seres vivos, objetos, o terreno, até o próprio espaço e tempo.",
+              "uses": [
+                {
+                  "description": "Ao entrar em uma área de Tormenta, uma criatura fica automaticamente frustrada, à medida que sua mente luta contra a insanidade."
+                },
+                {
+                  "description": "No início de cada dia na área, a criatura deve fazer um teste de Vontade (CD 25 + 2 por dia anterior consecutivo) ou ficará esmorecida pelo dia."
+                },
+                {
+                  "description": "Se já estava esmorecida, fica confusa pelo dia. Se já estava confusa, fica completamente insana — se era um personagem, se torna um NPC maligno sob controle do mestre."
+                },
+                {
+                  "description": "Enquanto estiver na área de Tormenta, magias e habilidades com custo em pontos de mana têm seus custos aumentados em 2 PM e itens mágicos encantados perdem um de seus encantamentos (a escolha do portador)."
+                },
+                {
+                  "description": "A recuperação de PV e PM por descanso é reduzida à metade (após aplicar outros efeitos que afetem sua recuperação)."
+                },
+                {
+                  "description": "Lefeu e lefou são imunes a todos esses efeitos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "319"
+              }
+            }
+          },
+          {
+            "id": 14,
+            "title": "Veneno",
+            "description": "Exposição a veneno",
+            "img": "poison-bottle.svg",
+            "details": {
+              "description": "Um veneno pode ser inoculado por contato, inalação ou ingestão.",
+              "uses": [
+                {
+                  "description": "Uma criatura exposta a um veneno deve fazer um teste de Fortitude (CD definida pelo aplicador do veneno, atributo-chave Inteligência). Se falhar, sofre o efeito do veneno (alguns venenos afetam vítimas que passam no teste de resistências, mas com efeito reduzido)."
+                },
+                {
+                  "description": "Efeitos que não sejam instantâneos, como perda de PV recorrente ou condições, deixam a vítima com a condição envenenada, e curar esta condição encerra quaisquer efeitos de veneno (mas não recupera PV perdidos)."
+                },
+                {
+                  "title": "Contato",
+                  "description": "Inoculados via um ataque que acerte (ou se a vítima toca o objeto envenenado). Aplicar um veneno em uma arma exige uma ação de movimento e uma rolagem de 1d6. Se você rolar 1, se envenena acidentalmente. O veneno permanece na arma até acertar um ataque ou até o fim da cena (o que acontecer primeiro)."
+                },
+                {                  
+                  "title": "Inalação",
+                  "description": " Inoculados via respiração. São armazenados em frascos que podem ser arremessados em alcance curto. Quando o frasco se quebra, libera o veneno num cubo com 3m de lado. Todas as criaturas na área são expostas — prender a respiração não impede a inoculação."
+                },
+                {
+                  "title": "Ingestão",
+                  "description": "Inoculados através da ingestão de comida ou bebida."
+                },
+                {
+                  "description": "Exceto se indicado o contrário, a CD para fabricar qualquer veneno é 20."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "161"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Ambiente",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Clima",
+        "description": "O clima pode ser um aspecto importante de uma cena — uma batalha sob uma tempestade costuma ser mais dramática que lutar em um belo dia de sol!",
+        "items": [
+          {
+            "id": 1,
+            "title": "Temperatura",
+            "description": "Calor, frio e neblina",
+            "img": "thermometer-hot.svg",
+            "details": {
+              "description": "O clima pode ser um aspecto importante de uma cena.",
+              "uses": [
+                {
+                  "title": "Calor e Frio",
+                  "description": "Um personagem em clima muito quente (acima de 50º C) ou muito frio (abaixo de –10º C) deve fazer um teste de Fortitude por dia (CD 15 +1 por teste anterior). Se falhar sofre 1d6 pontos de dano de fogo ou frio que só pode ser curado após sair do clima quente ou frio. Em calor ou frio extremos (acima de 60º C ou abaixo de –20º C) o teste deve ser feito por minuto."
+                },
+                {
+                  "title": "Neblina",
+                  "description": "Fornece camuflagem. Neblina espessa fornece camuflagem leve a criaturas a 1,5m e camuflagem total a criaturas a mais de 1,5m."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "267"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Precipitações",
+            "description": "Chuva, tempestade...",
+            "img": "raining.svg",
+            "details": {
+              "description": "O clima pode ser um aspecto importante de uma cena.",
+              "uses": [
+                {
+                  "title": "Chuva",
+                  "description": "–5 em testes de Percepção e os mesmos efeitos de vento forte."
+                },
+                {
+                  "title": "Granizo",
+                  "description": "Como chuva, mas no início de cada rodada, todas as criaturas sofrem 1 ponto de dano de impacto."
+                },
+                {
+                  "title": "Neve",
+                  "description": "Como chuva, mas cria terreno difícil."
+                },
+                {
+                  "title": "Tempestade",
+                  "description": "–10 em testes de Percepção e os mesmos efeitos de vendaval. No início de cada rodada, há 10% de chance de uma criatura aleatória ser atingida por um raio (8d10 pontos de dano de eletricidade)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "267"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Vento",
+            "description": "Vendaval, furacão...",
+            "img": "tornado.svg",
+            "details": {
+              "description": "O clima pode ser um aspecto importante de uma cena.",
+              "uses": [
+                {
+                  "title": "Vento Forte",
+                  "description": "–2 em testes de ataque à distância e 50% de chance por rodada de apagar chamas ou dissipar névoas."
+                },
+                {
+                  "title": "Vendaval",
+                  "description": "–5 em testes de ataque à distância. Apaga chamas e dissipa névoas."
+                },
+                {
+                  "title": "Furacão",
+                  "description": "Torna ataques à distância impossíveis, apaga chamas e dissipa névoas. No início de cada rodada, criaturas Médias ou menores devem passar em um teste de Fortitude (CD 15) ou caem, são arrastadas 1d4 x 1,5m na direção do vento e sofrem 1d6 pontos de dano de impacto para cada 1,5m."
+                },
+                {
+                  "title": "Tornado",
+                  "description": "Torna ataques à distância impossíveis, apaga chamas e dissipa névoas. No início de cada rodada, criaturas Grandes ou menores devem passar em um teste de Fortitude (CD 25) ou caem, são arrastadas 1d12 x 1,5m na direção do vento e sofrem 1d6 pontos de dano de impacto para cada 1,5m."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "267"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Terreno",
+        "description": "Terrenos são agrupados em colinas, desertos, florestas, montanhas, pântanos, planícies, árticos e aquáticos.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Colinas",
+            "description": "Inclinações e penhascos",
+            "img": "hills.svg",
+            "details": {
+              "description": "Um tipo de terreno caracterizado por ondulações (suaves ou íngremes) e eventuais penhascos.",
+              "uses": [
+                {
+                  "title": "Inclinação Suave",
+                  "description": "Não afeta o movimento, mas personagens no lado superior recebem bônus por terreno elevado contra personagens no lado inferior."
+                },
+                {
+                  "title": "Inclinação Íngreme",
+                  "description": "Conta como terreno difícil para subir. Descer uma inclinação íngreme correndo ou fazendo uma investida exige um teste de Acrobacia (ou Cavalgar, se você estiver montado; CD 10). Em caso de falha, você cai no chão, rola 1d4 x 1,5m para frente (ou até o fim da inclinação) e sofre 1d6 pontos de dano de impacto por 1,5m rolados."
+                },
+                {
+                  "title": "Penhasco",
+                  "description": "Um rochedo alto e escarpado, um penhasco típico tem 1d6 x 3m de altura. Escalar um penhasco exige um teste de Atletismo (CD 15)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "268"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Desertos",
+            "description": "Dunas",
+            "img": "desert.svg",
+            "details": {
+              "description": "Lugares áridos e quentes.",
+              "uses": [
+                {
+                  "title": "Dunas",
+                  "description": "Formadas pela ação do vento sobre a areia, dunas funcionam como inclinações íngremes. Porém, cair e rolar de uma duna não causa dano."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "268"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Florestas",
+            "description": "Árvores e vegetação rasteira",
+            "img": "forest.svg",
+            "details": {
+              "description": "Incluem florestas fechadas e abertas (bosques). Florestas fechadas são cobertas de árvores largas, folhagens e vegetação rasteira. Bosques normalmente possuem apenas árvores estreita",
+              "uses": [
+                {
+                  "title": "Árvores",
+                  "description": "Podem ser estreitas (com menos de 1,5m de largura) ou largas (com mais de 1,5m de largura). Uma árvore estreita tem RD 5 e 100 PV. Um personagem pode ficar no mesmo espaço de uma árvore estreita e receber cobertura leve. Uma árvore larga possui RD 5 e 500 PV. Um personagem não pode ficar no mesmo espaço de uma árvore larga, mas pode ficar atrás dela para ganhar cobertura leve. Subir numa árvore exige um teste de Atletismo (CD 15). Um personagem no topo de uma árvore precisa se equilibrar (CD 15; veja Acrobacia, na página 115). Um personagem no topo de uma árvore larga recebe camuflagem leve contra criaturas no solo."
+                },
+                {
+                  "title": "Folhagens",
+                  "description": "Moitas e arbustos contam como terreno difícil e fornecem camuflagem leve a criaturas dentro deles."
+                },
+                {
+                  "title": "Vegetação Rasteira",
+                  "description": "Raízes, vinhas e outros tipos de vegetação rasteira contam como terreno difícil. Além disso, impõem penalidade de –2 em teste de Furtividade pelas folhas secas e galhos caídos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "268"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Montanhas",
+            "description": "Altitude, abismos...",
+            "img": "peaks.svg",
+            "details": {
+              "description": "O início de um terreno montanhoso é normalmente marcado por inclinações e penhascos.",
+              "uses": [
+                {
+                  "title": "Abismo",
+                  "description": "Uma fenda no chão, normalmente com 1d4 x 1,5m de largura e 2d4 x 3m de profundidade. Escalar para fora de um abismo exige um teste de Atletismo (CD 20)."
+                },
+                {
+                  "title": "Altitude",
+                  "description": "A falta de oxigênio de grandes altitudes pode ser letal. Um personagem no cume de uma montanha deve fazer um teste de Fortitude (CD 15 + 1 por teste anterior) por dia. Em caso de falha, fica fatigado até descer (se já estava fatigado, fica exausto)."
+                },
+                {
+                  "title": "Paredão",
+                  "description": "Um penhasco vertical e muito alto, normalmente com 2d6 x 3m de altura. Escalar um paredão exige um teste de Atletismo (CD 25)."
+                },
+                {
+                  "title": "Seixos",
+                  "description": "Em montanhas, inclinações íngremes às vezes são cobertas de pedrinhas. Nesse caso, a CD do teste para descer a inclinação numa corrida ou investida aumenta para 15."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "268"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Pântanos",
+            "description": "Lodaçal",
+            "img": "swamp.svg",
+            "details": {
+              "description": "Inclui brejos, charcos, mangues (pântanos de água salgada) e qualquer tipo de terreno alagado. Pântanos possuem muita vegetação rasteira, folhagens e árvores, além de água parada e lodaçais.",
+              "uses": [
+                {
+                  "title": "Lodaçal",
+                  "description": "Poças com uma mistura de água e lama que atrapalha os movimentos. Um lodaçal conta como terreno difícil e impõe a condição vulnerável a qualquer personagem dentro dele."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "268"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Planícies",
+            "description": "Trincheiras",
+            "img": "horizon-road.svg",
+            "details": {
+              "description": "Incluem estradas, pastos, fazendas e campos de batalha. Normalmente, não há elementos associados a planícies, embora às vezes elas contenham vegetação rasteira. Campos de batalha, porém, muitas vezes possuem trincheiras.",
+              "uses": [
+                {
+                  "title": "Trincheira",
+                  "description": "Uma vala escavada no solo para proteger soldados. Um personagem em uma trincheira recebe cobertura leve contra ataques à distância. Sair de uma trincheira conta como terreno difícil. Essa regra pode ser usada para valas, leitos de rio secos e acidentes geográficos similares."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "268"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Ártico",
+            "description": "Gelo e rio congelado",
+            "img": "cool-spices.svg",
+            "details": {
+              "description": "Qualquer região fria. Normalmente, regiões árticas são montanhas ou desertos gelados (tundras).",
+              "uses": [
+                {
+                  "title": "Gelo",
+                  "description": "Você pode andar no gelo à metade do seu deslocamento sem testes. Porém, andar em seu deslocamento normal, correr, fazer uma investida ou sofrer dano sobre o gelo exige um teste de Acrobacia (CD 15, no caso de movimento, ou igual ao dano sofrido). Em caso de falha, você cai e desliza 1d4 x 1,5m (para a frente, no caso de movimento, ou na direção do ataque, no caso de dano sofrido)."
+                },
+                {
+                  "title": "Rio Congelado",
+                  "description": "Andar sobre um rio congelado é como andar sobre gelo. Se você cair e rolar 1 no d4 para determinar quanto desliza, o gelo quebra e você afunda. Se você afundar, sofre 1d6 pontos de dano de frio por rodada e precisa nadar. Sair exige estar debaixo de um buraco no gelo e gastar uma ação de movimento para se erguer. Abrir um buraco exige causar 10 pontos de dano de impacto ou fogo."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "269"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Aquático",
+            "description": "Água corrente e parada",
+            "img": "river.svg",
+            "details": {
+              "description": "Este tipo de terreno é dividido em água corrente (rios e mar agitado) e parada (lagos e mar calmo).",
+              "uses": [
+                {
+                  "title": "Água Corrente",
+                  "description": "A velocidade típica de uma correnteza é 1d6 x 3m por rodada. No fim de cada rodada, todos os personagens na água são arrastados nessa velocidade na direção da correnteza. A CD de testes de Atletismo para nadar em um rio é 15 (para correntezas de 9m por rodada ou menos) ou 20 (para correntezas mais rápidas). Sair de uma correnteza com velocidade de 15m ou mais exige chegar até a margem ou ponto de apoio (como um bote ou uma tábua flutuante), então gastar uma ação de movimento e passar num teste de Atletismo (CD 20) para agarrar alguma coisa (galho, raiz, corda...). Se falhar, o personagem não consegue agarrar nada (e, no fim da rodada, será levado pela correnteza)."
+                },
+                {
+                  "title": "Água Parada",
+                  "description": "Água parada exige testes de Atletismo para nadar, conforme a descrição da perícia, mas não possui nenhum outro modificador."
+                },
+                {
+                  "title": "Personagens Submersos",
+                  "description": "Criaturas debaixo d’água não podem falar (e, portanto, lançar magias) e sofrem –2 em testes de ataque e –5 em testes de Percepção. Eles só podem se deslocar fazendo testes de Atletismo para nadar. Criaturas com deslocamento de natação não sofrem essas penalidades. Armas de ataque à distância não podem ser usadas (com exceção de armas de arremesso de perfuração, bestas e redes) e armas de corte e impacto causam metade do dano debaixo d’água. Por fim, criaturas submersas recebem camuflagem e cobertura leves contra personagens fora d’água."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "269"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Deuses",
+    "subsections": [
+      {
+        "id": 9,
+        "title": "Deus",
+        "description": "O panteão de Arton é composto por vinte divindades maiores.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Aharadak",
+            "description": "Deus da Tormenta",
+            "img": "octogonal-eye.svg",
+            "details": {
+              "description": "Os devotos do Deus da Tormenta creem que devem reverenciar a Tormenta, apregoar a inevitabilidade de sua chegada ao mundo. Praticar a devassidão e a perversão. Deturpar tudo que é correto, desfigurar tudo que é normal. Abraçar a agonia, crueldade e loucura.",
+              "uses": [
+                {
+                  "description": "No início de qualquer cena de ação, devotos de Aharadak rolam 1d6. Com um resultado ímpar, eles ficam fascinados na primeira rodada, perdidos em devaneios sobre a futilidade da vida (mesmo que sejam imunes a esta condição)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "96"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Allihanna",
+            "description": "Deusa da Natureza",
+            "img": "beech.svg",
+            "details": {
+              "description": "Os devotos da Deusa da Natureza creem que devem reverenciar os seres da natureza. Proteger a vida selvagem. Promover harmonia entre a natureza e a civilização. Combater monstros, mortos-vivos e outras criaturas que perturbam o equilíbrio natural.",
+              "uses": [
+                {
+                  "description": "Devotos de Allihanna não podem usar armaduras e escudos feitos de metal. Assim, eles só podem usar armadura acolchoada, de couro, gibão de peles e escudo leve, ou itens feitos de materiais especiais não metálicos."
+                },
+                {
+                  "description": "Devotos de Allihanna não podem descansar em nenhuma comunidade maior que uma aldeia (não perdem seus poderes, mas também não recuperam pontos de vida ou mana). Por isso, sempre preferem o relento a um quarto de estalagem."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "97"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Arsenal",
+            "description": "Deus da Guerra",
+            "img": "thor-hammer.svg",
+            "details": {
+              "description": "Os devotos da Deus da Guerra creem que devem promover a guerra e o conflito. Vencer a qualquer custo, pela força ou estratégia. Jamais oferecer ou aceitar rendição. Eliminar as próprias fraquezas. Conhecer o inimigo como a si mesmo. Sempre encontrar condições de vitória; quando não existirem, criá-las.",
+              "uses": [
+                {
+                  "description": "Um devoto de Arsenal é proibido de ser derrotado em qualquer tipo de combate ou disputa (como um teste oposto para ver quem é mais forte). Caso seu grupo seja derrotado, isso também constitui uma violação das obrigações."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "98"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Azgher",
+            "description": "Deus Sol",
+            "img": "sun.svg",
+            "details": {
+              "description": "Os devotos do Deus Sol creem que devem praticar a gratidão pela proteção e generosidade do sol. Promover a honestidade, expor embustes e mentiras. Praticar a caridade e o altruísmo. Proteger os necessitados. Oferecer clemência, perdão e redenção. Combater o mal.",
+              "uses": [
+                {
+                  "description": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote ou em seu funeral."
+                },
+                {
+                  "description": "Devotos do Sol devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "98"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Hyninn",
+            "description": "Deusa da Trapaça",
+            "img": "fox.svg",
+            "details": {
+              "description": "Os devotos da Deusa da Trapaça creem que devem praticar a astúcia e a esperteza. Demonstrar que honestidade e sinceridade levam ao fracasso. Desafiar a lei e a ordem. Ser vitorioso sem seguir regras. Fazer aos outros antes que façam a você. Levar vantagem em tudo.",
+              "uses": [
+                {
+                  "description": "O devoto deve fazer um ato furtivo, ousado ou proibido por dia (ou por sessão de jogo, o que demorar mais), como oferenda a Hyninn. Em termos de jogo, uma ação exigindo um teste de Enganação ou Ladinagem com CD mínima 15 + metade do seu nível."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "98"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Kallyadranoch",
+            "description": "Deus dos Dragões",
+            "img": "spiked-dragon-head.svg",
+            "details": {
+              "description": "Os devotos do Deus dos Dragões creem que devem praticar a soberania. Demonstrar orgulho, superioridade, majestade. Praticar o acúmulo de riquezas. Proteger suas posses e sua dignidade. Ser implacável com seus inimigos. Reverenciar os dragões e suas crias.",
+              "uses": [
+                {
+                  "description": "Para subir de nível, além de acumular XP suficiente, o devoto de Kally deve realizar uma oferenda em tesouro. O valor é igual à 20% da diferença do dinheiro inicial do nível que vai alcançar para o nível atual."
+                },
+                {
+                  "description": "Sabe-se, também, de devotos malignos que sacrificam vítimas a Kally (não permitido para personagens jogadores)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "99"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Khalmyr",
+            "description": "Deus da Justiça",
+            "img": "scales.svg",
+            "details": {
+              "description": "Os devotos do Deus da Justiça creem que devem praticar a caridade e o altruísmo. Defender a lei, a ordem e os necessitados. Combater a mentira, o crime e o mal. Oferecer clemência, perdão e redenção. Lutar o bom combate.",
+              "uses": [
+                {
+                  "description": "Devotos de Khalmyr não podem recusar pedidos de ajuda de pessoas inocentes. Devem cumprir as ordens de superiores na hierarquia da igreja (devotos do Deus da Justiça de nível maior) e só podem usar itens mágicos permanentes criados por devotos do mesmo deus."
+                },
+                {
+                  "description": "Devotos de Khalmyr devem cumprir as ordens de superiores na hierarquia da igreja (devotos do Deus da Justiça de nível maior)."
+                },
+                {
+                  "description": "Devotos de Khalmyr só podem usar itens mágicos permanentes criados por devotos do mesmo deus."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "0"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Lena",
+            "description": "Deusa da Vida",
+            "img": "moon.svg",
+            "details": {
+              "description": "Os devotos da Deusa da Vida creem que devem reverenciar e proteger a vida em todas as suas formas. Reverenciar a fertilidade, a fecundidade, a maternidade e a infância. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção. Aliviar a dor e o sofrimento físico, mental ou espiritual.",
+              "uses": [
+                {
+                  "description": "Devotos de Lena não podem causar dano letal ou perda de PV a criaturas vivas (fornecer bônus em dano letal também é proibido). Mas podem causar dano não letal e prejudicar seus inimigos (em termos de jogo, impondo condições)."
+                },
+                {
+                  "description": "Para um devoto de Lena, é preferível perder a própria vida a tirá-la de outros."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "99"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Lin-Wu",
+            "description": "Deus Samurai",
+            "img": "sea-dragon.svg",
+            "details": {
+              "description": "Os devotos do Deus Samurai creem que devem promover a honra acima de tudo. Proteger Tamu-ra e o Reinado de Arton. Praticar honestidade, coragem, cortesia e compaixão. Demonstrar integridade e dignidade. Ser leal a seus companheiros. Buscar redenção após cometer desonra.",
+              "uses": [
+                {
+                  "description": "Devotos de Lin-Wu devem demonstrar comportamento honrado, jamais recorrendo a mentiras e subterfúgios. Em termos de jogo, são proibidos de tentar qualquer ação que exigiria um teste de Enganação, Furtividade ou Ladinagem."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "100"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Marah",
+            "description": "Deusa da Paz",
+            "img": "heart-wings.svg",
+            "details": {
+              "description": "Os devotos da Deusa da Paz creem que devem praticar o amor e a gratidão pela vida e pela bondade. Promover a paz, harmonia e felicidade. Aliviar a dor e o sofrimento, trazer conforto aos aflitos. Praticar a caridade e o altruísmo. Oferecer clemência, perdão e redenção.",
+              "uses": [
+                {
+                  "description": "Devotos de Marah não podem causar dano, perda de PV e condições a criaturas, exceto enfeitiçado, fascinado e pasmo (fornecer bônus em dano também é proibido)."
+                },
+                {
+                  "description": "Em combate, só podem recorrer a ações como proteger ou curar — ou fugir, render-se ou aceitar a morte."
+                }
+                ,
+                {
+                  "description": "Um devoto de Marah jamais vai causar violência, nem mesmo para se salvar."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "101" 
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": "Megalokk",
+            "description": "Deus dos Monstros",
+            "img": "grasping-claws.svg",
+            "details": {
+              "description": "Os devotos do Deus dos Monstros creem que devem Praticar a violência, a soberania do mais forte. Jamais reprimir os próprios instintos e desejos. Jamais ser domado, desafiar qualquer forma de controle. Jamais oferecer perdão ou rendição. Eliminar os fracos. Destruir seus inimigos.",
+              "uses": [
+                {
+                  "description": "Devotos de Megalokk são proibidos de usar perícias baseadas em Inteligência ou Carisma (exceto Adestramento e Intimidação)."
+                },
+                {
+                  "description": "Devotos de Megalokk não pode preparar uma ação, escolher 10 ou 20 em testes e lançar magias sustentadas (pois são ações que exigem foco e paciência)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "101"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "title": "Nimb",
+            "description": "Deus do Caos",
+            "img": "perspective-dice-six-faces-one.svg",
+            "details": {
+              "description": "Os devotos do Deus do Caos creem que devem reverenciar o caos, a aleatoriedade, a sorte e o azar. Praticar a ousadia e a rebeldia, desafiar regras e leis. Rejeitar o bom senso. Tornar o mundo mais interessante. Ou divertido. Ou terrível. Ou não.",
+              "uses": [
+                {
+                  "description": "Por serem incapazes de seguir regras, estes devotos não têm “obrigações” verdadeiras (portanto, nunca perdem PM por descumprirem suas obrigações e restrições)."
+                },
+                {
+                  "description": "Devotos de Nimb são loucos (ou agem como se fossem), não conseguindo convencer ninguém de coisa alguma. Você sofre –5 em testes de perícias baseadas em Carisma."
+                },
+                {
+                  "description": "No início de cada cena de ação, devotos de Nimb rolam 1d6. Com um resultado 1, eles ficam confusos (mesmo que sejam imunes a esta condição)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "102"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "title": "Oceano",
+            "description": "Deus dos Mares",
+            "img": "big-wave.svg",
+            "details": {
+              "description": "Os devotos do Deus dos Mares creem que devem reverenciar os mares, o oceano e os seres que ali habitam. Promover harmonia entre o oceano e o mundo seco. Proteger os seres marinhos, mas também os seres do mundo seco que se aventuram sobre as ondas. Demandar devido respeito ao mar e seu poder.",
+              "uses": [
+                {
+                  "description": "As únicas armas permitidas para devotos do Oceano são a azagaia, a lança, o tridente e a rede."
+                },
+                {
+                  "description": "Os devotos do Oceano podem usar apenas armaduras leves."
+                },
+                {
+                  "description": "O devoto não pode se manter afastado do oceano por mais de um mês."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "102"
+              }
+            }
+          },
+          {
+            "id": 14,
+            "title": "Sszzaas",
+            "description": "Deus da Traição ",
+            "img": "cobra.svg",
+            "details": {
+              "description": "Os devotos do Deus da Traição creem que devem praticar a mentira e a trapaça. Buscar sempre a solução mais inteligente. Demonstrar que lealdade e confiança são fraquezas, devem ser eliminadas. Promover competição, rivalidade, desconfiança. Usar os recursos do inimigo para alcançar seus objetivos. Levar outros a se sacrificarem em seu lugar.",
+              "uses": [
+                {
+                  "description": "O devoto deve fazer um ato de traição, intriga ou corrupção por dia (ou por sessão de jogo, o que demorar mais) como oferenda a Sszzaas. Pouco importa se o alvo é aliado ou inimigo. Em termos de jogo, uma ação exigindo um teste de Enganação com CD mínima 15 + metade do seu nível."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "103"
+              }
+            }
+          },
+          {
+            "id": 15,
+            "title": "Tanna-Toh",
+            "description": "Deusa do Conhecimento",
+            "img": "scroll-quill.svg",
+            "details": {
+              "description": "Os devotos da Deusa do Conhecimento creem que devem reverenciar a mente racional, o conhecimento, a civilização, a verdade. Proteger o progresso, o avanço dos povos civilizados. Promover o ensino e a prática das artes e das ciências. Solucionar todos os mistérios, revelar todas as mentiras. Buscar novo conhecimento. Não tolerar a ignorância.",
+              "uses": [
+                {
+                  "description": "Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida..."
+                },
+                {
+                  "description": "O devoto sempre deve dizer a verdade e nunca pode se recusar a responder uma pergunta direta, pouco importando as consequências. É proibido para ele esconder qualquer conhecimento."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "103"
+              }
+            }
+          },
+          {
+            "id": 16,
+            "title": "Tenebra",
+            "description": "Deusa das Trevas",
+            "img": "pentacle.svg",
+            "details": {
+              "description": "Os devotos da Deusa das Trevas creem que devem reverenciar a noite, a escuridão, a lua e as estrelas. Proteger segredos e mistérios, proteger tudo que é oculto e invisível. Reverenciar a não vida e os mortos-vivos, propagar a prática da necromancia. Rejeitar o sol e a luz.",
+              "uses": [
+                {
+                  "description": "Tenebra proíbe que seus devotos sejam tocados por Azgher, o odiado rival. O devoto deve se cobrir inteiramente durante o dia, sem expor ao sol nenhum pedaço de pele."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "104"
+              }
+            }
+          },
+          {
+            "id": 17,
+            "title": "Thwor",
+            "description": "Deus dos Goblinoides ",
+            "img": "fist.svg",
+            "details": {
+              "description": "Os devotos do Deus dos Goblinoides creem que devem reverenciar a lealdade, a força e a coragem. Promover a união entre goblins, hobgoblins, bugbears, orcs, ogros e outros povos humanoides. Reverenciar o caos, a mutação, a vida sempre em movimento. Proteger a cultura e o modo de vida goblinoide. Destruir os elfos.",
+              "uses": [
+                {
+                  "description": "Não importando sua raça, o devoto de Thwor deve ser duyshidakk — ou seja, aceito como membro do povo goblinoide."
+                },
+                {
+                  "description": "O devoto de Thwor deve se esforçar para que o “Mundo Como Deve Ser” tome o continente (T20, pág. 386)."
+                },
+                {
+                  "description": "Deve sempre procurar fazer alianças com goblinoides e só lutar contra eles em último caso."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "104"
+              }
+            }
+          },
+          {
+            "id": 18,
+            "title": "Thiatys",
+            "description": "Deus da Ressureição",
+            "img": "condor-emblem.svg",
+            "details": {
+              "description": "Os devotos do Deus da Ressureição creem que devem proteger a vida e aqueles necessitados de novas chances. Renegar a morte e a mentira. Ajudar os perdidos a encontrar seus caminhos e alcançar seus destinos. Oferecer clemência, perdão e redenção.",
+              "uses": [
+                {
+                  "description": "Devotos de Thyatis são proibidos de matar criaturas inteligentes (Inteligência –3 ou maior). Podem atacar e causar dano, mas jamais levar à morte."
+                },
+                {
+                  "description": "Por esse motivo, devotos de Thyatis preferem armas e ataques que apenas incapacitam seus oponentes ou causam dano não letal."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "0"
+              }
+            }
+          },
+          {
+            "id": 19,
+            "title": "Valkaria",
+            "description": "Deusa da Ambição",
+            "img": "atlas.svg",
+            "details": {
+              "description": "Os devotos da Deusa da Ambição creem que devem praticar o otimismo, a evolução, a rebeldia. Desafiar limites, almejar o impossível. Combater o mal, a opressão e a tirania. Proteger a liberdade. Aceitar o novo e diferente e adaptar-se a ele. Demonstrar ambição, paixão e coragem. Desfrutar e amar a vida.",
+              "uses": [
+                {
+                  "description": "Valkaria odeia o conformismo. Seus devotos são proibidos de fixar moradia em um mesmo lugar, não podendo permanecer mais de 2d10+10 dias na mesma cidade (ou vila, aldeia, povoado...) ou 1d4+2 meses no mesmo reino."
+                },
+                {
+                  "description": "Devotos de Valkaria são proibidos de se casar ou formar qualquer união estável."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "105"
+              }
+            }
+          },
+          {
+            "id": 20,
+            "title": "Wynna",
+            "description": "Deusa da Magia",
+            "img": "ring.svg",
+            "details": {
+              "description": "Os devotos da Deusa da Magia creem que devem ",
+              "uses": [
+                {
+                  "description": "Assim como a magia jamais deva ser negada para quem a busca, devotos de Wynna devem praticar a bondade e a generosidade de sua deusa, jamais recusando um pedido de ajuda de alguém inocente."
+                },
+                {
+                  "description": "Devotos de Wynna são proibidos de matar seres mágicos (elfos, qareen, sílfides e outros a critério do mestre) e conjuradores arcanos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "0"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

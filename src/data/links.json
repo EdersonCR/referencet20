@@ -1,0 +1,77 @@
+{
+  "developer":{
+    "id": 1,
+    "creator":"EdersonCR"
+  },
+  "jambo":{
+    "id": 2,
+    "lable":"Jambo Editora",
+    "url":"https://jamboeditora.com.br/"
+  },
+  "t20":{
+    "id": 3,
+    "lable":"Tormenta20",
+    "url":"https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/"
+  },
+  "referenceDnDEn":{
+    "site": {
+      "id": 4,
+      "lable":"site",
+      "url":"https://crobi.github.io/dnd5e-quickref/preview/quickref.html"
+    },
+    "creator": {
+      "id": 5,
+      "lable":"crobi",
+      "url":"https://github.com/crobi"
+    }
+  },
+  "referenceDnDPt":{
+    "site": {
+      "id": 6,
+      "lable":"site",
+      "url":"https://diogoan.github.io/dnd5e-quickref"
+    },
+    "creator": {
+      "id": 7,
+      "lable":"diogoan",
+      "url":"https://github.com/diogoan"
+    }
+  },
+  "icons": {
+    "id": 8,
+    "lable":"Game-icons.net",
+    "url":"https://game-icons.net/",
+    "creators":[
+      {
+        "id": 9,
+        "lable":"Caro Asercion",
+        "url":"https://game-icons.net/"
+      },
+      {
+        "id": 10,
+        "lable":"Cathelineau",
+        "url":"https://game-icons.net/"
+      },
+      {
+        "id": 11,
+        "lable":"DarkZaitzev",
+        "url":"http://darkzaitzev.deviantart.com/"
+      },
+      {
+        "id": 12,
+        "lable":"Delapouite",
+        "url":"https://delapouite.com/"
+      },
+      {
+        "id": 13,
+        "lable":"Lorc",
+        "url":"https://lorcblog.blogspot.com/"
+      },
+      {
+        "id": 14,
+        "lable":"Skoll",
+        "url":"https://game-icons.net/"
+      }
+    ]
+  }
+}
