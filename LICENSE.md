@@ -34,5 +34,9 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 Open Game License v 1.0, Copyright 2000, Wizards of the Coast, Inc.
 
+System Reference Document, Copyright 2000, Wizards of the Coast, Inc. Autores Jonathan Tweet, Monte Cook e Skip Willians, baseado em material original de E. Gary Gygax e Dave Arneson.
+
 Tormenta, Copyright 1999-2022, Leonel Caldela, Marcelo Cassaro, Guilherme Dei Svaldi, Rafael Dei Svaldi
 e J. M. Trevisan. Todos os direitos reservados.
+
+O material a seguir é Conteúdo Open Game: todo o texto de regras do site, exceto imagens, ícones e todos os termos referentes ao universo Tormenta, incluindo, mas não limitado a, nomes e descrições de personagens, deuses, lugares e fenômenos.
