@@ -13,17 +13,10 @@
     "lable":"Tormenta20",
     "url":"https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/"
   },
-  "referenceDnDEn":{
-    "site": {
-      "id": 4,
-      "lable":"site",
-      "url":"https://crobi.github.io/dnd5e-quickref/preview/quickref.html"
-    },
-    "creator": {
-      "id": 5,
-      "lable":"crobi",
-      "url":"https://github.com/crobi"
-    }
+  "mail":{
+    "id": 4,
+    "lable":"referencet20@gmail.com",
+    "url":"mailto:referencet20@gmail.com"
   },
   "referenceDnDPt":{
     "site": {
@@ -42,36 +35,12 @@
     "lable":"Game-icons.net",
     "url":"https://game-icons.net/",
     "creators":[
-      {
-        "id": 9,
-        "lable":"Caro Asercion",
-        "url":"https://game-icons.net/"
-      },
-      {
-        "id": 10,
-        "lable":"Cathelineau",
-        "url":"https://game-icons.net/"
-      },
-      {
-        "id": 11,
-        "lable":"DarkZaitzev",
-        "url":"http://darkzaitzev.deviantart.com/"
-      },
-      {
-        "id": 12,
-        "lable":"Delapouite",
-        "url":"https://delapouite.com/"
-      },
-      {
-        "id": 13,
-        "lable":"Lorc",
-        "url":"https://lorcblog.blogspot.com/"
-      },
-      {
-        "id": 14,
-        "lable":"Skoll",
-        "url":"https://game-icons.net/"
-      }
+      "Caro Asercion",
+      "Cathelineau",
+      "DarkZaitzev",
+      "Delapouite",
+      "Lorc",
+      "Skoll"
     ]
   }
 }

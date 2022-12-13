@@ -3,7 +3,6 @@ import { Typography, Grid } from '@mui/material';
 import { colors, fonts, spaces } from '../../styles/theme';
 import Github from '../Github';
 import Link from '../Link';
-import { LinkData } from '../../interfaces/Interfaces';
 
 const links = require('../../data/links.json');
 
@@ -51,17 +50,12 @@ function Footer() {
       </Grid>
       <Grid md={3} xs={3} item={true}>
         <Typography style={footerStyle.secundaryBody.text} textAlign='center'>
-          Inspirado no <Link link={links.referenceDnDEn.site}/> desenvolvido por <Link link={links.referenceDnDEn.creator}/> e no <Link link={links.referenceDnDPt.site}/> desenvolvido por <Link link={links.referenceDnDPt.creator}/>.
+          Sugestões, melhorias e erros, envie um e-mail para <Link link={links.mail}/>.
         </Typography>
       </Grid>
       <Grid md={3} xs={3} item={true}>
         <Typography style={footerStyle.secundaryBody.text} textAlign='center'>
-          Ícones feitos por: {links.icons.creators.map((creator: LinkData, index: number) => (
-            <>
-              <Link link={creator} myKey={`${creator.id}`} key={creator.id}/>
-              {index < links.icons.creators.length - 2 ?  ', ' : index < links.icons.creators.length - 1 ? ' e ' : '' }
-            </>
-          ))}. Disponíveis em <Link link={links.icons}/>
+          Ícones feitos por {links.icons.creators.slice(0,-1).join(', ').concat(' e ', links.icons.creators.slice(-1))}. Disponíveis em <Link link={links.icons}/>.
         </Typography>
       </Grid>
     </Grid>
