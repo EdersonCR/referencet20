@@ -1,5 +1,5 @@
 # Guia de Referência Rápida T20 [![image](https://img.shields.io/badge/rpg-Tormenta20-red?style=flat-square)](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/)
-Este projeto é um guia para mestres e jogadores do sistema de RPG [Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/). Tem o objetivo de apresentar de forma resumida e intuitiva as principais regras do RPG.
+Este projeto é um guia para mestres e jogadores do sistema de RPG [Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/). E tem o objetivo de apresentar de forma resumida e intuitiva regras básicas de T20.
 
 [Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/) pertence a [Jambo Editora](https://jamboeditora.com.br/). Todos os direitos são reservados à editora.
 
