@@ -44,7 +44,7 @@ Você também pode contribuir adicionando uma melhoria no próprio projeto:
 > Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](https://github.com/firstcontributions/first-contributions).
 
 ## 📃 Licença
-Este projeto está sob a licença Open Game License. Veja o arquivo [LICENSE.md](https://github.com/EdersonCR/quick-reference-t20/blob/master/LICENSE.md) para detalhes.
+Este projeto está sob a licença Open Game License. Veja o arquivo [LICENSE.md](./LICENSE.md) para detalhes.
 
 ## 💜 Créditos
 - Ícones feitos por Caro Asercion, Cathelineau, DarkZaitzev, Delapouite, Lorc e Skoll. Disponíveis em [Game-icons.net](Game-icons.net);
@@ -56,3 +56,5 @@ Feito por **Éderson Rodrigues** 🏳️‍🌈
 
 - [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/edersoncr) 
 - [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EdersonCR)
+
+### <img src='./public/olho-t20.png' width='20px' style='margin-bottom:-5px;'> Tudo é Lefeu!
