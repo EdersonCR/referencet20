@@ -57,4 +57,4 @@ Feito por **Éderson Rodrigues** 🏳️‍🌈
 - [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/edersoncr) 
 - [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EdersonCR)
 
-### <img src='./public/olho-t20.png' width='20px' style='margin-bottom:-5px;'> Tudo é Lefeu!
+### <img src='./public/olho-t20.png' width='22px' style='margin-bottom:-5px;'> Tudo é Lefeu!
