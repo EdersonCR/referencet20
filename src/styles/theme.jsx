@@ -4,7 +4,7 @@ import './index.css';
 export const theme = createTheme({
   typography: {
     body: {
-      fontFamily: ['IowanOldStyleRegular', 'Times News Roman', 'serif'].join(','),
+      fontFamily: ['IowanOldStyleRoman', 'Times News Roman', 'serif'].join(','),
       fontSize: '1rem'
     }
   }
@@ -41,7 +41,7 @@ export const fonts = {
     title: ['Tormenta20', 'Times News Roman', 'serif'].join(','),
     subtitle: ['IowanOldStyleBold', 'Times News Roman', 'serif'].join(','),
     text: {
-      normal: ['IowanOldStyleRegular', 'Times News Roman', 'serif'].join(','),
+      normal: ['IowanOldStyleRoman', 'Times News Roman', 'serif'].join(','),
       italic: ['IowanOldStyleItalic', 'Times News Roman', 'serif'].join(','),
     },
     table: ['SourceSansPro', 'Arial', 'san-serif'].join(','),

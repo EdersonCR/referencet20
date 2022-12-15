@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: 'IowanOldStyleRegular';
-  src: local('IowanOldStyleRegular'), url(../fonts/IowanOldStyleRegular.ttc) format('truetype');
+  font-family: 'IowanOldStyleRoman';
+  src: local('IowanOldStyleRoman'), url(../fonts/IowanOldStyleRoman.ttf) format('truetype');
 }
 
 @font-face {
