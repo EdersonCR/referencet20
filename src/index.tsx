@@ -4,6 +4,8 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from './styles/theme';
 import App from './App';
+import reportWebVitals from './webvitals/reportWebVitals';
+import { sendToAnalytics } from './webvitals/vitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -16,3 +18,4 @@ root.render(
   </React.StrictMode>
 );
 
+reportWebVitals(sendToAnalytics);
