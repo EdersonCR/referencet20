@@ -56,4 +56,4 @@ Feito por **Éderson C. Rodrigues** 🏳️‍🌈
 &ensp;&ensp;&ensp;[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EdersonCR)
 
 &nbsp;
-### <img src='./public/olho-t20.png' width='22px' style='margin-bottom:-5px;'> Tudo é Lefeu!
+### <img src='./src/images/olho-t20.png' width='22px' style='margin-bottom:-5px;'> Tudo é Lefeu!
