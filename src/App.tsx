@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Section from './components/Section';
 import { spaces } from './styles/theme';
 import { SectionData } from './interfaces/Interfaces';
-import { Analytics } from '@vercel/analytics/react';
+import { inject as vercelAudiences} from '@vercel/analytics';
 
 const bgImg = require('./images/background.jpg');
 const data: SectionData[] = require('./data/data.json');
@@ -20,6 +20,9 @@ const styles = {
 }
 
 function App() {
+
+  vercelAudiences();
+  
   return (
     <>
       <Stack style={styles.background} spacing={`${spaces.standard * 2}rem`}>
@@ -27,7 +30,6 @@ function App() {
         {data.map(section => <Section section={section} myKey={`${section.id}`} key={`${section.id}`} />)}
         <Footer />
       </Stack>
-      <Analytics />
     </>
   );
 }
