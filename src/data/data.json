@@ -153,7 +153,6 @@
                   "description": "Você faz um animal realizar uma tarefa para a qual foi treinado (como “atacar”, “sentar”, “vigiar”...). Isso permite usar Adestramento como Pilotagem para veículos de tração animal. Este uso gasta uma ação de movimento."
                 }
               ],
-              "moreInfo": "Mais informações",
               "reference": {
                 "source": "T20",
                 "page": "115"
