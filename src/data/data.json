@@ -1332,6 +1332,33 @@
                 "page": "236"
               }
             }
+          },
+          {
+            "id": 12,
+            "title": "Morte",
+            "description": "Ferimentos e morte",
+            "img": "grim-reaper.svg",
+            "details": {
+              "description": "O dano pode deixar cicatrizes, amassar sua armadura e sujar sua roupa de sangue, mas não o impede de agir. Isso só muda quando seus pontos de vida chegam a 0 ou menos.",
+              "uses": [
+                {
+                  "description": "Se ficar com 0 ou menos PV, você cai inconsciente e sangrando. No início de seu turno, faça um teste de Constituição (CD 15). Se passar, você estabiliza e não precisa mais fazer esse teste (exceto se perder mais PV). Se falhar, você perde 1d6 pontos de vida. Você deve repetir o teste a cada rodada, até estabilizar ou morrer."
+                },
+                {
+                  "description": "Um personagem sangrando pode ser estabilizado com um teste de Cura (CD 15) ou com qualquer efeito que cure pelo menos 1 PV."
+                },
+                {
+                  "description": "Um personagem com 0 ou menos pontos de vida que recupere PV até um valor positivo (1 ou mais) por causa de uma habilidade, magia ou descanso, recobra a consciência e pode agir normalmente."
+                },  
+                {
+                  "description": "Quando seus pontos de vida chegam a –10 ou a um número negativo igual à metade de seus PV totais (o que for mais baixo), você morre."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "236"
+              }
+            }
           }
         ]
       }
@@ -3538,7 +3565,7 @@
     "title": "Deuses",
     "subsections": [
       {
-        "id": 9,
+        "id": 1,
         "title": "Deus",
         "description": "O panteão de Arton é composto por vinte divindades maiores.",
         "items": [
