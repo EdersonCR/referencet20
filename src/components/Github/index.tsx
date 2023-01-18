@@ -9,7 +9,7 @@ const githubStyle = {
   },
   link: {
     textDecoration: 'none',
-    color: colors.subtitle
+    color: colors.link
   }
   
 }
