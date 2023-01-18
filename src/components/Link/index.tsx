@@ -4,7 +4,7 @@ import { colors } from '../../styles/theme';
 
 const linkStyle = {
   textDecoration: 'none',
-  color: colors.subtitle
+  color: colors.link
 }
 
 interface LinkProps {

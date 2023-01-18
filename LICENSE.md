@@ -36,6 +36,6 @@ Open Game License v1.0, Copyright 2000, Wizards of the Coast, Inc.
 
 System Reference Document, Copyright 2000, Wizards of the Coast, Inc. Autores Jonathan Tweet, Monte Cook e Skip Willians, baseado em material original de E. Gary Gygax e Dave Arneson.
 
-Tormenta, Copyright 1999-2022, Leonel Caldela, Marcelo Cassaro, Guilherme Dei Svaldi, Rafael Dei Svaldi e J. M. Trevisan. Todos os direitos reservados.
+Tormenta20: Edição Jogo do Ano, Copyright 2022, Jambô Editora Ltda. Autores Guilherme Dei Svaldi, J. M. Trevisan, Leonel Caldela, Marcelo Cassaro, Rafael Dei Svaldi.
 
 O material a seguir é Conteúdo Open Game: todo o texto de regras do site, exceto imagens, ícones e todos os termos referentes ao universo Tormenta, incluindo, mas não limitado a, nomes e descrições de personagens, deuses, lugares e fenômenos.

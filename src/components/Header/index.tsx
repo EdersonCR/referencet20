@@ -30,7 +30,7 @@ function Header() {
       Rererência Rápida T20
     </Typography>
     <Typography style={headerStyle.body.text}>
-      Este guia apresenta, de maneira resumida e intuitiva, regras básicas de T20 para consulta rápida por jogadores e mestres. As referências das páginas em cada descrição referem-se ao Tormenta20 Livro Básico, edição Jogo do Ano.
+      Este guia apresenta, de maneira resumida e intuitiva, regras básicas de T20 para consulta rápida por jogadores e mestres. As referências das páginas em cada descrição referem-se ao Tormenta20, Livro Básico, edição Jogo do Ano.
     </Typography>
   </Box>
  ); 

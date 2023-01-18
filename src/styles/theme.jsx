@@ -25,7 +25,8 @@ export const colors = {
     odd: '#FFFFFF00',
     even: '#DFD7D4'
   },
-  reference: '#833421'
+  reference: '#833421',
+  link: '#F9D97A'
 };
 
 export const spaces = {
