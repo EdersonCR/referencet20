@@ -110,7 +110,7 @@
                 },
                 {
                   "title": "Equilíbrio",
-                  "description": "Se estiver andando por superfícies precárias, você precisa fazer testes de Acrobacia para não cair. Cada ação de movimento exige um teste. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, cai. A CD é 10 para piso escorregadio, 15 para uma superfície estreita (como o topo de um muro) e 20 para uma superfície muito estreita (como uma corda esticada). Você pode sofrer -5 no teste para avançar seu deslocamento total. Quando está se equilibrando você fica desprevenido e, se sofrer dano, deve fazer um novo teste de Acrobacia; se falhar, cai."
+                  "description": "Se estiver andando por superfícies precárias, você precisa fazer testes de Acrobacia para não cair. Cada ação de movimento exige um teste. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, cai. A CD é 10 para piso escorregadio, 15 para uma superfície estreita (como o topo de um muro) e 20 para uma superfície muito estreita (como uma corda esticada). Você pode sofrer –5 no teste para avançar seu deslocamento total. Quando está se equilibrando você fica desprevenido e, se sofrer dano, deve fazer um novo teste de Acrobacia; se falhar, cai."
                 },
                 {
                   "title": "Escapar",
@@ -169,7 +169,7 @@
               "uses": [
                 {
                   "title": "Corrida",
-                  "description": "Gaste uma ação completa e faça um teste de Atletismo. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Assim, se somar 20 no teste, avança 20 quadrados de 1,5m. Você recebe um modificador de +/-2 para cada 1,5m de deslocamento acima ou abaixo de 9m que possua. Assim, um elfo (deslocamento 12m) recebe +4 em testes de Atletismo para correr, enquanto um anão (deslocamento 6m) sofre uma penalidade de –4. Você só pode correr em linha reta e não pode correr através de terreno difícil. Você pode correr por um número de rodadas igual a 1 + sua Constituição. Após isso, deve fazer um teste de Fortitude por rodada (CD 15 +1 por teste anterior). Se falhar, fica fatigado."
+                  "description": "Gaste uma ação completa e faça um teste de Atletismo. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Assim, se somar 20 no teste, avança 20 quadrados de 1,5m. Você recebe um modificador de +/–2 para cada 1,5m de deslocamento acima ou abaixo de 9m que possua. Assim, um elfo (deslocamento 12m) recebe +4 em testes de Atletismo para correr, enquanto um anão (deslocamento 6m) sofre uma penalidade de –4. Você só pode correr em linha reta e não pode correr através de terreno difícil. Você pode correr por um número de rodadas igual a 1 + sua Constituição. Após isso, deve fazer um teste de Fortitude por rodada (CD 15 +1 por teste anterior). Se falhar, fica fatigado."
                 },
                 {
                   "title": "Escalar",
@@ -205,7 +205,7 @@
                 },
                 {
                   "title": "Impressionar",
-                  "description": "Faça um teste de Atuação oposto pelo teste de Vontade de quem você quer impressionar. Se você passar, recebe +2 em testes de perícias baseadas em Carisma contra essa pessoa no mesmo dia. Se falhar, sofre -2 nesses testes e não pode tentar de novo no mesmo dia. Se estiver tentando impressionar mais de uma pessoa, o mestre faz apenas um teste pela plateia, usando o melhor bônus. Este uso leva de alguns minutos (canto ou dança) até algumas horas (apresentação teatral)."
+                  "description": "Faça um teste de Atuação oposto pelo teste de Vontade de quem você quer impressionar. Se você passar, recebe +2 em testes de perícias baseadas em Carisma contra essa pessoa no mesmo dia. Se falhar, sofre –2 nesses testes e não pode tentar de novo no mesmo dia. Se estiver tentando impressionar mais de uma pessoa, o mestre faz apenas um teste pela plateia, usando o melhor bônus. Este uso leva de alguns minutos (canto ou dança) até algumas horas (apresentação teatral)."
                 }
               ],
               "reference": {
@@ -228,7 +228,7 @@
                 },
                 {
                   "title": "Galopar",
-                  "description": "Gaste uma ação completa e faça um teste de Cavalgar. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Seu teste sofre um modificador de +/-2 para cada 1,5m de deslocamento acima ou abaixo de 9m que você possua."
+                  "description": "Gaste uma ação completa e faça um teste de Cavalgar. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Seu teste sofre um modificador de +/–2 para cada 1,5m de deslocamento acima ou abaixo de 9m que você possua."
                 },
                 {
                   "title": "Montar Rapidamente (CD 20)",
@@ -1054,7 +1054,7 @@
             "description": "Tarefas complexas",
             "img": "cubes.svg",
             "details": {
-              "description": "Em um teste estendido, o grupo deve acumular uma quantidade de sucessos antes de três falhas, o que indica uma falha total. Quanto mais complexa a tarefa, mais sucessos são exigidos. Testes estendidos podem envolver mais de uma perícia. ",
+              "description": "Em um teste estendido, o grupo deve acumular uma quantidade de sucessos antes de três falhas, o que indica uma falha total. Quanto mais complexa a tarefa, mais sucessos são exigidos. Testes estendidos podem envolver mais de uma perícia.",
               "uses": [
                 {
                   "description": "O mestre pode permitir que os jogadores decidam quais perícias vão usar em um teste estendido. Porém, cada teste avulso dentro do teste estendido precisa ser feito com uma perícia diferente."
@@ -1072,6 +1072,51 @@
               "reference": {
                 "source": "T20",
                 "page": "222"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Penalidade de Armadura",
+            "description": "Dificulta perícias",
+            "img": "breastplate.svg",
+            "details": {
+              "description": "Por seu peso e rigidez, a maioria das armaduras dificulta o uso de perícias que demandem agilidade.",
+              "uses": [
+                {
+                  "description": "Aplique a penalidade de armadura em testes de Acrobacia, Furtividade e Ladinagem; e em testes de Atletismo para natação."
+                },
+                {
+                  "description": "Penalidades de armaduras e escudos se acumulam."
+                },
+                {
+                  "description": "Couro batido e Escudo leve (–1); Brunea, Cota de malha, Escudo pesado e Casaco longo (–2); Gibão de peles e Loriga segmentada (–3); Couraça e Meia armadura (–4); e Armadura completa (–5)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "152 e 153"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Não Proficiência",
+            "description": "Dificulta ataque e períficas",
+            "img": "battle-gear.svg",
+            "details": {
+              "description": "Proficiencia indica os tipos de armas e armaduras que você sabe usar.",
+              "uses": [
+                {
+                  "description": "Se você atacar com uma arma com a qual não seja proficiente, sofre –5 nos testes de ataque."
+                },
+                {
+                  "description": "Um personagem vestindo uma armadura ou escudo que não saiba usar aplica sua penalidade de armadura em todas as perícias baseadas em Força e Destreza. "
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "142 e 152"
               }
             }
           }
@@ -2916,7 +2961,7 @@
           },
           {
             "id": 2,
-            "title": "Aria Movediça",
+            "title": "Areia Movediça",
             "description": "Engole objetos e criaturas",
             "img": "quicksand.svg",
             "details": {
@@ -3553,6 +3598,106 @@
               "reference": {
                 "source": "T20",
                 "page": "269"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Urbano",
+        "description": "Aventuras urbanas são diferentes de aventuras em masmorras ou em ermos por uma razão básica: cidades são habitadas.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Muros e Portões",
+            "description": "Contrução",
+            "img": "defensive-wall.svg",
+            "details": {
+              "description": "Muros de uma cidade normalmente possuem entre 6m e 9m de altura, enquanto os de uma metrópole podem atingir até 18m de altura.",
+              "uses": [
+                {
+                  "description": "Muros possuem ameias que fornecem cobertura leve a quem estiver no topo."
+                },
+                {
+                  "description": "A CD para escalar um muro é 25."
+                },
+                {
+                  "description": "O portão típico de uma cidade é feito de madeira, com RD 5 e 60 PV, mas as maiores comunidades possuem portões de ferro, com RD 10 e 300 PV."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Telhados",
+            "description": "Contrução",
+            "img": "village.svg",
+            "details": {
+              "description": "Em algumas cidades pode ser possível se locomover pelos telhados.",
+              "uses": [
+                {
+                  "description": "Subir em um telhado exige escalar a lateral de uma construção (CD 20)."
+                },
+                {
+                  "description": "Andar sobre um telhado exige um teste de Acrobacia (CD 10) por ação de movimento. Correr sobre um telhado aumenta a CD em +5."
+                },
+                {
+                  "description": "Quando um telhado termina, o personagem deve pular para o próximo telhado (ou para outro ponto alto, como uma marquise, gárgula, poste etc.). Isso normalmente exige um teste de Atletismo (CD 20), mas a CD pode ser maior (para ruas muito largas) ou menor (para ruas especialmente estreitas)."
+                },
+                {
+                  "description": "O mestre pode misturar as regras de correr sobre telhados com as regras de perseguição — talvez fazendo com que participantes sobre telhados não sejam afetados por obstáculos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Esgotos",
+            "description": "Construção",
+            "img": "warp-pipe.svg",
+            "details": {
+              "description": "Apenas metrópoles possuem sistemas de esgotos.",
+              "uses": [
+                {
+                  "description": "Entrar num esgoto exige abrir um bueiro (ação completa) e descer uma escada (ação de movimento) ou saltar (ação livre, exige um teste de Atletismo contra CD 15 para não sofrer 1d6 pontos de dano de impacto)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Multidões",
+            "description": "Pessoas",
+            "img": "uprising.svg",
+            "details": {
+              "description": "As ruas das maiores cidades muitas vezes estão lotadas de pessoas.",
+              "uses": [
+                {
+                  "description": "Um espaço ocupado por uma multidão conta como terreno difícil e fornece cobertura leve a qualquer um dentro dele."
+                },
+                {
+                  "description": "Uma multidão que veja algo perigoso foge na direção oposta com deslocamento de 9m no fim de cada rodada."
+                },
+                {
+                  "description": "É possível direcionar uma multidão com um teste de Diplomacia (CD 15, ação completa) ou Intimidação (CD 20, ação livre)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
               }
             }
           }
