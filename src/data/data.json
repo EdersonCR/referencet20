@@ -3602,6 +3602,106 @@
             }
           }
         ]
+      },
+      {
+        "id": 3,
+        "title": "Urbano",
+        "description": "Aventuras urbanas são diferentes de aventuras em masmorras ou em ermos por uma razão básica: cidades são habitadas.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Muros e Portões",
+            "description": "Contrução",
+            "img": "defensive-wall.svg",
+            "details": {
+              "description": "Muros de uma cidade normalmente possuem entre 6m e 9m de altura, enquanto os de uma metrópole podem atingir até 18m de altura.",
+              "uses": [
+                {
+                  "description": "Muros possuem ameias que fornecem cobertura leve a quem estiver no topo."
+                },
+                {
+                  "description": "A CD para escalar um muro é 25."
+                },
+                {
+                  "description": "O portão típico de uma cidade é feito de madeira, com RD 5 e 60 PV, mas as maiores comunidades possuem portões de ferro, com RD 10 e 300 PV."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Telhados",
+            "description": "Contrução",
+            "img": "village.svg",
+            "details": {
+              "description": "Em algumas cidades pode ser possível se locomover pelos telhados.",
+              "uses": [
+                {
+                  "description": "Subir em um telhado exige escalar a lateral de uma construção (CD 20)."
+                },
+                {
+                  "description": "Andar sobre um telhado exige um teste de Acrobacia (CD 10) por ação de movimento. Correr sobre um telhado aumenta a CD em +5."
+                },
+                {
+                  "description": "Quando um telhado termina, o personagem deve pular para o próximo telhado (ou para outro ponto alto, como uma marquise, gárgula, poste etc.). Isso normalmente exige um teste de Atletismo (CD 20), mas a CD pode ser maior (para ruas muito largas) ou menor (para ruas especialmente estreitas)."
+                },
+                {
+                  "description": "O mestre pode misturar as regras de correr sobre telhados com as regras de perseguição — talvez fazendo com que participantes sobre telhados não sejam afetados por obstáculos."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Esgotos",
+            "description": "Construção",
+            "img": "warp-pipe.svg",
+            "details": {
+              "description": "Apenas metrópoles possuem sistemas de esgotos.",
+              "uses": [
+                {
+                  "description": "Entrar num esgoto exige abrir um bueiro (ação completa) e descer uma escada (ação de movimento) ou saltar (ação livre, exige um teste de Atletismo contra CD 15 para não sofrer 1d6 pontos de dano de impacto)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Multidões",
+            "description": "Pessoas",
+            "img": "uprising.svg",
+            "details": {
+              "description": "As ruas das maiores cidades muitas vezes estão lotadas de pessoas.",
+              "uses": [
+                {
+                  "description": "Um espaço ocupado por uma multidão conta como terreno difícil e fornece cobertura leve a qualquer um dentro dele."
+                },
+                {
+                  "description": "Uma multidão que veja algo perigoso foge na direção oposta com deslocamento de 9m no fim de cada rodada."
+                },
+                {
+                  "description": "É possível direcionar uma multidão com um teste de Diplomacia (CD 15, ação completa) ou Intimidação (CD 20, ação livre)."
+                }
+              ],
+              "reference": {
+                "source": "T20",
+                "page": "275"
+              }
+            }
+          }
+        ]
       }
     ]
   },
