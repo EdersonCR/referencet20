@@ -19,7 +19,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/EdersonCR/referencet20.git
 
 # Entrar no diretório
-$ cd quick-reference-t20
+$ cd reference-t20
 
 # Instalar as dependências
 $ npm install
