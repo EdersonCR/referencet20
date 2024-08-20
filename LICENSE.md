@@ -38,4 +38,6 @@ System Reference Document, Copyright 2000, Wizards of the Coast, Inc. Autores Jo
 
 Tormenta20: Edição Jogo do Ano, Copyright 2022, Jambô Editora Ltda. Autores Guilherme Dei Svaldi, J. M. Trevisan, Leonel Caldela, Marcelo Cassaro, Rafael Dei Svaldi.
 
+Ameaças de Arton, Copyright 2023, Jambô Editora Ltda. Autores Guilherme Dei Svaldi, J. M. Trevisan, Leonel Caldela, Marcelo Cassaro, Rafael Dei Svaldi.
+
 O material a seguir é Conteúdo Open Game: todo o texto de regras do site, exceto imagens, ícones e todos os termos referentes ao universo Tormenta, incluindo, mas não limitado a, nomes e descrições de personagens, deuses, lugares e fenômenos.
