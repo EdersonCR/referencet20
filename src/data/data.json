@@ -16,7 +16,7 @@
             "details": {
               "description": "Seu poder muscular. A Força é aplicada em teste de Atletismo e Luta; rolagens de dano corpo a corpo ou com armas de arremesso, e teste de Força para levantar pesos e atos similares.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "17"
               }
             }
@@ -29,7 +29,7 @@
             "details": {
               "description": "Sua agilidade, reflexos, equilíbrio e coordenação. A Destreza é aplicada na Defesa e em testes de Acrobacia, Cavalgar, Furtividade, Iniciativa, Ladinagem, Pilotagem, Pontaria e Reflexos.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "17"
               }
             }
@@ -42,7 +42,7 @@
             "details": {
               "description": "Sua saúde e vigor. A Constituição é aplicada aos pontos de vida iniciais e por nível e em testes de Fortitude. Se a Constituição muda, seus pontos de vida aumentam e diminuem retroativamente de acordo.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "17"
               }
             }
@@ -55,7 +55,7 @@
             "details": {
               "description": "Sua capacidade de raciocínio, memória e educação em geral. A inteligência é aplicada em testes de Conhecimento, Guerra, Investigação, Misticismo, Nobreza e Ofício. Além disso, se sua Inteligência for positiva, você recebe um número de perícias treinadas adicionais igual ao valor dela. Essas perícias não precisam ser da sua classe.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "17"
               }
             }
@@ -68,7 +68,7 @@
             "details": {
               "description": "Sua observação, ponderação e determinação. A Sabedoria é aplicada em testes de Cura, Intuição, Percepção, Religião, Sobrevivência e Vontade.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "17"
               }
             }
@@ -81,7 +81,7 @@
             "details": {
               "description": "Sua força de personalidade e capacidade de persuasão, além de uma mistura de simpatia e beleza. O Carisma é aplicado em testes de Adestramento, Atuação, Diplomacia, Enganação, Intimidação e Jogatina.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "17"
               }
             }
@@ -130,7 +130,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "115"
               }
             }
@@ -154,7 +154,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "115"
               }
             }
@@ -185,7 +185,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "116"
               }
             }
@@ -209,7 +209,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "116"
               }
             }
@@ -236,7 +236,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "116"
               }
             }
@@ -260,7 +260,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "117"
               }
             }
@@ -291,7 +291,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "117"
               }
             }
@@ -318,7 +318,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "118"
               }
             }
@@ -357,7 +357,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "118"
               }
             }
@@ -371,7 +371,7 @@
               "description": "Você usa esta perícia para resistir a efeitos que exigem vitalidade, como doenças e venenos. A CD é determinada pelo efeito. Você também usa Fortitude para manter seu fôlego quando está correndo ou sem respirar. A CD é 15 +1 por teste anterior. Teste de Constituição. Teste de Constituição.",
               "moreInfo": "Efeitos que afetam seus “testes de resistência” afetam os testes desta perícia.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "119"
               }
             }
@@ -395,7 +395,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "119"
               }
             }
@@ -419,7 +419,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "119"
               }
             }
@@ -432,7 +432,7 @@
             "details": {
               "description": "Esta perícia determina sua velocidade de reação em situações de perigo. Quando uma cena de ação começa, cada personagem envolvido faz um teste de Iniciativa. Eles então agem em ordem decrescente dos resultados. Teste de Destreza.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "119"
               }
             }
@@ -455,7 +455,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "120"
               }
             }
@@ -478,7 +478,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "120"
               }
             }
@@ -501,7 +501,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "120"
               }
             }
@@ -521,7 +521,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "120"
               }
             }
@@ -553,7 +553,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "120"
               }
             }
@@ -566,7 +566,7 @@
             "details": {
               "description": "Você usa Luta para fazer ataques corpo a corpo. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada.  Teste de Força.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "121"
               }
             }
@@ -606,7 +606,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "121"
               }
             }
@@ -630,7 +630,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "121"
               }
             }
@@ -663,7 +663,7 @@
               ],
               "moreInfo": "Cada Ofício exige um instrumento de ofício específico. Sem ele, você sofre –5 no teste.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "121"
               }
             }
@@ -686,7 +686,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "122"
               }
             }
@@ -708,7 +708,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "122"
               }
             }
@@ -721,7 +721,7 @@
             "details": {
               "description": "Você usa Pontaria para fazer ataques à distância. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Teste de Destreza.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "122"
               }
             }
@@ -735,7 +735,7 @@
               "description": "Você usa esta perícia para resistir a efeitos que exigem reação rápida, como armadilhas e explosões. A CD é determina pelo efeito. Você também usa Reflexos para evitar fintas. Teste de Destreza.",
               "moreInfo": "Efeitos que afetam seus “testes de resistência” afetam os testes desta perícia.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "122"
               }
             }
@@ -767,7 +767,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "122"
               }
             }
@@ -798,7 +798,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "123"
               }
             }
@@ -812,7 +812,7 @@
               "description": "Você usa esta perícia para resistir a efeitos que exigem determinação, como intimidação e encantamentos. A CD é determina pelo efeito. Testes de Vontade são testes de resistência. Teste de Sabedoria.",
               "moreInfo": "Efeitos que afetam seus “testes de resistência” afetam os testes desta perícia.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "123"
               }
             }
@@ -859,7 +859,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "220"
               }
             }
@@ -887,7 +887,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "114"
               }
             }
@@ -935,7 +935,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "173 e 227"
               }
             }
@@ -979,7 +979,7 @@
               ],
               "moreInfo": "*Caso um personagem tente uma tarefa fácil, o mestre pode considerar que ele passa automaticamente.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "220"
               }
             }
@@ -992,7 +992,7 @@
             "details": {
               "description": "Testes opostos são usados quando dois ou mais personagens estão competindo entre si. Cada personagem envolvido faz seu teste. Aquele com maior valor é o vencedor. Em caso de empate, aquele com o maior bônus vence. Se os bônus forem iguais, outra rolagem deve ser feita.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "220"
               }
             }
@@ -1016,7 +1016,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "221"
               }
             }
@@ -1043,7 +1043,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "221"
               }
             }
@@ -1070,7 +1070,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "222"
               }
             }
@@ -1094,7 +1094,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "152 e 153"
               }
             }
@@ -1115,7 +1115,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "142 e 152"
               }
             }
@@ -1146,7 +1146,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "233"
               }
             }
@@ -1164,7 +1164,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1182,7 +1182,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -1200,7 +1200,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -1222,7 +1222,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "233"
               }
             }
@@ -1240,7 +1240,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "238 e 268"
               }
             }
@@ -1263,7 +1263,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "238"
               }
             }
@@ -1286,7 +1286,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "239"
               }
             }
@@ -1307,7 +1307,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "239"
               }
             }
@@ -1346,7 +1346,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "226"
               }
             }
@@ -1373,7 +1373,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "236"
               }
             }
@@ -1400,7 +1400,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "236"
               }
             }
@@ -1442,7 +1442,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "142 e 233"
               }
             }
@@ -1466,7 +1466,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "142 e 233"
               }
             }
@@ -1490,7 +1490,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "233"
               }
             }
@@ -1511,7 +1511,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1558,7 +1558,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "170 e 224"
               }
             }
@@ -1585,7 +1585,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1612,7 +1612,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1643,7 +1643,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "224"
               }
             }
@@ -1664,7 +1664,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "333"
               }
             }
@@ -1707,7 +1707,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1731,7 +1731,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "229 e 234"
               }
             }
@@ -1752,7 +1752,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1776,7 +1776,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1801,7 +1801,7 @@
               ],
               "moreInfo": "Para objetos soltos, faça um ataque contra a Defesa do objeto, definida por sua categoria de tamanho. Se o objeto estiver em movimento, recebe +5 na Defesa.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234 e 239"
               }
             }
@@ -1832,7 +1832,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1859,7 +1859,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1877,7 +1877,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234"
               }
             }
@@ -1915,7 +1915,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "234 e 238"
               }
             }
@@ -1936,7 +1936,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "141, 142 e 234"
               }
             }
@@ -1960,7 +1960,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "141 e 152"
               }
             }
@@ -1986,7 +1986,7 @@
             "details": {
               "description": "Você corre mais rapidamente que seu deslocamento normal. Consulte a perícia Atletismo.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -2007,7 +2007,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -2031,7 +2031,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -2045,7 +2045,7 @@
               "description": "Ao lançar magias com execução maior do que uma ação completa, você gasta uma ação completa a cada rodada.",
               "moreInfo": "Consulte a ação padrão Lançar Magia.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -2084,7 +2084,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "235"
               }
             }
@@ -2097,7 +2097,7 @@
             "details": {
               "description": "Em geral, falar é uma ação livre. Lançar magias ou usar habilidades de classe que dependem da voz não são ações livres. O mestre também pode limitar aquilo que você consegue falar durante uma rodada (vinte palavras são o limite padrão).",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "236"
               }
             }
@@ -2110,7 +2110,7 @@
             "details": {
               "description": "Jogar-se no chão é uma ação livre. Você recebe os benefícios e penalidades normais por estar caído, mas normalmente não sofre dano ao se jogar no chão.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "236"
               }
             }
@@ -2131,7 +2131,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "236"
               }
             }
@@ -2165,7 +2165,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2192,7 +2192,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2210,7 +2210,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2231,7 +2231,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2252,7 +2252,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2279,7 +2279,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2309,7 +2309,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2343,7 +2343,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2364,7 +2364,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2385,7 +2385,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2412,7 +2412,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "318 e 394"
               }
             }
@@ -2436,7 +2436,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2460,7 +2460,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2481,7 +2481,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2502,7 +2502,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2523,7 +2523,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2541,7 +2541,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2562,7 +2562,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2589,7 +2589,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "394"
               }
             }
@@ -2610,7 +2610,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2631,7 +2631,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2652,7 +2652,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2670,7 +2670,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2694,7 +2694,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2718,7 +2718,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2739,7 +2739,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2757,7 +2757,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2778,7 +2778,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2796,7 +2796,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2817,7 +2817,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2835,7 +2835,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2856,7 +2856,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2880,7 +2880,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2901,7 +2901,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2919,7 +2919,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "395"
               }
             }
@@ -2954,13 +2954,34 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "317"
               }
             }
           },
           {
             "id": 2,
+            "title": "Área Desencantada",
+            "description": "Pouca magia",
+            "img": "unstable-orb.svg",
+            "details": {
+              "description": "Em alguns lugares, a magia existe em quantidades muito pequenas. Isso pode ser efeito de um desastre mágico, resultado de uma maldição ou apenas uma inexplicável característica natural da área.",
+              "uses": [
+                {
+                  "description": "O custo em pontos de mana de habilidades e efeitos aumenta em +1."
+                },
+                {
+                  "description": "A recuperação de PM por descanso é sempre ruim, independente de outros efeitos e condições (como um acampamento)."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "358"
+              }
+            }
+          },
+          {
+            "id": 3,
             "title": "Areia Movediça",
             "description": "Engole objetos e criaturas",
             "img": "quicksand.svg",
@@ -2987,13 +3008,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "317"
               }
             }
           },
           {
-            "id": 3,
+            "id": 4,
             "title": "Armadilhas",
             "description": "Afastar intrometidos",
             "img": "wolf-trap.svg",
@@ -3011,13 +3032,34 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "317"
               }
             }
           },
           {
-            "id": 4,
+            "id": 5,
+            "title": "Dejetos Alquímicos",
+            "description": "Poças de mistura alquímica",
+            "img": "boiling-bubbles.svg",
+            "details": {
+              "description": "Em certos locais, acidentes com poções e preparados alquímicos formam poças desses materiais. Só os deuses sabem os efeitos que podem causar àqueles desastrados o suficiente para perturbar a mistura. Uma área de dejetos alquímicos geralmente ocupa um quadrado de 3m, mas a critério do mestre pode ser maior ou menor.",
+              "uses": [
+                {
+                  "description": "Um personagem na área de dejetos alquímicos, ou em contato com eles, sofre 4d4 pontos de dano de ácido e uma condição adicional por um dia, determinada aleatoriamente (Fortitude CD 20 reduz o dano à metade e evita a condição)."
+                },
+                {
+                  "description": "Role 1d6 para determinar a condição adicional: 1) abalado; 2) alquebrado; 3) cego; 4) enjoado; 5) fatigado; 6) lento."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "359"
+              }
+            }
+          },
+          {
+            "id": 6,
             "title": "Doenças",
             "description": "Exposição à doença",
             "img": "medicine-pills.svg",
@@ -3041,13 +3083,37 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "318"
               }
             }
           },
           {
-            "id": 5,
+            "id": 7,
+            "title": "Eletricidade",
+            "description": "Choque",
+            "img": "lightning-arc.svg",
+            "details": {
+              "description": "Embora não seja comumente empregada em Arton, eletricidade pode ser encontrada em certos lugares, sobretudo naqueles que abrigam tecnologias experimentais, como laboratórios de inventores.",
+              "uses": [
+                {
+                  "description": "A cada rodada de contato com uma fonte de eletricidade, uma criatura sofre 2d6 pontos de dano e fica atordoada por 1 rodada (Fortitude CD 20 reduz o dano à metade e evita a condição)."
+                },
+                {
+                  "description": "Uma criatura molhada e/ou usando armadura de metal sofre –5 em seu teste de Fortitude."
+                },
+                {
+                  "description": "Sempre que o resultado de um dado de dano for o valor máximo, role um dado adicional de dano."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "360"
+              }
+            }
+          },
+          {
+            "id": 8,
             "title": "Escuridão",
             "description": "Leve ou total",
             "img": "worried-eyes.svg",
@@ -3064,13 +3130,63 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "318"
               }
             }
           },
           {
-            "id": 6,
+            "id": 9,
+            "title": "Fenômenos Rubros",
+            "description": "Área de Tormenta",
+            "img": "lightning-tree.svg",
+            "details": {
+              "description": "Aventurar-se por áreas de Tormenta significa submeter-se à corrupção constante, representada pelo perigo Tormenta. Entretanto, esses lugares reservam muitos outros riscos; aqui, o clima e o terreno são imprevisíveis, e a lógica das leis naturais não se aplica. Os efeitos causados por fenômenos rubros ignoram imunidades, a menos que sejam específicas contra os efeitos da Tormenta.",
+              "uses": [
+                {
+                  "description": "A cada hora de viagem em uma área de Tormenta, role 1d8 para determinar qual fenômeno ocorre. Quando um destes fenômenos se manifesta, cada personagem pode fazer um teste de Conhecimento ou Sobrevivência (CD 35). Se passar, consegue identificar o fenômeno e tem 1 rodada para se preparar. A área de cada fenômeno é propositalmente vaga; em uma região de Tormenta, as distâncias e dimensões não seguem a realidade e é impossível escapar destes efeitos simplesmente se afastando do lugar."
+                },
+                {
+                  "title": "1) Caos de Sangue",
+                  "description": "As forças da Tormenta se combinam em um fenômeno duplo. Role duas vezes para determinar o fenômeno rubro usando 1d6+1 em vez de 1d8. Resultados iguais são cumulativos."
+                },
+                {
+                  "title": "2) Neblina Venenosa",
+                  "description": "A neblina venenosa dura por 2d4 rodadas e pode ser dispersada por um vento forte em 1d4 rodadas ou um vendaval em 1 rodada. Ela fornece camuflagem leve a criaturas a 1,5m e camuflagem total a criaturas a mais de 1,5m. Além disso, criaturas que iniciem seu turno dentro da neblina perdem 8d4 pontos de vida e têm seus itens expostos (como armaduras e escudos) avariados. Essa perda de vida persiste por mais 1 rodada após a criatura se abrigar da neblina ou ela terminar."
+                },
+                {
+                  "title": "3) Labaredas Infernais",
+                  "description": "Quando este fenômeno se manifesta, e no início de cada rodada por mais 1d4 rodadas, cada personagem tem 50% de chance (um resultado ímpar em um dado) de ser atingido por uma coluna de chamas e sofrer 10d6 pontos de dano, metade de fogo e metade de trevas (Reflexos CD 35 reduz à metade)."
+                },
+                {
+                  "title": "4) Chuva Ácida",
+                  "description": "A chuva dura 2d4 rodadas; no início de cada rodada, cada personagem sofre 4d8 pontos de dano de ácido. Esse dano persiste por mais 1 rodada após o personagem se abrigar da chuva ou ela terminar."
+                },
+                {
+                  "title": "5) Temperaturas Implacáveis",
+                  "description": "O lugar é acometido ao mesmo tempo, por calor e frio extremos (veja o ambiente Temperatura) por 2d4 minutos. A cada minuto, cada personagem deve fazer um teste de Fortitude (CD 25 + 1 por teste anterior). Se falhar, sofre 4d6 pontos de dano (metade fogo, metade frio) que só podem ser curados ao fim do fenômeno."
+                },
+                {
+                  "title": "6) Tempestade Elétrica",
+                  "description": "A tempestade de eletricidade corrompida dura 2d4 rodadas; no início de cada rodada, um personagem escolhido aleatoriamente é atingido por um relâmpago e sofre 20d8 pontos de dano, metade ácido, metade eletricidade. Para cada resultado 8 nesses dados de dano, a vítima perde também 2 PM (Reflexos CD 35 reduz o dano e a perda de PM à metade)."
+                },
+                {
+                  "title": "7) Pesadelos Reais",
+                  "description": "A Tempestade Rubra faz com que os aventureiros enxerguem seus maiores medos materializados. As criaturas ficam apavoradas, sofrem 6d8 pontos de dano psíquico e perdem 1d6 PM (Vontade CD 35 evita o dano e a perda de PM). Cada criatura sob efeito do pesadelo deve repetir o teste de Vontade no início de cada um de seus turnos; se falhar, sofre o dano e a perda de PM novamente. O pesadelo termina se o personagem passar em dois testes de Vontade seguidos. Efeito de medo."
+                },
+                {
+                  "title": "8) Nenhum fenômeno",
+                  "description": "Os aventureiros tiveram sorte dessa vez. Nenhum fenômeno acontece."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "360"
+              }
+            }
+          },
+          {
+            "id": 10,
             "title": "Fogo",
             "description": "Exposição a fogo",
             "img": "small-fire.svg",
@@ -3091,13 +3207,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 7,
+            "id": 11,
             "title": "Fome e Sede",
             "description": "Sem água ou comida",
             "img": "hot-dog.svg",
@@ -3115,13 +3231,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 8,
+            "id": 12,
             "title": "Fumaça",
             "description": "Imerso em fumaça",
             "img": "chimney.svg",
@@ -3142,13 +3258,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 9,
+            "id": 13,
             "title": "Lava",
             "description": "Exposição a lava",
             "img": "caldera.svg",
@@ -3159,18 +3275,72 @@
                   "description": "Lava, magma e outros materiais incandescentes causam 2d6 pontos de dano de fogo por rodada de exposição direta."
                 },
                 {
-                  "title": "Imersão Total",
-                  "description": "Causa 20d6 pontos de dano de fogo por rodada e o dano persiste por uma rodada adicional."
+                  "description": "Imersão total causa 20d6 pontos de dano de fogo por rodada e o dano persiste por uma rodada adicional."
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 10,
+            "id": 14,
+            "title": "Lodo Negro",
+            "description": "Exposição a lodo negro",
+            "img": "blood.svg",
+            "details": {
+              "description": "Descoberto a essência de Ragnar, o antigo Deus da Morte, este líquido viscoso pode brotar em qualquer lugar, sendo mais abundante nas Ruínas de Tyrondir. Visto por seus antigos devotos como a última dádiva de seu deus morto, o lodo negro mata tudo que toca.",
+              "uses": [
+                {
+                  "description": "Uma criatura viva que entre em contato com ele deve fazer um teste de Fortitude (CD 35) a cada rodada. Se passar, perde 10d12 pontos de vida. Se falhar, sofre a perda de vida ou seus pontos de vida são reduzidos a –10 (o que for pior)."
+                },
+                {
+                  "description": "Imersão total mata a criatura instantaneamente, sem direito a testes."
+                },
+                {
+                  "description": "O lodo negro é imprevisível e pode atravessar barreiras sólidas sem aviso, sendo impossível armazená-lo em qualquer recipiente."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "361"
+              }
+            }
+          },
+          {
+            "id": 15,
+            "title": "Maldições",
+            "description": "Ser amaldiçoado",
+            "img": "voodoo-doll.svg",
+            "details": {
+              "description": "Maldições são efeitos mágicos poderosos; empregados para proteger lugares, como tumbas ou tesouros, ou proferidas por criaturas movidas por sentimentos sombrios, ou emoções profundas. Independente de sua origem, maldições impõem consequências terríveis sobre suas vítimas e geralmente só podem ser removidas sob condições específicas. Maldições podem ser encontradas nos mais diversos lugares ou rogadas pelas mais diferentes criaturas.",
+              "uses": [
+                {
+                  "title": "Ativação",
+                  "description": "Cada manifestação de uma maldição possui uma forma de ativação, relacionada àquilo que a maldição quer impedir ou punir. Por exemplo, quando alguém mover ou manusear um objeto, quando alguém entrar em um local ou executar uma ação proibida em seu interior. Maldições também podem ser proferidas por criaturas, como uma de suas habilidades ou como uma manifestação extrema de raiva, ódio ou outro sentimento. Em todos os casos, o mestre define as condições para que cada maldição seja ativada."
+                },
+                {
+                  "title": "Detecção",
+                  "description": "Perceber que um lugar ou objeto guarda uma maldição prestes a ser ativada exige estudar o lugar ou objeto por alguns minutos e passar em um teste de Investigação ou Misticismo (CD igual à da maldição)."
+                },
+                {
+                  "title": "Teste de Resistência",
+                  "description": "Quando uma maldição é ativada, cada vítima pode fazer um teste de Vontade para evitá-la. A CD depende da fonte da maldição: para criaturas, use a CD de suas habilidades; para lugares e objetos, determine a CD conforme adequado ao encontro."
+                },
+                {
+                  "title": "Remoção",
+                  "description": "Cada maldição possui uma forma específica de remoção. Além disso, uma maldição geralmente pode ser removida com as magias Desejo e Intervenção Divina (ambas com sacrifício de 2 PM)."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "361"
+              }
+            }
+          },
+          {
+            "id": 16,
             "title": "Queda",
             "description": "Em queda livre",
             "img": "falling.svg",
@@ -3188,13 +3358,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 11,
+            "id": 17,
             "title": "Sono",
             "description": "Sem dormir",
             "img": "sleeping-bag.svg",
@@ -3209,13 +3379,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 12,
+            "id": 18,
             "title": "Sufocamento",
             "description": "Prender a respiração",
             "img": "drowning.svg",
@@ -3230,13 +3400,13 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 13,
+            "id": 19,
             "title": "Tormenta",
             "description": "Área de Tormenta",
             "img": "lightning-tree.svg",
@@ -3262,14 +3432,15 @@
                   "description": "Lefeu e lefou são imunes a todos esses efeitos."
                 }
               ],
+              "moreInfo": "Para mais efeitos da área de Tormenta, veja o perigo Fenômenos Rubros.",
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "319"
               }
             }
           },
           {
-            "id": 14,
+            "id": 20,
             "title": "Veneno",
             "description": "Exposição a veneno",
             "img": "poison-bottle.svg",
@@ -3299,7 +3470,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "161"
               }
             }
@@ -3335,7 +3506,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "267"
               }
             }
@@ -3366,7 +3537,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "267"
               }
             }
@@ -3397,8 +3568,32 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "267"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Ar Saturado",
+            "description": "Umidade",
+            "img": "steam.svg",
+            "details": {
+              "description": "Uma área onde a umidade do ar é excessiva.",
+              "uses": [
+                {
+                  "description": "Um personagem deve fazer um teste de Fortitude (CD 15) por dia de exposição. Se falhar, fica alquebrado e fatigado devido ao esforço para respirar (efeito de metabolismo)."
+                },
+                {
+                  "description": "Efeitos climáticos de calor e frio causam +1d6 pontos de danos."
+                },
+                {
+                  "description": "As condições de descanso são sempre uma categoria pior."
+                }
+              ],
+              "reference": {
+                "source": "Ameaças de Arton",
+                "page": "358"
               }
             }
           }
@@ -3431,7 +3626,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "268"
               }
             }
@@ -3450,7 +3645,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "268"
               }
             }
@@ -3477,7 +3672,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "268"
               }
             }
@@ -3508,7 +3703,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "268"
               }
             }
@@ -3527,7 +3722,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "268"
               }
             }
@@ -3546,7 +3741,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "268"
               }
             }
@@ -3569,7 +3764,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "269"
               }
             }
@@ -3596,7 +3791,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "269"
               }
             }
@@ -3627,7 +3822,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "275"
               }
             }
@@ -3654,7 +3849,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "275"
               }
             }
@@ -3672,7 +3867,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "275"
               }
             }
@@ -3696,7 +3891,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "275"
               }
             }
@@ -3727,7 +3922,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "96"
               }
             }
@@ -3748,7 +3943,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "97"
               }
             }
@@ -3766,7 +3961,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "98"
               }
             }
@@ -3787,7 +3982,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "98"
               }
             }
@@ -3805,7 +4000,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "98"
               }
             }
@@ -3826,7 +4021,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "99"
               }
             }
@@ -3850,7 +4045,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "99"
               }
             }
@@ -3871,7 +4066,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "99"
               }
             }
@@ -3889,7 +4084,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "100"
               }
             }
@@ -3914,7 +4109,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "101" 
               }
             }
@@ -3935,7 +4130,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "101"
               }
             }
@@ -3959,7 +4154,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "102"
               }
             }
@@ -3983,7 +4178,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "102"
               }
             }
@@ -4001,7 +4196,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "103"
               }
             }
@@ -4022,7 +4217,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "103"
               }
             }
@@ -4040,7 +4235,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "104"
               }
             }
@@ -4064,7 +4259,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "104"
               }
             }
@@ -4085,7 +4280,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "104"
               }
             }
@@ -4106,7 +4301,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "105"
               }
             }
@@ -4127,7 +4322,7 @@
                 }
               ],
               "reference": {
-                "source": "T20",
+                "source": "Tormenta20",
                 "page": "105"
               }
             }
