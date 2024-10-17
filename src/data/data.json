@@ -4328,6 +4328,91 @@
             }
           }
         ]
+      },
+      {
+        "id": 1,
+        "title": "Deus Caído",
+        "description": "Em Arton os Deuses não são absolutos. Eles podem ser depostos, punidos e até mortos.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Keen",
+            "description": "Deus da Guerra",
+            "img": "axe-sword.svg",
+            "details": {
+              "description": "Os devotos do antigo Deus da Guerra acreditam que a paz é para os fracos e covardes e apenas em batalhas podem provar seu valor. Nunca oferecem ou aceitam rendição e jamais demonstram fraqueza ou temor. Acreditam que devem persistir por meio da agressividade e do conflito.",
+              "uses": [
+                {
+                  "description": "Devotos de Keenn não podem se negar a participar de uma luta ou impedir que ela aconteça."
+                },
+                {
+                  "description": "Devotos de Keenn são proibidos de fugir de qualquer batalha e, quando derrotados, devem aceitar a morte ou captura, mas nunca recuar."
+                },
+                {
+                  "description": "Devotos de Keenn também não podem lançar magias de cura."
+                }
+              ],
+              "reference": {
+                "source": "Guerra Artoniana",
+                "page": "12"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Ragnar",
+            "description": "Deus da Morte dos Goblinoides",
+            "img": "eclipse.svg",
+            "details": {
+              "description": "Os devotos do antigo Deus da Morte dos Goblinoides acreditam eu devem promover a morte cruel e absoluta e jamais devem negar a alguém o direito de uma morte definitiva. Para eles é dogma impedir o desenvolvimento, perpetuar a brutalidade e destruir os elfos, humanos e anões. Devotam-se a ideia de que a vida é uma ilusão, um pesadelo e a morte é o verdadeiro despertar.",
+              "uses": [
+                {
+                  "description": "Devotos de Ragnar não podem agir contra a morte; principalmente se for a morte de elfos, humanos e anões, os maiores inimigos da Aliança Negra."
+                },
+                {
+                  "description": "Esses devotos nunca podem causar dano não letal."
+                },
+                {
+                  "description": "Devotos especialmente malignos de Ragnar devem sacrificar uma vítima élfica, humana ou anã a seu deus todos os meses (não permitido para personagens jogadores)."
+                }
+              ],
+              "reference": {
+                "source": "Guerra Artoniana",
+                "page": "12"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Tauron",
+            "description": "Deus da Força",
+            "img": "bull.svg",
+            "details": {
+              "description": "Os devotos do antigo Deus da Força acreditam que devem venerar a força, a coragem e a determinação. Dominar os seres mansos e dóceis do mundo e exigir tributo e servidão deles, mas também protegê-los — com sua vida, se necessário.",
+              "uses": [
+                {
+                  "description": "Devotos de Tauron devem demonstrar coragem e honra em combate, jamais lutando contra um oponente em desvantagem numérica (não pode se beneficiar do bônus de flanquear) ou incapaz de lutar."
+                },
+                {
+                  "description": "Também não podem usar armas de ataque à distância e habilidades ofensivas com alcance maior que toque."
+                },
+                {
+                  "description": "Os devotos de Tauron devem sempre manter sua palavra e nunca recusar um pedido de ajuda de uma criatura mais fraca (com ND igual ou inferior a metade do ND do próprio devoto)."
+                },
+                {
+                  "description": "Em regiões mais distantes de Arton, há outra obrigação para devotos de Tauron: encontrar e adotar uma criatura mais fraca (veja acima) e protegê-la pelo resto da vida ou até que ela supere sua força."
+                },
+                {
+                  "description": "O devoto jamais deve aceitar qualquer ajuda do seu protegido, assim como deve ser honrado e respeitado por ele."
+                }
+              ],
+              "reference": {
+                "source": "Guerra Artoniana",
+                "page": "13"
+              }
+            }
+          }
+        ]
       }
     ]
   }
