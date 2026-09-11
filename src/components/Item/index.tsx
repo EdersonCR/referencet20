@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Typography, Box, Card, CardContent, CardMedia } from '@mui/material';
 import { colors, fonts, multiplicatorFactor, spaces } from '../../styles/theme';
 import { ItemData } from '../../interfaces/Interfaces';

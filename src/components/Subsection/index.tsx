@@ -1,4 +1,3 @@
-import React from 'react';
 import { Typography, Stack, Box, Grid } from '@mui/material';
 import { SubsectionData } from '../../interfaces/Interfaces';
 import { fonts, spaces } from '../../styles/theme';
