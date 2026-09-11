@@ -3,7 +3,7 @@ import './index.css';
 
 export const theme = createTheme({
   typography: {
-    body: {
+    body1: {
       fontFamily: ['IowanOldStyleRoman', 'Times News Roman', 'serif'].join(','),
       fontSize: '1rem'
     }
@@ -30,12 +30,12 @@ export const colors = {
 };
 
 export const spaces = {
-  standard: 0.5 // rem
-}
+  standard: 0.5
+};
 
 export const multiplicatorFactor = {
   itemIcon: 95
-}
+};
 
 export const fonts = {
   family: {

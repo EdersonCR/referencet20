@@ -4,6 +4,7 @@ import { colors, fonts, multiplicatorFactor, spaces } from '../../styles/theme';
 import { ItemData } from '../../interfaces/Interfaces';
 import Detail from '../Detail';
 import IconsItem from '../Iconstem';
+import { getIconUrl } from '../../utils/iconMap';
 
  const itemStyle = {
   text: {
@@ -57,7 +58,7 @@ interface ItemProps {
 
 function Item(props: ItemProps) {
 
-  const icon = require(`../../images/icons/${props.item.img}`);
+  const icon = getIconUrl(props.item.img);
 
   const [openDetail, setOpenDetail] = useState(false);
 
@@ -65,10 +66,15 @@ function Item(props: ItemProps) {
 
   return (
     <>
-      <Box margin={`${spaces.standard / 2}rem`}>
+      <Box style={{ margin: `${spaces.standard / 2}rem` }}>
         <Card raised={false} style={itemStyle.container.main}> 
-          <Box bgcolor={colors.title} maxHeight={spaces.standard * multiplicatorFactor.itemIcon}
-            onClick={handleOpen} style={itemStyle.container.link}
+          <Box
+            style={{
+              ...itemStyle.container.link,
+              backgroundColor: colors.title,
+              maxHeight: spaces.standard * multiplicatorFactor.itemIcon,
+            }}
+            onClick={handleOpen}
           >
             <CardMedia 
               component='img' 
@@ -79,7 +85,7 @@ function Item(props: ItemProps) {
           </Box>
           <Box onClick={handleOpen} style={itemStyle.container.link}>
             <CardContent style={itemStyle.container.content}>
-              <Box display={'flex'}>
+              <Box style={{ display: 'flex' }}>
                 <Typography style={itemStyle.text.title}>
                   {props.item.title}
                 </Typography>
