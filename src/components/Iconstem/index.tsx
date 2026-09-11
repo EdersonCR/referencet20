@@ -1,5 +1,4 @@
 import { Tooltip } from "@mui/material";
-import React from "react";
 import { GiIronCross } from "react-icons/gi";
 import { IoStar } from "react-icons/io5";
 

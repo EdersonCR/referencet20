@@ -1,4 +1,5 @@
-# Guia de Referência Rápida T20 ![image](https://img.shields.io/badge/rpg-Tormenta20-red?style=flat-square) ![Site ao vivo](https://img.shields.io/badge/site-referencet20.vercel.app-blue?style=flat-square)
+# Guia de Referência Rápida T20
+![image](https://img.shields.io/badge/rpg-Tormenta20-red?style=flat-square) ![Site ao vivo](https://img.shields.io/badge/site-referencet20.vercel.app-blue?style=flat-square)
 
 Este projeto é um guia para mestres e jogadores de [Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/) e tem o objetivo de apresentar de forma resumida e intuitiva regras básicas desse sistema de RPG — para consulta rápida no celular, no notebook ou na mesa, sem folhear o livro inteiro.
 
@@ -13,15 +14,15 @@ Inspirado em referências como o [D&D 5e Quick Reference](https://diogoan.github
 O site organiza o conteúdo em seções expansíveis, com ícones e descrições curtas. Toque em um item para ver os detalhes completos, incluindo referência de página no livro.
 
 
-| Seção                    | Conteúdo                                                          |
-| ------------------------ | ----------------------------------------------------------------- |
-| **Atributos e Perícias** | Os seis atributos e todas as perícias, com seus usos comuns       |
-| **Testes**               | Regras para resolver testes e situações especiais                 |
-| **Combate**              | Fluxo de combate, ataques, dano e mecânicas centrais              |
-| **Ações**                | Ações do personagem durante o turno                               |
-| **Condições**            | Estados que afetam personagens durante o jogo                     |
-| **Perigos e Ambiente**   | Situações e contextos que podem apresentar ameaça aos personagens |
-| **Deuses**               | Panteão de Arton e regras de devoção                              |
+| Seção                    | Conteúdo                                                                     |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| **Atributos e Perícias** | Os seis atributos e todas as perícias, com seus usos comuns                  |
+| **Testes**               | Regras para resolver testes e situações especiais                            |
+| **Combate**              | Fluxo de combate, ataques, dano e mecânicas centrais                         |
+| **Ações**                | Ações do personagem durante o turno                                          |
+| **Condições**            | Estados que afetam personagens durante o jogo                                |
+| **Perigos e Ambiente**   | Situações e fatores ambientais que representam ameaça direta aos personagens |
+| **Deuses**               | Panteão de Arton e regras de devoção                                         |
 
 
 ## 🎯 Para quem é
@@ -100,5 +101,5 @@ Feito por **Éderson C. Rodrigues** 🏳️‍🌈
 
  
 
-### ![](./src/images/olho-t20.png) Tudo é Lefeu!
+### <img src='./src/images/olho-t20.png' width='22px' style='margin-bottom:-5px;'> Tudo é Lefeu!
 

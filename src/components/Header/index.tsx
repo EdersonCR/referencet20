@@ -1,4 +1,3 @@
-import React from 'react';
 import { Typography, Box } from '@mui/material';
 import { colors, fonts, spaces } from '../../styles/theme';
 
@@ -30,7 +29,7 @@ function Header() {
       Referência Rápida T20
     </Typography>
     <Typography style={headerStyle.body.text}>
-      Este guia apresenta, de maneira resumida e intuitiva, regras básicas de T20 para consulta rápida por jogadores e mestres. As referências das páginas do Tormenta20 referem-se a edição Jogo do Ano.
+      Este guia reúne as regras básicas de Tormenta20 em formato de consulta rápida e objetiva, para que jogadores e mestres relembrem o essencial durante a sessão.
     </Typography>
   </Box>
  ); 

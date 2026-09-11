@@ -1,4 +1,3 @@
-import React from 'react';
 import { Stack } from '@mui/material';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';

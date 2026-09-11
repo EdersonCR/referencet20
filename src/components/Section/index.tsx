@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Typography, Box, Stack, IconButton } from '@mui/material';
 import Subsection from '../Subsection';
 import { SectionData } from '../../interfaces/Interfaces';

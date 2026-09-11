@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction } from 'react';
+import { Dispatch, SetStateAction } from 'react';
 import { Typography, Box, Stack, Dialog } from '@mui/material';
 import { DetailData } from '../../interfaces/Interfaces';
 import { colors, fonts, spaces } from '../../styles/theme';
