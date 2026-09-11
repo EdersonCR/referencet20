@@ -116,15 +116,17 @@ function Detail(props: DetailProps) {
       onClose={handleClose}
       disableScrollLock={true}
       closeAfterTransition
-      BackdropComponent={Backdrop}
-      BackdropProps={{ timeout: 600, style: detailStyle.backdroop }}
-      PaperProps={{ style: detailStyle.paper }}
+      slots={{ backdrop: Backdrop }}
+      slotProps={{
+        backdrop: { timeout: 600, style: detailStyle.backdroop },
+        paper: { style: detailStyle.paper },
+      }}
       fullWidth
     >
       <Fade in={props.open}>
         <Stack onClick={handleClose} style={detailStyle.dialog}>
           <Box style={detailStyle.title.container}>
-            <Box display={'flex'}>
+            <Box style={{ display: 'flex' }}>
               <Typography style={detailStyle.title.text}>
                 {props.title}
               </Typography>
@@ -140,7 +142,7 @@ function Detail(props: DetailProps) {
             </Typography>
 
             { props.detail.emphasis ?
-            <Typography style={detailStyle.body.text.emphasis} textAlign='center'>
+            <Typography style={{ ...detailStyle.body.text.emphasis, textAlign: 'center' }}>
               {props.detail.emphasis}
             </Typography>
             : <></>}
@@ -151,7 +153,7 @@ function Detail(props: DetailProps) {
                   countLinesTable++;
                   const color = countLinesTable % 2 === 0 ? colors.tableLine.even : colors.tableLine.odd
                   return (
-                      <Typography style={detailStyle.table.text} bgcolor={color} key={index}>
+                      <Typography style={{ ...detailStyle.table.text, backgroundColor: color }} key={index}>
                         { use.title ? <strong>{use.title + ': '}</strong> : <></>}
                         {use.description}
                       </Typography>
@@ -165,7 +167,7 @@ function Detail(props: DetailProps) {
                 {props.detail.moreInfo}
               </Typography>
             : <></>}
-            <Typography style={detailStyle.body.text.reference} textAlign='right'>
+            <Typography style={{ ...detailStyle.body.text.reference, textAlign: 'right' }}>
               {props.detail.reference.source + ', pág. ' + props.detail.reference.page}
             </Typography>
           </Stack>

@@ -1,14 +1,14 @@
 import React from 'react';
 import { Stack } from '@mui/material';
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Section from './components/Section';
 import { spaces } from './styles/theme';
 import { SectionData } from './interfaces/Interfaces';
-import { inject as vercelAudiences} from '@vercel/analytics';
-
-const bgImg = require('./images/background.jpg');
-const data: SectionData[] = require('./data/data.json');
+import bgImg from './images/background.jpg';
+import data from './data/data.json';
 
 const styles = {
   background: {
@@ -20,16 +20,15 @@ const styles = {
 }
 
 function App() {
-
-  vercelAudiences();
-  
   return (
     <>
       <Stack style={styles.background} spacing={`${spaces.standard * 2}rem`}>
         <Header />
-        {data.map(section => <Section section={section} myKey={`${section.id}`} key={`${section.id}`} />)}
+        {(data as SectionData[]).map(section => <Section section={section} myKey={`${section.id}`} key={`${section.id}`} />)}
         <Footer />
       </Stack>
+      <Analytics />
+      <SpeedInsights />
     </>
   );
 }
