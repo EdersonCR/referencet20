@@ -1,12 +1,14 @@
-import { Dispatch, SetStateAction } from 'react';
+import { Dispatch, SetStateAction, useMemo } from 'react';
 import { Typography, Box, Stack, Dialog } from '@mui/material';
 import { DetailData } from '../../interfaces/Interfaces';
-import { colors, fonts, spaces } from '../../styles/theme';
+import { fonts, spaces } from '../../styles/theme';
+import { ThemeColors } from '../../themes/types';
+import { useThemeConfig } from '../../themes/ThemeContext';
 import Backdrop from '@mui/material/Backdrop';
 import Fade from '@mui/material/Fade';
 import IconsItem from '../Iconstem';
 
-const detailStyle = {
+const getDetailStyle = (colors: ThemeColors) => ({
   dialog: {
     cursor: 'context-menu',
     outline: 'none',
@@ -45,9 +47,6 @@ const detailStyle = {
     container: {
       backgroundColor: colors.modalBackground,
       padding: `${spaces.standard}rem`,
-      // border: `${colors.border}`,
-      // borderWidth: `${spaces.standard}rem`,
-      // borderStyle: 'none solid solid solid',
     },
     text: {
       description: {
@@ -94,7 +93,7 @@ const detailStyle = {
     marginTop: `${spaces.standard / 2}rem`,
     width: `${spaces.standard * 2}rem`
   }
-};
+});
 
 interface DetailProps {
   detail: DetailData;
@@ -106,6 +105,8 @@ interface DetailProps {
 };
 
 function Detail(props: DetailProps) {
+  const { colors } = useThemeConfig();
+  const detailStyle = useMemo(() => getDetailStyle(colors), [colors]);
 
   const handleClose = () => props.close(false)
   let countLinesTable = 0;

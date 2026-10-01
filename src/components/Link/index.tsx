@@ -1,10 +1,5 @@
 import { Link as Hyperlink } from '@mui/material';
-import { colors } from '../../styles/theme';
-
-const linkStyle = {
-  textDecoration: 'none',
-  color: colors.link
-}
+import { useThemeConfig } from '../../themes/ThemeContext';
 
 interface LinkProps {
   link: {
@@ -16,10 +11,12 @@ interface LinkProps {
 };
 
 function Link(props: LinkProps) {
+  const { colors } = useThemeConfig();
+
   return (
     <Hyperlink 
       href={props.link.url} 
-      style={linkStyle} 
+      style={{ textDecoration: 'none', color: colors.link }} 
       target='_blank' 
       key={`${props.myKey ? props.myKey : ''}${props.link.id}`}
     >

@@ -1,7 +1,10 @@
+import { useMemo } from 'react';
 import { Typography, Box } from '@mui/material';
-import { colors, fonts, spaces } from '../../styles/theme';
+import { fonts, spaces } from '../../styles/theme';
+import { ThemeColors } from '../../themes/types';
+import { useThemeConfig } from '../../themes/ThemeContext';
 
-const headerStyle = {
+const getHeaderStyle = (colors: ThemeColors) => ({
   title: {
     text: {
       fontFamily: fonts.family.title,
@@ -20,19 +23,22 @@ const headerStyle = {
       backgroundColor: colors.backround
     }
   }
-}
+});
 
 function Header() {
- return (
-  <Box style={headerStyle.body.container}>
-    <Typography style={headerStyle.title.text}>
-      Referência Rápida T20
-    </Typography>
-    <Typography style={headerStyle.body.text}>
-      Este guia reúne as regras básicas de Tormenta20 em formato de consulta rápida e objetiva, para que jogadores e mestres relembrem o essencial durante a sessão.
-    </Typography>
-  </Box>
- ); 
+  const { colors, header } = useThemeConfig();
+  const headerStyle = useMemo(() => getHeaderStyle(colors), [colors]);
+
+  return (
+    <Box style={headerStyle.body.container}>
+      <Typography style={headerStyle.title.text}>
+        {header.title}
+      </Typography>
+      <Typography style={headerStyle.body.text}>
+        {header.description}
+      </Typography>
+    </Box>
+  );
 }
 
 export default Header;

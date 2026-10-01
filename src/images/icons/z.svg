@@ -1,0 +1,36 @@
+<svg style="height: 512px; width: 512px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+  xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="svg" href="#object-0" path="Sem título.svg"></bx:file>
+    </bx:export>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 10.008415, 1.000842)">
+    <g class="" style="" transform="matrix(1.209738, 0, 0, 1.417142, -46.095581, -105.078903)">
+      <g class="" style="" transform="matrix(1, 0, 0, 1, 5.213437, 5.517571)">
+        <path
+          d="M 388.045 409.377 C 362.755 312.636 201.743 147.942 90.495 107.236 C 195.426 188.911 343.695 339.439 388.045 409.377 Z"
+          fill="#ffffff" fill-opacity="1"></path>
+      </g>
+    </g>
+    <g class="" style="transform-origin: -1.98362px 283.843px 0px;"
+      transform="matrix(1.212313, -0.055965, 0.06048, 1.121816, 123.870468, -29.061903)">
+      <g class="" style="" transform="matrix(1, 0, 0, 1, 5.213437, 5.517571)">
+        <path
+          d="M 126.825 429.394 C 90.489 329.48 -42.405 167.166 -170.72 127.253 C -65.794 208.928 82.475 359.456 126.825 429.394 Z"
+          fill="#ffffff" fill-opacity="1" style="transform-origin: -21.95px 278.324px 0px;"
+          transform="matrix(0.667698, 0.744432, -0.744432, 0.667698, 0, 0)"></path>
+      </g>
+    </g>
+    <g class="" style="transform-origin: -1.98362px 283.843px 0px;"
+      transform="matrix(-1.211772, -0.065237, -0.0705, 1.121315, 386.592041, -29.678368)">
+      <g class="" style="" transform="matrix(1, 0, 0, 1, 5.213437, 5.517571)">
+        <path
+          d="M 126.825 429.394 C 90.489 329.48 -42.405 167.166 -170.72 127.253 C -65.794 208.928 82.475 359.456 126.825 429.394 Z"
+          fill="#ffffff" fill-opacity="1"
+          style="transform-origin: -21.95px 278.324px 0px;"
+          transform="matrix(0.667698, 0.744432, -0.744432, 0.667698, 0, 0)" id="object-0"></path>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+{
+  "repo":{
+    "id": 1,
+    "name":"referencet20"
+  },
+  "developer":{
+    "id": 1,
+    "creator":"EdersonCR"
+  },
+  "jambo":{
+    "id": 2,
+    "lable":"Jambo Editora",
+    "url":"https://jamboeditora.com.br/"
+  },
+  "t20":{
+    "id": 3,
+    "lable":"A Lenda de Ghanor RPG",
+    "url":"https://jamboeditora.com.br/produto/a-lenda-de-ghanor-rpg-livro-basico/"
+  },
+  "mail":{
+    "id": 4,
+    "lable":"referencet20@gmail.com",
+    "url":"mailto:referencet20@gmail.com"
+  },
+  "icons": {
+    "id": 8,
+    "lable":"Game-icons.net",
+    "url":"https://game-icons.net/",
+    "creators":[
+      "Caro Asercion",
+      "Cathelineau",
+      "DarkZaitzev",
+      "Delapouite",
+      "Lorc",
+      "Skoll"
+    ]
+  }
+}

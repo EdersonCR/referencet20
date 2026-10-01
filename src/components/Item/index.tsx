@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Typography, Box, Card, CardContent, CardMedia } from '@mui/material';
-import { colors, fonts, multiplicatorFactor, spaces } from '../../styles/theme';
+import { fonts, multiplicatorFactor, spaces } from '../../styles/theme';
+import { ThemeColors } from '../../themes/types';
+import { useThemeConfig } from '../../themes/ThemeContext';
 import { ItemData } from '../../interfaces/Interfaces';
 import Detail from '../Detail';
 import IconsItem from '../Iconstem';
 import { getIconUrl } from '../../utils/iconMap';
 
- const itemStyle = {
+const getItemStyle = (colors: ThemeColors) => ({
   text: {
     title: {
       fontFamily: fonts.family.text.normal,
@@ -48,7 +50,7 @@ import { getIconUrl } from '../../utils/iconMap';
     marginLeft: `${spaces.standard / 2}rem`,
     width: `${spaces.standard * 1.5}rem`
   }
-};
+});
 
 interface ItemProps {
   item: ItemData;
@@ -57,6 +59,8 @@ interface ItemProps {
 };
 
 function Item(props: ItemProps) {
+  const { colors } = useThemeConfig();
+  const itemStyle = useMemo(() => getItemStyle(colors), [colors]);
 
   const icon = getIconUrl(props.item.img);
 
