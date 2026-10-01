@@ -1,10 +1,12 @@
+import { useMemo } from 'react';
 import { Typography, Grid } from '@mui/material';
-import { colors, fonts, spaces } from '../../styles/theme';
+import { fonts, spaces } from '../../styles/theme';
+import { ThemeColors } from '../../themes/types';
+import { useThemeConfig } from '../../themes/ThemeContext';
 import Github from '../Github';
 import Link from '../Link';
-import links from '../../data/links.json';
 
-const footerStyle = {
+const getFooterStyle = (colors: ThemeColors) => ({
   container: {
     backgroundColor: colors.title,
     display: 'flex',
@@ -26,14 +28,13 @@ const footerStyle = {
       color: colors.anotation,
       padding: `${spaces.standard}rem`,
     },
-  },
-  link: {
-    textDecoration: 'none',
-    color: colors.subtitle
   }
-}
+});
 
 function Footer() {
+  const { colors, links } = useThemeConfig();
+  const footerStyle = useMemo(() => getFooterStyle(colors), [colors]);
+
   return (
     <Grid container columns={{ xs: 3, sm: 6, md: 12, lg: 12, xl: 12 }} style={footerStyle.container}>
       <Grid size={{ xs: 3, md: 2 }}>

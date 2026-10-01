@@ -1,17 +1,21 @@
-# Guia de Referência Rápida T20
-![image](https://img.shields.io/badge/rpg-Tormenta20-red?style=flat-square) ![Site ao vivo](https://img.shields.io/badge/site-referencet20.vercel.app-blue?style=flat-square)
+# Guias de Referência Rápida: Tormenta20 e A Lenda de Ghanor
+![image](https://img.shields.io/badge/rpg-Tormenta20-red?style=flat-square) ![Site ao vivo](https://img.shields.io/badge/site-referencet20.vercel.app-blue?style=flat-square) 
 
-Este projeto é um guia para mestres e jogadores de [Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/) e tem o objetivo de apresentar de forma resumida e intuitiva regras básicas desse sistema de RPG — para consulta rápida no celular, no notebook ou na mesa, sem folhear o livro inteiro.
+![image](https://img.shields.io/badge/rpg-A_Lenda_de_Ghanor_RPG-blue?style=flat-square) ![Site ao vivo](https://img.shields.io/badge/site-referenceghanor.vercel.app-blue?style=flat-square)
 
-👉 **[Acesse o site: referencet20.vercel.app](https://referencet20.vercel.app)**
+Este projeto reúne dois guias para mestres e jogadores, um de [Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/) e outro de [A Lenda de Ghanor RPG](https://jamboeditora.com.br/produto/a-lenda-de-ghanor-rpg-livro-basico/). O objetivo é apresentar de forma resumida e intuitiva regras básicas desses sistemas de RPG — para consulta rápida no celular, no notebook ou na mesa, sem folhear o livro inteiro.
 
-[Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/) pertence a [Jambo Editora](https://jamboeditora.com.br/). Todos os direitos são reservados à editora. Este é um projeto de fãs, sem fins lucrativos, destinado a auxiliar mesas que já possuem o material oficial.
+👉 **[Referência Rápida T20: referencet20.vercel.app](https://referencet20.vercel.app)**
 
-Inspirado em referências como o [D&D 5e Quick Reference](https://diogoan.github.io/dnd5e-quickref), o guia foi pensado para quem já conhece o sistema e precisa de um lembrete na hora da sessão. Funciona no navegador, sem instalação e sem cadastro.
+👉 **[Referência Rápida Lenda de Ghanor: referenceghanor.vercel.app](https://referenceghanor.vercel.app)**
+
+[Tormenta20](https://jamboeditora.com.br/produto/tormenta20-edicao-jogo-do-ano/) e [A Lenda de Ghanor RPG](https://jamboeditora.com.br/produto/a-lenda-de-ghanor-rpg-livro-basico/) pertencem a [Jambo Editora](https://jamboeditora.com.br/). Todos os direitos são reservados à editora. Este é um projeto de fãs, sem fins lucrativos, destinado a auxiliar mesas que já possuem o material oficial.
+
+Inspirado em referências como o [D&D 5e Quick Reference](https://diogoan.github.io/dnd5e-quickref), os guias foram pensados para quem já conhece o sistema e precisa de um lembrete na hora da sessão. Funcionam no navegador, sem instalação e sem cadastro.
 
 ## 📖 O que você encontra
 
-O site organiza o conteúdo em seções expansíveis, com ícones e descrições curtas. Toque em um item para ver os detalhes completos, incluindo referência de página no livro.
+Cada site organiza o conteúdo em seções expansíveis, com ícones e descrições curtas. Toque em um item para ver os detalhes completos, incluindo referência de página no livro.
 
 
 | Seção                    | Conteúdo                                                                     |
@@ -22,14 +26,15 @@ O site organiza o conteúdo em seções expansíveis, com ícones e descrições
 | **Ações**                | Ações do personagem durante o turno                                          |
 | **Condições**            | Estados que afetam personagens durante o jogo                                |
 | **Perigos e Ambiente**   | Situações e fatores ambientais que representam ameaça direta aos personagens |
-| **Deuses**               | Panteão de Arton e regras de devoção                                         |
+| **Deuses** (T20)         | Panteão de Arton e regras de devoção                                         |
+| **Santos** (Ghanor)      | Santos de Ghanor e normas de devoção                                         |
 
 
 ## 🎯 Para quem é
 
 - **Jogadores** que querem relembrar uma perícia, condição ou ação sem interromper a mesa
 - **Mestres** que precisam de uma consulta rápida durante a sessão
-- **Mesas novas** que ainda estão se familiarizando com as regras básicas do T20
+- **Mesas novas** que ainda estão se familiarizando com as regras básicas do T20 ou de Ghanor
 
 ## 💻 Tecnologias
 
@@ -66,7 +71,7 @@ $ npm run build
 $ npm run preview
 ```
 
-O site está hospedado na [Vercel](https://vercel.com).
+Os sites estão hospedados na [Vercel](https://vercel.com).
 
 ## 🛠️ Contribuições
 
@@ -99,7 +104,6 @@ Feito por **Éderson C. Rodrigues** 🏳️‍🌈
 &ensp;&ensp;&ensp;![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) 
 &ensp;&ensp;&ensp;![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
- 
+ 
 
 ### <img src='./src/images/olho-t20.png' width='22px' style='margin-bottom:-5px;'> Tudo é Lefeu!
-

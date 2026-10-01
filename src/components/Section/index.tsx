@@ -1,12 +1,14 @@
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { Typography, Box, Stack, IconButton } from '@mui/material';
 import Subsection from '../Subsection';
 import { SectionData } from '../../interfaces/Interfaces';
-import { colors, fonts, spaces } from '../../styles/theme';
+import { fonts, spaces } from '../../styles/theme';
+import { ThemeColors } from '../../themes/types';
+import { useThemeConfig } from '../../themes/ThemeContext';
 import Collapse from '@mui/material/Collapse';
 import { Remove, Add } from '@mui/icons-material';
 
-const sectionStyle = {
+const getSectionStyle = (colors: ThemeColors) => ({
   title: {
     container: {
       padding: `0 ${spaces.standard}rem 0 ${spaces.standard}rem`,
@@ -32,7 +34,7 @@ const sectionStyle = {
       padding: `${spaces.standard}rem ${spaces.standard / 2}rem`
     }
   }
-}
+});
 
 interface SectionProps {
   section: SectionData; 
@@ -40,6 +42,8 @@ interface SectionProps {
 }
 
 function Section(props: SectionProps) {
+  const { colors } = useThemeConfig();
+  const sectionStyle = useMemo(() => getSectionStyle(colors), [colors]);
 
   const [checked, setChecked] = useState(true);
 

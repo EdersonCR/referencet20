@@ -40,4 +40,20 @@ Tormenta20: Edição Jogo do Ano, Copyright 2022, Jambô Editora Ltda. Autores G
 
 Ameaças de Arton, Copyright 2023, Jambô Editora Ltda. Autores Guilherme Dei Svaldi, J. M. Trevisan, Leonel Caldela, Marcelo Cassaro, Rafael Dei Svaldi.
 
-O material a seguir é Conteúdo Open Game: todo o texto de regras do site, exceto imagens, ícones e todos os termos referentes ao universo Tormenta, incluindo, mas não limitado a, nomes e descrições de personagens, deuses, lugares e fenômenos.
+A Lenda de Ghanor RPG, Copyright 2022, Jambô Editora Ltda. Autores Guilherme Dei Svaldi, Rafael Dei Svaldi, Leonel Caldela, Felipe Della Corte e Thiago Rosa.
+
+Referência Rápida T20, Copyright 2026, Éderson Carlos Rodrigues.
+
+Referência Rápida Lenda de Ghanor, Copyright 2026, Éderson Carlos Rodrigues.
+
+DESIGNATION OF OPEN GAME CONTENT
+
+É designado como Conteúdo Open Game todo o texto de regras deste site que derive de Conteúdo Open Game disponibilizado pelas fontes aplicáveis listadas na Seção 15, bem como o texto de regras original criado para este site.
+
+Não fazem parte desta designação imagens, ícones e termos referentes aos universos Tormenta e Ruff Ghanor, incluindo, mas não limitado a, nomes e descrições de personagens, deuses, lugares, criaturas, organizações e fenômenos. Esses elementos permanecem sujeitos aos direitos de seus respectivos titulares.
+
+REFERENCES
+
+Jornada Heroica: Guerra Artoniana, Copyright 2024, Jambô Editora Ltda. Autores Guilherme Dei Svaldi, Davide Di Benedetto, Emerson Xavier, José Cerqueira, Miguel Souza, Rafael Dei Svaldi, Thiago Rosa.
+
+Dragão Brasil: Edição Especial — Ghanor, Copyright 2024, Jambô Editora Ltda. Autores Dan Ramos, Davide Di Benedetto, Guilherme Dei Svaldi, Miguel Souza, Rafael Dei Svaldi.
