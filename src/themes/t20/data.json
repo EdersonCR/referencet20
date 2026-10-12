@@ -2172,30 +2172,6 @@
           },
           {
             "id": 2,
-            "title": "Arma Natural",
-            "description": "Partes do corpo como armas",
-            "img": "high-punch.svg",
-            "details": {
-              "description": "Representam partes específicas do corpo de uma criatura que podem ser usadas para atacar, como chifres ou garras.",
-              "uses": [
-                {
-                  "description": "Armas naturais são consideradas armas leves corpo a corpo."
-                },
-                {
-                  "description": "Armas naturais não são afetadas por efeitos que afetem objetos ou armas que precisam ser empunhadas. Por exemplo, uma arma natural não pode ser desarmada ou quebrada."
-                },
-                {
-                  "description": "A quantidade e o tipo de dano de cada arma natural são apresentados em sua descrição."
-                }
-              ],
-              "reference": {
-                "source": "",
-                "page": ""
-              }
-            }
-          },
-          {
-            "id": 3,
             "title": "Cura Acelerada",
             "description": "Recupera vida automatico",
             "img": "healing.svg",
@@ -2222,7 +2198,7 @@
             }
           },
           {
-            "id": 4,
+            "id": 3,
             "title": "Escalada",
             "description": "Deslocamento",
             "img": "mountain-climbing.svg",
@@ -2246,7 +2222,7 @@
             }
           },
           {
-            "id": 5,
+            "id": 4,
             "title": "Escavação",
             "description": "Deslocamento",
             "img": "dig-hole.svg",
@@ -2270,7 +2246,7 @@
             }
           },
           {
-            "id": 6,
+            "id": 5,
             "title": "Natação",
             "description": "Deslocamento",
             "img": "pool-dive.svg",
@@ -2291,7 +2267,7 @@
             }
           },
           {
-            "id": 7,
+            "id": 6,
             "title": "Voo",
             "description": "Deslocamento",
             "img": "fairy.svg",
@@ -2315,7 +2291,7 @@
             }
           },
           {
-            "id": 8,
+            "id": 7,
             "title": "Faro",
             "description": "Olfato apurado",
             "img": "nose-side.svg",
@@ -2336,7 +2312,7 @@
             }
           },
           {
-            "id": 9,
+            "id": 8,
             "title": "Imunidade",
             "description": "Não sofre efeitos",
             "img": "mighty-force.svg",
@@ -2360,7 +2336,7 @@
             }
           },
           {
-            "id": 10,
+            "id": 9,
             "title": "Incorpóreo",
             "description": "Sem corpo físico",
             "img": "spectre.svg",
@@ -2384,7 +2360,7 @@
             }
           },
           {
-            "id": 11,
+            "id": 10,
             "title": "Percepção às Cegas",
             "description": "Sentidos especiais",
             "img": "sonic-screech.svg",
@@ -2408,7 +2384,7 @@
             }
           },
           {
-            "id": 12,
+            "id": 11,
             "title": "Redução de Dano",
             "description": "RD",
             "img": "armor-upgrade.svg",
@@ -2435,7 +2411,7 @@
             }
           },
           {
-            "id": 13,
+            "id": 12,
             "title": "Resistência à <Efeito>",
             "description": "Bônus em testes",
             "img": "fire-shield.svg",
@@ -2456,7 +2432,7 @@
             }
           },
           {
-            "id": 14,
+            "id": 13,
             "title": "Visão na Penumbra",
             "description": "Escuridão leve",
             "img": "night-vision.svg",
@@ -2480,7 +2456,7 @@
             }
           },
           {
-            "id": 15,
+            "id": 14,
             "title": "Visão no Escuro",
             "description": "Escuridão total",
             "img": "worried-eyes.svg",
@@ -2504,7 +2480,7 @@
             }
           },
           {
-            "id": 16,
+            "id": 15,
             "title": "Vulnerabilidade a Dano",
             "description": "+50% de dano",
             "img": "armor-downgrade.svg",
