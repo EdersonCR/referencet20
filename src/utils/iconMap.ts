@@ -4,7 +4,13 @@ const iconModules = import.meta.glob<string>('../images/icons/*.svg', {
   import: 'default',
 });
 
+const blankKey = '../images/icons/blank.svg';
+
 export function getIconUrl(filename: string): string {
+  if (!filename) {
+    return iconModules[blankKey] ?? '';
+  }
+
   const key = `../images/icons/${filename}`;
-  return iconModules[key] ?? '';
+  return iconModules[key] ?? iconModules[blankKey] ?? '';
 }
