@@ -169,7 +169,12 @@ function Detail(props: DetailProps) {
               </Typography>
             : <></>}
             <Typography style={{ ...detailStyle.body.text.reference, textAlign: 'right' }}>
-              {props.detail.reference.source + ', pág. ' + props.detail.reference.page}
+              {(Array.isArray(props.detail.reference)
+                ? props.detail.reference
+                : [props.detail.reference]
+              )
+                .map((ref) => ref.source + ', pág. ' + ref.page)
+                .join(' / ')}
             </Typography>
           </Stack>
         </Stack>

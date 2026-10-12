@@ -24,6 +24,7 @@ Cada site organiza o conteúdo em seções expansíveis, com ícones e descriç�
 | **Testes**               | Regras para resolver testes e situações especiais                            |
 | **Combate**              | Fluxo de combate, ataques, dano e mecânicas centrais                         |
 | **Ações**                | Ações do personagem durante o turno                                          |
+| **Habilidades Gerias**   | Habilidades comuns à personagens e criaturas                                 |
 | **Condições**            | Estados que afetam personagens durante o jogo                                |
 | **Perigos e Ambiente**   | Situações e fatores ambientais que representam ameaça direta aos personagens |
 | **Deuses** (T20)         | Panteão de Arton e regras de devoção                                         |

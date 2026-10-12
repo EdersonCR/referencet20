@@ -90,7 +90,7 @@
       },
       {
         "id": 2,
-        "title": "Perícia", 
+        "title": "Perícia",
         "description": "Perícias medem suas capacidades mundanas. São usadas para realizar todo tipo de façanha.",
         "items": [
           {
@@ -140,7 +140,9 @@
             "title": "Adestramento",
             "description": "Teste de Carisma",
             "img": "donkey.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Você sabe lidar com animais. Teste de Carisma.",
               "uses": [
@@ -195,7 +197,9 @@
             "title": "Atuação",
             "description": "Teste de Carisma",
             "img": "banjo.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Você sabe fazer apresentações artísticas, incluindo música, dança e dramaturgia. Teste de Carisma.",
               "uses": [
@@ -246,7 +250,9 @@
             "title": "Conhecimento",
             "description": "Teste de Inteligência",
             "img": "classical-knowledge.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Você estudou diversos campos do saber, como aritmética, astronomia, dialética, geografia, história... Teste de Inteligência.",
               "uses": [
@@ -381,7 +387,9 @@
             "title": "Furtividade",
             "description": "Teste de Destreza",
             "img": "ninja-mask.svg",
-            "icons": ["armorPenalty"],
+            "icons": [
+              "armorPenalty"
+            ],
             "details": {
               "description": "Você sabe ser discreto e sorrateiro. Teste de Destreza.",
               "uses": [
@@ -405,7 +413,9 @@
             "title": "Guerra",
             "description": "Teste de Inteligência",
             "img": "annexation.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Você foi educado em tática, estratégia e logística. Teste de Inteligência.",
               "uses": [
@@ -511,7 +521,10 @@
             "title": "Ladinagem",
             "description": "Teste de Destreza",
             "img": "snatch.svg",
-            "icons": ["treined", "armorPenalty"],
+            "icons": [
+              "treined",
+              "armorPenalty"
+            ],
             "details": {
               "description": "Você sabe exercer atividades ilícitas. Teste de Destreza.",
               "uses": [
@@ -556,7 +569,9 @@
             "title": "Misticismo",
             "description": "Teste de Inteligência",
             "img": "heptagram.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Esta perícia envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais. Teste de Inteligência.",
               "uses": [
@@ -596,7 +611,9 @@
             "title": "Nobreza",
             "description": "Teste de Inteligência",
             "img": "crown.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Você recebeu a educação de um nobre. Teste de Inteligência.",
               "uses": [
@@ -620,7 +637,9 @@
             "title": "Ofício",
             "description": "Teste de Inteligência",
             "img": "anvil-impact.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Ofício na verdade são várias perícias diferentes. Cada uma permite fabricar itens de certas categorias: Armeiro (armas e armaduras); Artesão (equipamento de aventura, ferramentas, esotéricos e veículos; Alquimista (alquímicos) e Alfaiate (vestuário). Você pode inventar outros tipos de Ofício: carpinteiro, pedreiro, ourives, fazendeiro, pescador, estalajadeiro, escriba, escultor, pintor... Nesses casos, converse com o mestre para determinar que usos a perícia terá. Teste de Inteligência.",
               "uses": [
@@ -675,7 +694,7 @@
             "id": 23,
             "title": "Pontaria",
             "description": "Teste de Destreza",
-            "img": "bullseye.svg", 
+            "img": "bullseye.svg",
             "details": {
               "description": "Você usa Pontaria para fazer ataques à distância. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada. Teste de Destreza.",
               "reference": {
@@ -703,7 +722,9 @@
             "title": "Religião",
             "description": "Teste de Sabedoria",
             "img": "sun-priest.svg",
-            "icons": ["treined"],
+            "icons": [
+              "treined"
+            ],
             "details": {
               "description": "Você possui conhecimento sobre os deuses e as religiões de do mundo de Ghanor. Teste de Sabedoria.",
               "uses": [
@@ -932,7 +953,7 @@
                 },
                 {
                   "title": "Quase Impossível (CD 40)",
-                "description": "Fabricar uma “obra-prima”, ou seja, um item com quatro melhorias (Ofício)."
+                  "description": "Fabricar uma “obra-prima”, ou seja, um item com quatro melhorias (Ofício)."
                 }
               ],
               "moreInfo": "*Caso um personagem tente uma tarefa fácil, o mestre pode considerar que ele passa automaticamente.",
@@ -964,7 +985,7 @@
               "description": "Às vezes, os personagens trabalham juntos e se ajudam. Um personagem (normalmente aquele com o maior bônus) é considerado o líder, e faz o teste normal, enquanto cada ajudante faz um teste contra CD 10 (usando a mesma perícia ou outra que faça sentido). Um teste de ajuda concede ao líder um bônus de +1, e +1 adicional para cada 10 pontos acima da CD (+2 para um resultado 20, +3 para 30 e assim por diante).",
               "uses": [
                 {
-                    "description": "Em muitos casos, ajuda externa não traz benefícios — você não pode ajudar um colega a ser mais silencioso em seu teste de Furtividade."
+                  "description": "Em muitos casos, ajuda externa não traz benefícios — você não pode ajudar um colega a ser mais silencioso em seu teste de Furtividade."
                 },
                 {
                   "description": "Ou então apenas um número limitado de ajudantes pode auxiliar alguém ao mesmo tempo (não há espaço para muitas pessoas à volta de uma mesma fechadura)."
@@ -1193,7 +1214,7 @@
             "details": {
               "description": "Um personagem que está em posição elevada em relação a seu inimigo recebe bônus no ataque.",
               "uses": [
-                {                  
+                {
                   "description": "Personagem no lado superior recebe +2 no ataque contra personagem no lado inferior."
                 }
               ],
@@ -1211,7 +1232,7 @@
             "details": {
               "description": "Um personagem recebe camuflagem leve quando um efeito dificulta a visão dos inimigos. E recebe camuflagem total quando um efeito impede a visão dos inimigos.",
               "uses": [
-                {                  
+                {
                   "title": "Camuflagem Leve",
                   "description": "Ataques contra um personagem com camuflagem leve têm 20% de chance de falha."
                 },
@@ -1234,7 +1255,7 @@
             "details": {
               "description": "Um personagem recebe cobertura leve quando está atrás de algo que bloqueia o ataque dos inimigos. E recebe cobertura total quando seus inimigos não podem alcançá-lo.",
               "uses": [
-                {                  
+                {
                   "title": "Cobertura Leve",
                   "description": "Fornece +5 na Defesa."
                 },
@@ -1257,7 +1278,7 @@
             "details": {
               "description": "Quando um personagem luta corpo a corpo contra um oponente e um aliado faz o mesmo no lado oposto — ou seja, o inimigo está entre os personagens — eles estão flanqueando o alvo.",
               "uses": [
-                {                  
+                {
                   "description": "Personagens flanqueando recebem +2 em seus testes de ataque contra o alvo flanqueado."
                 },
                 {
@@ -1352,7 +1373,7 @@
                 },
                 {
                   "description": "Um personagem com 0 ou menos pontos de vida que recupere PV até um valor positivo (1 ou mais) por causa de uma habilidade, magia ou descanso, recobra a consciência e pode agir normalmente."
-                },  
+                },
                 {
                   "description": "Quando seus pontos de vida chegam a –10 ou a um número negativo igual à metade de seus PV totais (o que for mais baixo), você morre."
                 }
@@ -1483,7 +1504,7 @@
               "description": "A descrição da magia determina a ação necessária para lançá-la. A maioria das magias exige uma ação padrão para ser executada.",
               "uses": [
                 {
-                  "title": "Custo em PM", 
+                  "title": "Custo em PM",
                   "description": "Lançar uma magia exige gastar pontos de mana (1º círculo: 1 PM; 2º círculo: 3 PM; 3º círculo: 6 PM; 4º círculo: 10 PM; e 5º círculo: 15 PM)."
                 },
                 {
@@ -1495,7 +1516,7 @@
                   "description": "Algumas magias possuem custos além de PM. Componentes materiais são consumidos mesmo que a habilidade falhe."
                 },
                 {
-                  "title": "Execução", 
+                  "title": "Execução",
                   "description": "Você só pode lançar uma magia com execução de ação livre por rodada. Magias com execução de reação só podem ser lançadas em reação àquilo contra o qual se aplicam. No caso de magias com execução maior do que uma ação completa, você fica desprevenido enquanto estiver lançando a magia."
                 },
                 {
@@ -1584,7 +1605,7 @@
               "description": "Habilidades fornecidas por sua raça, origem, classe, itens e outras fontes. A descrição da habilidade determina a ação necessária para usá-la. Caso nada esteja descrito, usar a habilidade é uma ação livre.",
               "uses": [
                 {
-                  "title": "Custo em PM", 
+                  "title": "Custo em PM",
                   "description": "A descrição da habilidade determina se são necessários PM para usá-la. Nesse caso, você gasta os PM mesmo em caso de falha. Para habilidades com custo variável, o máximo de PM que você pode gastar por uso é igual ao seu nível na classe que fornece a habilidade (mas você sempre pode usar a habilidade em seu custo mínimo). Para habilidades de raça, origem ou outras fontes e poderes gerais, o limite é o seu nível de personagem."
                 },
                 {
@@ -2103,6 +2124,394 @@
   },
   {
     "id": 8,
+    "title": "Habilidades Gerais",
+    "subsections": [
+      {
+        "id": 1,
+        "title": "Habilidades Gerais",
+        "description": "Habilidades que podem ser fornecidas por diversas fontes, como raça ou magias.",
+        "items": [
+          {
+            "id": 1,
+            "title": "Agarrar Aprimorado",
+            "description": "Ataque com arma natural",
+            "img": "grab.svg",
+            "details": {
+              "description": "Permite agarrar um alvo com uma arma natural durante um ataque.",
+              "uses": [
+                {
+                  "description": "Se acertar um ataque com a arma natural (especificada na habilidade), poderá fazer a manobra agarrar com esta arma como uma ação livre."
+                },
+                {
+                  "description": "Enquanto estiver usando a arma natural para agarrar, a criatura não poderá utilizá-la para desferir outros ataques."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "185"
+              }
+            }
+          },
+          {
+            "id": 2,
+            "title": "Arma Natural",
+            "description": "Partes do corpo como armas",
+            "img": "high-punch.svg",
+            "details": {
+              "description": "Representam partes específicas do corpo de uma criatura que podem ser usadas para atacar, como chifres ou garras.",
+              "uses": [
+                {
+                  "description": "Armas naturais são consideradas armas leves corpo a corpo."
+                },
+                {
+                  "description": "Armas naturais não são afetadas por efeitos que afetem objetos ou armas que precisam ser empunhadas. Por exemplo, uma arma natural não pode ser desarmada ou quebrada."
+                },
+                {
+                  "description": "A quantidade e o tipo de dano de cada arma natural são apresentados em sua descrição."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "185"
+              }
+            }
+          },
+          {
+            "id": 3,
+            "title": "Cura Acelerada",
+            "description": "Recupera vida automatico",
+            "img": "healing.svg",
+            "details": {
+              "description": "A criatura possui a capacidade de recuperar pontos de vida automaticamente.",
+              "uses": [
+                {
+                  "description": "No início de seu turno, a criatura recupera pontos de vida iguais ao seu valor de Cura Acelerada. Por exemplo, Cura Acelerada 5 recupera 5 PV."
+                },
+                {
+                  "description": "Se houver algum tipo de dano listado após uma barra, a Cura Acelerada não recupera dano daqueles tipos. Por exemplo, Cura Acelerada 10/ácido recupera 10 PV no início do turno, a menos que o dano tenha sido causado por ácido."
+                },
+                {
+                  "description": "Múltiplas habilidades de Cura Acelerada se acumulam."
+                },
+                {
+                  "description": "Cura Acelerada não afeta perda de PV, apenas dano."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 4,
+            "title": "Escalada",
+            "description": "Deslocamento",
+            "img": "mountain-climbing.svg",
+            "details": {
+              "description": "A criatura pode caminhar por superfícies verticais, inclusive de cabeça para baixo, como se fossem o chão.",
+              "uses": [
+                {
+                  "description": "O movimento de escalada segue as demais regras de movimento."
+                },
+                {
+                  "description": "O deslocamento é afetado pelas características da superfície. Uma parede acidentada pode ser considerada terreno difícil."
+                },
+                {
+                  "description": "Uma criatura que esteja escalando e perca seu deslocamento de escalada ou a capacidade de realizar ações físicas cai."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 5,
+            "title": "Escavação",
+            "description": "Deslocamento",
+            "img": "dig-hole.svg",
+            "details": {
+              "description": "A criatura pode se mover sob terreno granular, como terra e areia.",
+              "uses": [
+                {
+                  "description": "A criatura pode atravessar terrenos granulares, mas não pode atravessar rocha sólida."
+                },
+                {
+                  "description": "Após a passagem da criatura, o terreno atrás dela se fecha devido aos restos de material deixados para trás."
+                },
+                {
+                  "description": "O deslocamento pode ser afetado pelas características do solo. Um solo pedregoso pode ser considerado terreno difícil."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 6,
+            "title": "Natação",
+            "description": "Deslocamento",
+            "img": "pool-dive.svg",
+            "details": {
+              "description": "A criatura pode se deslocar em líquidos sem precisar fazer testes de Atletismo em condições normais.",
+              "uses": [
+                {
+                  "description": "Em circunstâncias especiais, como correntes aquáticas muito fortes, a criatura pode precisar fazer testes de Atletismo."
+                },
+                {
+                  "description": "A criatura não sofre penalidades e limitações por estar submersa, com exceção daquelas relacionadas às suas armas."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 7,
+            "title": "Voo",
+            "description": "Deslocamento",
+            "img": "fairy.svg",
+            "details": {
+              "description": "A criatura possui a capacidade de voar.",
+              "uses": [
+                {
+                  "description": "A criatura pode encerrar seu deslocamento em pleno ar e pode se mover e atacar como uma criatura terrestre."
+                },
+                {
+                  "description": "Uma criatura voando que perca seu deslocamento de voo ou a capacidade de realizar ações cai 150m por rodada."
+                },
+                {
+                  "description": "Uma criatura voando que sofra uma manobra derrubar bem-sucedida cai 1d6 x 1,5m antes de recuperar o voo."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 8,
+            "title": "Faro",
+            "description": "Olfato apurado",
+            "img": "nose-side.svg",
+            "details": {
+              "description": "A criatura possui olfato apurado.",
+              "uses": [
+                {
+                  "description": "Contra inimigos que não possa ver, a criatura não fica desprevenida."
+                },
+                {
+                  "description": "Camuflagem total causa apenas 20% de chance de falha contra inimigos em alcance curto."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 9,
+            "title": "Imunidade",
+            "description": "Não sofre efeitos",
+            "img": "mighty-force.svg",
+            "details": {
+              "description": "A criatura é imune a um tipo de efeito ou outro elemento, como uma condição ou habilidade específica.",
+              "uses": [
+                {
+                  "description": "A criatura não sofre nenhuma consequência direta daquilo contra o qual é imune."
+                },
+                {
+                  "description": "A criatura ainda pode ser afetada indiretamente. Por exemplo, uma criatura imune a magia ainda é afetada por terreno difícil criado por magias."
+                },
+                {
+                  "description": "Acertos críticos sofridos pela criatura são transformados em acertos normais."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 10,
+            "title": "Incorpóreo",
+            "description": "Sem corpo físico",
+            "img": "spectre.svg",
+            "details": {
+              "description": "A criatura não possui corpo físico.",
+              "uses": [
+                {
+                  "description": "A criatura só pode ser afetada por armas e habilidades mágicas, mesmo as com alcance toque, ou por outras criaturas incorpóreas."
+                },
+                {
+                  "description": "A criatura pode atravessar objetos sólidos, mas não pode manipulá-los."
+                },
+                {
+                  "description": "A criatura possui Força nula."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 11,
+            "title": "Percepção às Cegas",
+            "description": "Sentidos especiais",
+            "img": "sonic-screech.svg",
+            "details": {
+              "description": "A criatura utiliza sentidos diferentes da visão, como radar, sonar ou sensibilidade a vibrações.",
+              "uses": [
+                {
+                  "description": "Efeitos relacionados à visão, como escuridão e invisibilidade, não afetam a criatura."
+                },
+                {
+                  "description": "A criatura pode fazer testes de Percepção para observar usando seus sentidos especiais, em vez da visão."
+                },
+                {
+                  "description": "A habilidade possui alcance curto, a menos que especificado o contrário."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 12,
+            "title": "Redução de Dano",
+            "description": "RD",
+            "img": "armor-upgrade.svg",
+            "details": {
+              "description": "A criatura ignora parte do dano que sofre.",
+              "uses": [
+                {
+                  "description": "A criatura reduz o dano sofrido pelo valor da RD. Por exemplo, uma criatura com RD 5 que sofre 8 pontos de dano perde apenas 3 PV."
+                },
+                {
+                  "description": "A redução pode funcionar contra um ou mais tipos de dano específicos. Por exemplo, redução de fogo 10 ignora 10 pontos de dano de fogo, mas não reduz dano de outros tipos."
+                },
+                {
+                  "description": "Se houver tipos de dano listados após uma barra, a RD não se aplica àqueles tipos. Por exemplo, RD 10/mágico ignora 10 pontos de dano de ataques, exceto dano causado por armas e habilidades mágicas."
+                },
+                {
+                  "description": "Múltiplos efeitos de RD são cumulativos."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 13,
+            "title": "Resistência",
+            "description": "Bônus em testes",
+            "img": "fire-shield.svg",
+            "details": {
+              "description": "A criatura recebe um bônus em testes de resistência.",
+              "uses": [
+                {
+                  "description": "O bônus se aplica aos testes de resistência contra efeitos do tipo especificado no nome da habilidade."
+                },
+                {
+                  "description": "Por exemplo, uma criatura com resistência a magia +2 recebe +2 em testes de Fortitude, Reflexos ou Vontade contra efeitos mágicos."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 14,
+            "title": "Visão na Penumbra",
+            "description": "Escuridão leve",
+            "img": "night-vision.svg",
+            "details": {
+              "description": "Permite enxergar em escuridão leve não mágica.",
+              "uses": [
+                {
+                  "description": "A criatura enxerga em escuridão leve em alcance curto."
+                },
+                {
+                  "description": "A criatura ignora camuflagem leve causada por esse tipo de escuridão."
+                },
+                {
+                  "description": "A habilidade não funciona contra escuridão mágica."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 15,
+            "title": "Visão no Escuro",
+            "description": "Escuridão total",
+            "img": "worried-eyes.svg",
+            "details": {
+              "description": "Permite enxergar em escuridão total não mágica.",
+              "uses": [
+                {
+                  "description": "A criatura enxerga em escuridão total em alcance curto."
+                },
+                {
+                  "description": "A criatura ignora camuflagem total causada por esse tipo de escuridão."
+                },
+                {
+                  "description": "A habilidade não funciona contra escuridão mágica."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          },
+          {
+            "id": 16,
+            "title": "Vulnerabilidade a Dano",
+            "description": "+50% de dano",
+            "img": "armor-downgrade.svg",
+            "details": {
+              "description": "A criatura sofre dano adicional de um tipo específico.",
+              "uses": [
+                {
+                  "description": "A criatura sofre +50% de dano do tipo ao qual é vulnerável."
+                },
+                {
+                  "description": "Por exemplo, uma criatura com vulnerabilidade a frio que sofre um ataque de 15 pontos de dano de frio recebe 22 pontos de dano (15 x 1,5 = 22)."
+                }
+              ],
+              "reference": {
+                "source": "A Lenda de Ghanor RPG",
+                "page": "186"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
     "title": "Condições",
     "subsections": [
       {
@@ -2890,7 +3299,7 @@
     ]
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Perigos",
     "subsections": [
       {
@@ -3214,7 +3623,7 @@
                   "title": "Contato",
                   "description": "Inoculados via um ataque que acerte (ou se a vítima toca o objeto envenenado). Aplicar um veneno em uma arma exige uma ação de movimento e uma rolagem de 1d6. Se você rolar 1, se envenena acidentalmente. O veneno permanece na arma até acertar um ataque ou até o fim da cena (o que acontecer primeiro)."
                 },
-                {                  
+                {
                   "title": "Inalação",
                   "description": " Inoculados via respiração. São armazenados em frascos que podem ser arremessados em alcance curto. Quando o frasco se quebra, libera o veneno num cubo com 3m de lado. Todas as criaturas na área são expostas — prender a respiração não impede a inoculação."
                 },
@@ -3237,7 +3646,7 @@
     ]
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Ambiente",
     "subsections": [
       {
@@ -3515,7 +3924,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Santos",
     "subsections": [
       {
