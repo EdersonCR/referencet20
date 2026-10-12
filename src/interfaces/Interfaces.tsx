@@ -27,7 +27,7 @@ export interface ItemData {
   description: string;
   img: string;
   details?: DetailData;
-  icons: string[];
+  icons?: string[];
 };
 
 export interface DetailData {
@@ -35,7 +35,7 @@ export interface DetailData {
   emphasis?: string;
   uses?: UseData[];
   moreInfo?: string;
-  reference: ReferenceData[];
+  reference: ReferenceData | ReferenceData[];
 };
 
 export interface UseData {
