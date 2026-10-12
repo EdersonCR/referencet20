@@ -3,7 +3,7 @@ import { ThemeAssets, ThemeConfig, ThemeId } from './types';
 import { t20Config } from './t20/config';
 import { ghanorConfig } from './ghanor/config';
 
-export const DEFAULT_THEME_ID: ThemeId = 'ghanor';
+export const DEFAULT_THEME_ID: ThemeId = 't20';
 
 const configs: Record<ThemeId, ThemeConfig> = {
   t20: t20Config,
