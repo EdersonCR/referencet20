@@ -35,7 +35,7 @@ export interface DetailData {
   emphasis?: string;
   uses?: UseData[];
   moreInfo?: string;
-  reference: ReferenceData;
+  reference: ReferenceData[];
 };
 
 export interface UseData {
